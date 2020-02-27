@@ -1,4 +1,4 @@
-hostname = api.m.jd.com,youtubei.googleapis.com,www.youtube.com,*.tiktok.com
+hostname = api.m.jd.com,youtubei.googleapis.com,www.youtube.com,*.tiktokv.com
 # Redirect
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 (?<=(carrier|account|sys|sim)_region=)CN url 307 US
