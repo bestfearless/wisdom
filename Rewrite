@@ -1,4 +1,4 @@
-hostname = *.tiktok.com, api.m.jd.com, trade-acs.m.taobao.com, youtubei.googleapis.com, www.youtube.com
+hostname = *.tiktok.com,api.m.jd.com,youtubei.googleapis.com,www.youtube.com
 # Redirect
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 (?<=(carrier|account|sys|sim)_region=)CN url 307 US
@@ -9,4 +9,3 @@ hostname = *.tiktok.com, api.m.jd.com, trade-acs.m.taobao.com, youtubei.googleap
 ^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject-200
 # Js
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
-^https?://(trade-acs|amdc)\.m\.taobao\.com/(gw/mtop\.taobao\.detail\.getdetail|amdc/mobileDispatch) url script-response-body tb_price.js
