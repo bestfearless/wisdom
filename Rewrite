@@ -3,7 +3,7 @@ hostname = api.m.jd.com,youtubei.googleapis.com,www.youtube.com,*.musical.ly,*.t
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
 (?<=(carrier|sys)_region=)CN url 307 US
-(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 0.0.0
+(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 15.0.0
 # Reject
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
 ^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
