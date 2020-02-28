@@ -10,4 +10,3 @@ hostname = api.m.jd.com,youtubei.googleapis.com,www.youtube.com,api*.tiktokv.com
 ^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject-200
 # Js
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
-^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) url script-response-body Aweme.js
