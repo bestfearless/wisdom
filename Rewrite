@@ -1,4 +1,4 @@
-hostname = api.m.jd.com,youtubei.googleapis.com,www.youtube.com,api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
+hostname = api.m.jd.com,*.googlevideo.com,youtubei.googleapis.com,www.youtube.com,api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
 # Redirect
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
@@ -6,6 +6,7 @@ hostname = api.m.jd.com,youtubei.googleapis.com,www.youtube.com,api*.tiktokv.com
 (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 15.0.0
 (?<=(carrier|account|sys|sim)_region=)cn url 307 in
 # Reject
+^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) - reject
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
 ^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
 ^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject-200
