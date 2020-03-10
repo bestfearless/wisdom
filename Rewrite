@@ -10,4 +10,3 @@ hostname = api.m.jd.com,youtubei.googleapis.com,www.youtube.com,*.musical.ly,*.t
 ^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject-200
 # Js
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
-^https:\/\/new\.api\.hdcj\.9w9\.com\/api\/sign\/sign url script-response-body WeChatLottery.js
