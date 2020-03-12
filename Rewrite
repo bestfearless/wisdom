@@ -16,3 +16,4 @@ hostname = api.m.jd.com,*.googlevideo.com,s.youtube.com,www.youtube.com,youtubei
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
 # Js
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
+^https:\/\/new\.api\.hdcj\.9w9\.com\/api\/sign\/sign url script-request-body WeChatLottery.js
