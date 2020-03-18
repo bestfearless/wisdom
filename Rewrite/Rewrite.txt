@@ -16,5 +16,7 @@ hostname = api.m.jd.com,*.googlevideo.com,s.youtube.com,www.youtube.com,youtubei
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
 # Js
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
+#菜谱大全解锁vip
+https?:\/\/api\.jiaonizuocai\.com url script-response-body cpdq.js
 # Task
 ^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header JD_DailyBonus.js
