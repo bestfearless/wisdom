@@ -1,4 +1,4 @@
-hostname = api.m.jd.com,*.googlevideo.com,s.youtube.com,www.youtube.com,youtubei.googleapis.com,*.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,api.jiaonizuocai.com
+hostname = api.m.jd.com,*.googlevideo.com,s.youtube.com,www.youtube.com,youtubei.googleapis.com,*.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,note.youdao.com,buy.itunes.apple.com
 # Redirect
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
@@ -16,7 +16,8 @@ hostname = api.m.jd.com,*.googlevideo.com,s.youtube.com,www.youtube.com,youtubei
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
 # Js
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
-#菜谱大全解锁vip
-https?:\/\/api\.jiaonizuocai\.com url script-response-body cpdq.js
+#有道云vip
+https://note.youdao.com/yws/(mapi/payment|api/self) url script-response-body ydybj.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body JS/bear.js
 # Task
 ^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header JD_DailyBonus.js
