@@ -4,3 +4,5 @@ HOST-KEYWORD,google,PROXY
 HOST-KEYWORD,porn,PROXY
 HOST-KEYWORD,reuters,PROXY
 HOST-KEYWORD,speedtest,PROXY
+# Sites
+HOST-SUFFIX,free-api.heweather.net,PROXY
