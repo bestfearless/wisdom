@@ -15,9 +15,6 @@ HOST-SUFFIX,doubleclick.net,REJECT
 HOST-SUFFIX,googleadservices.com,REJECT
 HOST-SUFFIX,googleadsserving.cn,REJECT
 HOST-SUFFIX,googlesyndication.com,REJECT
-HOST-SUFFIX,admaster.com.cn,REJECT
-HOST-SUFFIX,admob.com,REJECT
-HOST-SUFFIX,beacon.sina.com.cn,REJECT
 HOST-SUFFIX,gdt.qq.com,REJECT
 HOST-SUFFIX,kuaizip.com,REJECT
 HOST-SUFFIX,mackeeper.com,REJECT
