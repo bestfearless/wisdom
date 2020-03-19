@@ -1,1 +1,9 @@
-https:\/\/draw\.jdfcloud\.com\/\/api\/turncard\/sign\? url script-request-header JDLK_cookie.js
+hostname = act.10010.com,m.client.10010.com,i.meituan.com
+# Jd_sign
+https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Cookie/Jd_sign.js
+# 10010
+^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header Cookie/10010.cookie.js
+^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign.do url script-request-header Cookie/10010.cookie.js
+^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header Cookie/10010.cookie.js
+# Meituan
+^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ url script-request-body Cookie/Meituan.cookie.js
