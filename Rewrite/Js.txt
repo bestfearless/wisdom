@@ -1,0 +1,5 @@
+hostname = api.m.jd.com
+# Js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js_Jd_Price.js
+# Task
+^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Task_Jd_Sign.js
