@@ -1,2 +1,5 @@
-# Jd_Sign
-^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Task_Jd_Sign.js
+# 10010
+^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header Cookie/10010.cookie.js
+^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign.do url script-request-header Cookie/10010.cookie.js
+^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header Cookie/10010.cookie.js
+# Meituan
