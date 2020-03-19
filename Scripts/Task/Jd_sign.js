@@ -1,3 +1,59 @@
+/*
+京东多合一签到脚本
+
+更新于: 2020.3.19 20:50 v84
+有效接口: 22
+
+该脚本同时兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+如使用JSBox 或 Nodejs, 请自行抓取Cookie填入脚本Key处.
+
+JSbox, Node.js 抓取Cookie 说明:
+
+开启抓包app后, Safari浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历后, 返回抓包app搜索关键字 functionId=signBean 复制请求头Cookie填入脚本即可. 
+注: 如果复制的Cookie开头为"Cookie: "请把它删除后填入
+
+~~~~~~~~~~~~~~~~
+Quantumult X, Surge, Loon 说明：
+
+初次使用时, 打开Safari浏览器登录 https://bean.m.jd.com 点击签到获取cookie, 请注意, 仅可网页获取!!!
+如果通知获得cookie成功, 则可以使用此签到脚本。
+由于cookie的有效性(经测试网页Cookie有效周期最长31天)，如果脚本将来弹出cookie无效的通知，则需要重复上述步骤。
+
+签到脚本将在每天的凌晨0:05执行, 您可以修改执行时间。 
+因部分接口京豆限量领取, 建议调整为凌晨签到。
+
+问题反馈: @NobyDa_bot
+TG频道: @NobyDa
+
+如果转载, 请注明出处.
+~~~~~~~~~~~~~~~~
+
+Surge 4.0 或 Loon 2.1+ :
+
+[Script]
+# 京东多合一签到
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+# 获取京东Cookie.
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+~~~~~~~~~~~~~~~~
+
+QX 1.0.5+ :
+
+[task_local]
+# 京东多合一签到
+# 注意此为本地路径, 请根据实际情况自行调整
+5 0 * * * JD_DailyBonus.js
+
+[rewrite_local]
+# 获取京东Cookie. 
+# 注意此为本地路径, 请根据实际情况自行调整.
+https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header JD_DailyBonus.js
+
+~~~~~~~~~~~~~~~~
+QX 或 Surge 或 Loon MITM = api.m.jd.com
+~~~~~~~~~~~~~~~~
 */
 
 var log = false; //是否开启日志, false则关闭
