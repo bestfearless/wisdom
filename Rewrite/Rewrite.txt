@@ -1,4 +1,4 @@
-hostname = api.m.jd.com,*.googlevideo.com,s.youtube.com,www.youtube.com,youtubei.googleapis.com,*.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,draw.jdfcloud.com
+hostname = api.m.jd.com,*.googlevideo.com,s.youtube.com,www.youtube.com,youtubei.googleapis.com,*.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com
 # Redirect
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
@@ -14,6 +14,7 @@ hostname = api.m.jd.com,*.googlevideo.com,s.youtube.com,www.youtube.com,youtubei
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
 ^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
+^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adserver|adformat|analysis|banners?|click|counter|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject-img
 # Js
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
 # Task
