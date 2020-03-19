@@ -1,1 +1,2 @@
-https:\/\/draw\.jdfcloud\.com\/\/api\/turncard\/sign\? url script-request-header JDLK_cookie.js
+# Jd_Sign
+^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Task_Jd_Sign.js
