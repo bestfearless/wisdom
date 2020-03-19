@@ -1,0 +1,12 @@
+# Sites
+^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adserver|adformat|analysis|banners?|click|counter|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject-img
+# Youtube
+^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject-img
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-img
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-img
+^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-img
+^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
+^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
+^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
+^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
