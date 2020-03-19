@@ -1,59 +1,3 @@
-/*
-京东多合一签到脚本
-
-更新于: 2020.3.17 21:05 v83
-有效接口: 22
-
-该脚本同时兼容: QuantumultX, Surge, Loon, JSBox, Node.js
-如使用JSBox 或 Nodejs, 请自行抓取Cookie填入脚本Key处.
-
-JSbox, Node.js 抓取Cookie 说明:
-
-开启抓包app后, Safari浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历后, 返回抓包app搜索关键字 functionId=signBean 复制请求头Cookie填入脚本即可. 
-注: 如果复制的Cookie开头为"Cookie: "请把它删除后填入
-
-~~~~~~~~~~~~~~~~
-Quantumult X, Surge, Loon 说明：
-
-初次使用时, 打开Safari浏览器登录 https://bean.m.jd.com 点击签到获取cookie, 请注意, 仅可网页获取!!!
-如果通知获得cookie成功, 则可以使用此签到脚本。
-由于cookie的有效性(经测试网页Cookie有效周期最长31天)，如果脚本将来弹出cookie无效的通知，则需要重复上述步骤。
-
-签到脚本将在每天的凌晨0:05执行, 您可以修改执行时间。 
-因部分接口京豆限量领取, 建议调整为凌晨签到。
-
-问题反馈: @NobyDa_bot
-TG频道: @NobyDa
-
-如果转载, 请注明出处.
-~~~~~~~~~~~~~~~~
-
-Surge 4.0 或 Loon 2.1+ :
-
-[Script]
-# 京东多合一签到
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-
-# 获取京东Cookie.
-http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-
-~~~~~~~~~~~~~~~~
-
-QX 1.0.5+ :
-
-[task_local]
-# 京东多合一签到
-# 注意此为本地路径, 请根据实际情况自行调整
-5 0 * * * JD_DailyBonus.js
-
-[rewrite_local]
-# 获取京东Cookie. 
-# 注意此为本地路径, 请根据实际情况自行调整.
-https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header JD_DailyBonus.js
-
-~~~~~~~~~~~~~~~~
-QX 或 Surge 或 Loon MITM = api.m.jd.com
-~~~~~~~~~~~~~~~~
 */
 
 var log = false; //是否开启日志, false则关闭
@@ -1108,7 +1052,7 @@ function JingDongClean(s) {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded", Cookie: KEY,
       },
-      body: "body=%7B%22riskParam%22%3A%7B%22eid%22%3A%22O5X6JYMZTXIEX4VBCBWEM5PTIZV6HXH7M3AI75EABM5GBZYVQKRGQJ5A2PPO5PSELSRMI72SYF4KTCB4NIU6AZQ3O6C3J7ZVEP3RVDFEBKVN2RER2GTQ%22%2C%22shshshfpb%22%3A%22v1%5C%2FzMYRjEWKgYe%2BUiNwEvaVlrHBQGVwqLx4CsS9PH1s0s0Vs9AWk%2B7vr9KSHh3BQd5NTukznDTZnd75xHzonHnw%3D%3D%22%2C%22pageClickKey%22%3A%22Babel_Sign%22%2C%22childActivityUrl%22%3A%22-1%22%7D%2C%22url%22%3A%22%22%2C%22params%22%3A%22%7B%5C%22enActK%5C%22%3A%5C%22U39rtBF4Dd%2BujQZNkSd%5C%2FtPoL5Cg8baD1q73iQ%2BA4fQ8aZs%5C%2Fn4coLNw%3D%3D%5C%22%2C%5C%22isFloatLayer%5C%22%3Afalse%2C%5C%22ruleSrv%5C%22%3A%5C%2200561054_30882139_t1%5C%22%2C%5C%22signId%5C%22%3A%5C%22Mws14CT%5C%2FvOcaZs%5C%2Fn4coLNw%3D%3D%5C%22%7D%22%2C%22geo%22%3A%7B%22lng%22%3A%220.000000%22%2C%22lat%22%3A%220.000000%22%7D%7D&client=apple&clientVersion=8.5.2&openudid=1fce88cd05c42fe2b054e846f11bdf33f016d676&scope=11&sign=5e20049fbfb8377ede93a1da912b16dd&st=1583942866451&sv=102"
+      body: "body=%7B%22riskParam%22%3A%7B%22eid%22%3A%22O5X6JYMZTXIEX4VBCBWEM5PTIZV6HXH7M3AI75EABM5GBZYVQKRGQJ5A2PPO5PSELSRMI72SYF4KTCB4NIU6AZQ3O6C3J7ZVEP3RVDFEBKVN2RER2GTQ%22%2C%22shshshfpb%22%3A%22v1%5C%2FzMYRjEWKgYe%2BUiNwEvaVlrHBQGVwqLx4CsS9PH1s0s0Vs9AWk%2B7vr9KSHh3BQd5NTukznDTZnd75xHzonHnw%3D%3D%22%2C%22pageClickKey%22%3A%22Babel_Sign%22%2C%22childActivityUrl%22%3A%22-1%22%7D%2C%22url%22%3A%22%22%2C%22params%22%3A%22%7B%5C%22enActK%5C%22%3A%5C%22v9TYVRbhHwPpSSPNbcKAdJlZ4xzX%5C%2FMxy32c5sfRo%5C%2Fq8aZs%5C%2Fn4coLNw%3D%3D%5C%22%2C%5C%22isFloatLayer%5C%22%3Afalse%2C%5C%22ruleSrv%5C%22%3A%5C%2200561054_31187133_t1%5C%22%2C%5C%22signId%5C%22%3A%5C%22M%2BQKQlR6WzAaZs%5C%2Fn4coLNw%3D%3D%5C%22%7D%22%2C%22geo%22%3A%7B%22lng%22%3A%220.000000%22%2C%22lat%22%3A%220.000000%22%7D%7D&client=apple&clientVersion=8.5.4&openudid=1fce88cd05c42fe2b054e846f11bdf33f016d676&scope=11&sign=f6fdebfbbca3dc070d12c21cfa363abe&st=1584621861304&sv=112"
     };
 
     $nobyda.post(JDCUUrl, function(error, response, data) {
