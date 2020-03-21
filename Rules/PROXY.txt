@@ -7,3 +7,5 @@ HOST-KEYWORD,reuters,PROXY
 HOST-KEYWORD,speedtest,PROXY
 # Sites
 HOST-SUFFIX,ampproject.org,PROXY
+HOST-SUFFIX,gstatic.com,PROXY
+
