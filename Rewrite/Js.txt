@@ -1,5 +1,7 @@
-hostname = ssl-api.itranslateapp.com
+hostname = ssl-api.itranslateapp.com,accounts.elevateapp.net
 # Jdprice
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js_Jdprice.js
-# Js_Itranslate
+# Itranslate
 ^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body Js_Itranslate.js
+# Elevate
+^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body Js_Elevate.js
