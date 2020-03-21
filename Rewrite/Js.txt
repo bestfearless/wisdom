@@ -1,2 +1,2 @@
 # Jd_Price
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js/Jd_price.js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js_Jd_Price.js
