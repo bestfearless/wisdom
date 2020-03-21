@@ -1,4 +1,4 @@
-hostname = ssl-api.itranslateapp.com,accounts.elevateapp.net,api.calm.com,www.calm.com,api.getmimo.com
+hostname = ssl-api.itranslateapp.com,accounts.elevateapp.net,api.calm.com,www.calm.com,api.getmimo.com,api.sololearn.com
 # Jdprice
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js_Jdprice.js
 # Itranslate
@@ -10,3 +10,5 @@ hostname = ssl-api.itranslateapp.com,accounts.elevateapp.net,api.calm.com,www.ca
 ^https:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
 # Mimo
 ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body Js_Mimo.js
+# Sololearn
+^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
