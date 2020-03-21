@@ -1,2 +1,5 @@
+hostname = ssl-api.itranslateapp.com
 # Jdprice
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js_Jdprice.js
+# Js_Itranslate
+^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$ url script-response-body Js_Itranslate.js
