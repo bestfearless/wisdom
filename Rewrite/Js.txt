@@ -17,6 +17,6 @@ https://dayone.me/api/v2/users/(receipt|account-status) url script-response-body
 ^https:\/\/api\.busuu\.com\/users\/me* url script-response-body Js_Busuu.js
 # Blinkist
 ^https:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) url script-response-body Js_Blinkist.js
-# Wyds
+# Wnds
 ^https?://p\.du\.163\.com/readtime/info.json url reject
-^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wyds.js
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
