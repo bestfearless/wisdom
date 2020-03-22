@@ -3,7 +3,6 @@ USER-AGENT,*Trade*,Apple
 HOST-KEYWORD,bloomberg,PROXY
 HOST-KEYWORD,google,PROXY
 HOST-KEYWORD,porn,PROXY
-HOST-KEYWORD,reuters,PROXY
 HOST-KEYWORD,speedtest,PROXY
 # Sites
 HOST-SUFFIX,ampproject.org,PROXY
