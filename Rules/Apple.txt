@@ -1,3 +1,4 @@
+USER-AGENT,*Trade*,Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,apple.co,Apple
 HOST-SUFFIX,apple.com,Apple
