@@ -1,4 +1,6 @@
-hostname = accounts.elevateapp.net,api.sololearn.com,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*
+hostname = buy.itunes.apple.com,accounts.elevateapp.net,api.sololearn.com,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*
+# Buyhack
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 # Jdprice
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js_Jdprice.js
 # Elevate
