@@ -6,3 +6,17 @@ HOST-KEYWORD,speedtest,PROXY
 # Sites
 HOST-SUFFIX,ampproject.org,PROXY
 HOST-SUFFIX,app-measurement.com,PROXY
+# Apple
+HOST-SUFFIX,aaplimg.com,PROXY
+HOST-SUFFIX,apple.co,PROXY
+HOST-SUFFIX,apple.com,PROXY
+HOST-SUFFIX,apple-cloudkit.com,PROXY
+HOST-SUFFIX,apple-mapkit.com,PROXY
+HOST-SUFFIX,appstore.com,PROXY
+HOST-SUFFIX,cdn-apple.com,PROXY
+HOST-SUFFIX,icloud.com,PROXY
+HOST-SUFFIX,icloud-content.com,PROXY
+HOST-SUFFIX,itunes.com,PROXY
+HOST-SUFFIX,me.com,PROXY
+HOST-SUFFIX,mzstatic.com,PROXY
+IP-CIDR,17.0.0.0/8,PROXY
