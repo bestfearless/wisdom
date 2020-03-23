@@ -2,7 +2,6 @@
 HOST-KEYWORD,adsystem,REJECT
 HOST-KEYWORD,googleads,REJECT
 # Sites
-HOST-SUFFIX,crashlytics.com,REJECT
 HOST-SUFFIX,doubleclick.net,REJECT
 HOST-SUFFIX,googlesyndication.com,REJECT
 HOST-SUFFIX,mackeeper.com,REJECT
