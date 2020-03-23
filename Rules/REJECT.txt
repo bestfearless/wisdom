@@ -11,10 +11,3 @@ HOST-SUFFIX,mobads.baidu.com,REJECT
 HOST-SUFFIX,mobads-logs.baidu.com,REJECT
 HOST-SUFFIX,nsclick.baidu.com,REJECT
 HOST-SUFFIX,pos.baidu.com,REJECT
-HOST-SUFFIX,doubleclick.net,REJECT
-HOST-SUFFIX,googleadservices.com,REJECT
-HOST-SUFFIX,googleadsserving.cn,REJECT
-HOST-SUFFIX,googlesyndication.com,REJECT
-HOST-SUFFIX,gdt.qq.com,REJECT
-HOST-SUFFIX,kuaizip.com,REJECT
-HOST-SUFFIX,mackeeper.com,REJECT
