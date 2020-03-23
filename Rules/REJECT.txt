@@ -1,4 +1,3 @@
 # KEYWORD
-HOST-KEYWORD,adservice,REJECT
 # Sites
 HOST-SUFFIX,mackeeper.com,REJECT
