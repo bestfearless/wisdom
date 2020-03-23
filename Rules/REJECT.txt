@@ -1,13 +1,4 @@
 # KEYWORD
 HOST-KEYWORD,adservice,REJECT
-HOST-KEYWORD,wlmonitor,REJECT
 # Sites
-HOST-SUFFIX,afd.baidu.com,REJECT
-HOST-SUFFIX,als.baidu.com,REJECT
-HOST-SUFFIX,cpro.baidu.com,REJECT
-HOST-SUFFIX,duclick.baidu.com,REJECT
-HOST-SUFFIX,hm.baidu.com,REJECT
-HOST-SUFFIX,mobads.baidu.com,REJECT
-HOST-SUFFIX,mobads-logs.baidu.com,REJECT
-HOST-SUFFIX,nsclick.baidu.com,REJECT
-HOST-SUFFIX,pos.baidu.com,REJECT
+HOST-SUFFIX,mackeeper.com,REJECT
