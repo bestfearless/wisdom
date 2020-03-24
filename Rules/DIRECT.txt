@@ -1,6 +1,7 @@
 # KEYWORD
 HOST-KEYWORD,paypal,DIRECT
 # Sites
+HOST,cn-smp-paymentservices.apple.com,DIRECT
 HOST-SUFFIX,cmbchina.com,DIRECT
 HOST-SUFFIX,cmbimg.com,DIRECT
 HOST-SUFFIX,ibc.com.cn,DIRECT
