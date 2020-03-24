@@ -6,17 +6,3 @@ HOST-KEYWORD,speedtest,MacauSSR
 # Sites
 HOST-SUFFIX,ampproject.org,MacauSSR
 HOST-SUFFIX,app-measurement.com,MacauSSR
-# Apple
-HOST-SUFFIX,aaplimg.com,MacauSSR
-HOST-SUFFIX,apple.co,MacauSSR
-HOST-SUFFIX,apple.com,MacauSSR
-HOST-SUFFIX,apple-cloudkit.com,MacauSSR
-HOST-SUFFIX,apple-mapkit.com,MacauSSR
-HOST-SUFFIX,appstore.com,MacauSSR
-HOST-SUFFIX,cdn-apple.com,MacauSSR
-HOST-SUFFIX,icloud.com,MacauSSR
-HOST-SUFFIX,icloud-content.com,MacauSSR
-HOST-SUFFIX,itunes.com,MacauSSR
-HOST-SUFFIX,me.com,MacauSSR
-HOST-SUFFIX,mzstatic.com,MacauSSR
-IP-CIDR,17.0.0.0/8,MacauSSR
