@@ -1,9 +1,0 @@
-# KEYWORD
-HOST-KEYWORD,bloomberg,PROXY
-HOST-KEYWORD,google,PROXY
-HOST-KEYWORD,porn,PROXY
-HOST-KEYWORD,speedtest,PROXY
-# Sites
-HOST,p14-buy.itunes.apple.com,PROXY
-HOST-SUFFIX,ampproject.org,PROXY
-HOST-SUFFIX,app-measurement.com,PROXY
