@@ -1,3 +1,4 @@
+# Apple
 HOST-SUFFIX,aaplimg.com,Apple
 HOST-SUFFIX,apple.co,DIRECT
 HOST-SUFFIX,apple.com,DIRECT
