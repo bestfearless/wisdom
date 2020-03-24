@@ -1,5 +1,5 @@
 # KEYWORD
-HOST-KEYWORD,bloomberg,DIRECT
+HOST-KEYWORD,bloomberg,MacauSSR
 HOST-KEYWORD,google,MacauSSR
 HOST-KEYWORD,porn,MacauSSR
 HOST-KEYWORD,speedtest,MacauSSR
