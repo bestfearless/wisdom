@@ -4,5 +4,6 @@ HOST-KEYWORD,google,MacauSSR
 HOST-KEYWORD,porn,MacauSSR
 HOST-KEYWORD,speedtest,MacauSSR
 # Sites
+HOST,p14-buy.itunes.apple.com,MacauSSR
 HOST-SUFFIX,ampproject.org,MacauSSR
 HOST-SUFFIX,app-measurement.com,MacauSSR
