@@ -1,4 +1,4 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,biz.caiyunapp.com
+hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com
 # Buyhack
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 # Jdprice
@@ -20,6 +20,3 @@ https://dayone.me/api/v2/users/(receipt|account-status) url script-response-body
 # Wnds
 ^https?://p\.du\.163\.com/readtime/info.json url reject-img
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
-# Colorweather
-^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body Js_Colorweather.js
-
