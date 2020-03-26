@@ -1,4 +1,4 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com
+hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com
 # Buyhack
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 # Jdprice
