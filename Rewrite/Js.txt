@@ -20,3 +20,5 @@ https://dayone.me/api/v2/users/(receipt|account-status) url script-response-body
 # Wnds
 ^https?://p\.du\.163\.com/readtime/info.json url reject-img
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
+# Sololearn
+^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
