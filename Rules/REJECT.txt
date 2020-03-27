@@ -1,5 +1,6 @@
 # KEYWORD
 HOST-KEYWORD,adsystem,REJECT
+HOST-KEYWORD,adservice,REJECT
 # Sites
 HOST-SUFFIX,admaster.com.cn,REJECT
 HOST-SUFFIX,admob.com,REJECT
