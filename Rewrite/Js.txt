@@ -25,4 +25,4 @@ https://dayone.me/api/v2/users/(receipt|account-status) url script-response-body
 # Xxys
 ^https:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
 # Boluo
-^http://app.rnbdj.com/m/user/info url script-response-body Js_Boluo
+^http://app.rnbdj.com/m/user/info url script-response-body Js_Boluo.js
