@@ -1,0 +1,14 @@
+# Apple
+HOST-SUFFIX,aaplimg.com,Auto
+HOST-SUFFIX,apple.co,Auto
+HOST-SUFFIX,apple.com,Auto
+HOST-SUFFIX,apple-cloudkit.com,Auto
+HOST-SUFFIX,apple-mapkit.com,Auto
+HOST-SUFFIX,appstore.com,Auto
+HOST-SUFFIX,cdn-apple.com,Auto
+HOST-SUFFIX,icloud.com,Auto
+HOST-SUFFIX,icloud-content.com,Auto
+HOST-SUFFIX,itunes.com,Auto
+HOST-SUFFIX,me.com,Auto
+HOST-SUFFIX,mzstatic.com,Auto
+IP-CIDR,17.0.0.0/8,Auto
