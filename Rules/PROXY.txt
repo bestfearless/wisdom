@@ -5,7 +5,6 @@ HOST-KEYWORD,porn,PROXY
 HOST-KEYWORD,reuters,PROXY
 HOST-KEYWORD,speedtest,PROXY
 HOST-KEYWORD,twitter,PROXY
-HOST-KEYWORD,xiaoxiaoapp,PROXY
 # Sites
 HOST-SUFFIX,ampproject.org,PROXY
 HOST-SUFFIX,app-measurement.com,PROXY
@@ -25,3 +24,8 @@ HOST-SUFFIX,itunes.com,PROXY
 HOST-SUFFIX,me.com,PROXY
 HOST-SUFFIX,mzstatic.com,PROXY
 IP-CIDR,17.0.0.0/8,PROXY
+# Xiaoxiao
+HOST-KEYWORD,xiaoxiaoapp,PROXY
+USER-AGENT, *bangyuan*, proxy
+HOST-SUFFIX,jxykj.com,PROXY
+HOST-SUFFIX,qqxy100.com,PROXY
