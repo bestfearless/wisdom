@@ -5,6 +5,7 @@ HOST-KEYWORD,porn,PROXY
 HOST-KEYWORD,reuters,PROXY
 HOST-KEYWORD,speedtest,PROXY
 HOST-KEYWORD,twitter,PROXY
+HOST-KEYWORD,xiaoxiaoapp,PROXY
 # Sites
 HOST-SUFFIX,ampproject.org,PROXY
 HOST-SUFFIX,app-measurement.com,PROXY
