@@ -13,7 +13,7 @@ if (url.endsWith('authenticateDevice')) {
 	obj.user.badge="platinum|platinum_mod|pro";
 	obj.user.accessLevel=65520;
 	obj.user.isPro=true;
-	obj.user.proExpireDate="2099-01-31T00:00:00";
+	obj.user.proExpireDate="2089-02-27T00:00:00";
 }
 
 if (url.endsWith('GetContestFeed')) {
@@ -25,7 +25,7 @@ if (url.endsWith('GetContestFeed')) {
 			obj.feed[i].player.badge="platinum|platinum_mod|pro"; 
 			obj.feed[i].player.accessLevel=65520;
 			obj.feed[i].player.isPro=true;
-			obj.feed[i].player.proExpireDate="2099-01-31T00:00:00";
+			obj.feed[i].player.proExpireDate="2089-02-27T00:00:00";
 		}
 	}
 }
@@ -37,7 +37,7 @@ if (url.endsWith('GetProfile')) {
 		obj.profile.badge="platinum|platinum_mod|pro";
 		obj.profile.accessLevel=65520;
 		obj.profile.isPro=true;
-		obj.profile.proExpireDate="2099-01-31T00:00:00";
+		obj.profile.proExpireDate="2089-02-27T00:00:00";
 	}
 }
 

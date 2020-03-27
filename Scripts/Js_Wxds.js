@@ -1,28 +1,21 @@
-var body = $response.body;
-const path1 = "/pay/memberCardSummary";
-const path2 = "/pay/balance";
-var path = $request.path;
-function modify_card() {
-  let obj = JSON.parse(body);
-  obj["remainCoupon"] = 0;
-  obj["expiredTime"] = 3760317603;
-  obj["expired"] = 0;
-  obj["remainTime"] = 2175163435;
-  body = JSON.stringify(obj);
-}
+/*
+Netease snail reading unlock vip
 
-function modify_balance() {
-  let obj = JSON.parse(body);
-  obj["balance"] = 200;
-  obj["giftBalance"] = 100;
-  obj["peerBalance"] = 100;
-  body = JSON.stringify(obj);
-   }
-   
-if (path.indexOf(path1) != -1){
-  modify_card();
-}
-if (path.indexOf(path2) != -1 ){
-  modify_balance();
-}
-$done(body);
+QX:
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
+
+Surge4：
+http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/wnyd.js
+
+Surge & QX MITM = p.du.163.com
+*/
+
+var body = $response.body;
+var obj = JSON.parse(body);
+
+  obj["stratTime"] = 1491074090;
+  obj["expiredTime"] = 3759851690;
+  obj["expired"] = 0;
+  obj["remainTime"] = 2174697522;
+body = JSON.stringify(obj);
+$done({body});
