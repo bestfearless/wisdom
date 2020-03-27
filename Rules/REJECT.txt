@@ -1,4 +1,13 @@
 # KEYWORD
 HOST-KEYWORD,adsystem,REJECT
 # Sites
+HOST-SUFFIX,admaster.com.cn,REJECT
+HOST-SUFFIX,admob.com,REJECT
 HOST-SUFFIX,mackeeper.com,REJECT
+HOST-SUFFIX,doubleclick.net,REJECT
+HOST-SUFFIX,googleadservices.com,REJECT
+HOST-SUFFIX,googleadsserving.cn,REJECT
+HOST-SUFFIX,googlesyndication.com,REJECT
+HOST-SUFFIX,e.qq.com,REJECT
+HOST-SUFFIX,gdt.qq.com,REJECT
+HOST-SUFFIX,l.qq.com,REJECT
