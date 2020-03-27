@@ -1,4 +1,4 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,api.getmimo.com,*.xiaoxiaoimg.com, *.xiaoxiaoapps.com, *.xiaoxiaoappxs.com,app.rnbdj.com
+hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,api.getmimo.com,*.xiaoxiaoimg.com, *.xiaoxiaoapps.com, *.xiaoxiaoappxs.com
 # Buyhack
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 # Jdprice
@@ -24,5 +24,3 @@ https://dayone.me/api/v2/users/(receipt|account-status) url script-response-body
 ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
 # Xxys
 ^https:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
-# Boluo
-^http://app.rnbdj.com/m/user/info url script-response-body Js_Boluo
