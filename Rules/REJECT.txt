@@ -12,3 +12,4 @@ HOST-SUFFIX,googlesyndication.com,REJECT
 HOST-SUFFIX,e.qq.com,REJECT
 HOST-SUFFIX,gdt.qq.com,REJECT
 HOST-SUFFIX,l.qq.com,REJECT
+HOST-SUFFIX,leleapps.com,REJECT
