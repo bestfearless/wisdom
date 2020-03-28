@@ -15,3 +15,4 @@ USER-AGENT, *bangyuan*, proxy
 HOST-KEYWORD,xiaoxiao,PROXY
 HOST-SUFFIX,jxykj.com,PROXY
 HOST-SUFFIX,qqxy100.com,PROXY
+HOST-SUFFIX,91ceshi.com,PROXY
