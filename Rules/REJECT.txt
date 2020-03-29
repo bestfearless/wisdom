@@ -1,6 +1,7 @@
 # KEYWORD
 HOST-KEYWORD,adsystem,REJECT
 HOST-KEYWORD,adservice,REJECT
+HOST-KEYWORD,umeng,REJECT
 # Sites
 HOST-SUFFIX,mackeeper.com,REJECT
 HOST-SUFFIX,doubleclick.net,REJECT
