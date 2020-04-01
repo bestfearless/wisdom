@@ -1,5 +1,6 @@
 # KEYWORD
 HOST-KEYWORD,paypal,DIRECT
+HOST-KEYWORD,tophub,DIRECT
 # Sites
 HOST,cn-smp-paymentservices.apple.com,DIRECT
 HOST,push.apple.com,DIRECT
