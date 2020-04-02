@@ -10,6 +10,3 @@ HOST-SUFFIX,ampproject.org,PROXY
 HOST-SUFFIX,app-measurement.com,PROXY
 HOST-SUFFIX,gstatic.com,PROXY
 HOST-SUFFIX,ytimg.com,PROXY
-# Xiaoxiao
-USER-AGENT,*bangyuan*,PROXY
-HOST-KEYWORD,hnhx360,PROXY
