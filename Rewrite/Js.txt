@@ -4,7 +4,6 @@ hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,lo
 # Jdprice And Jdsign
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js_Jdprice.js
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Task_Jdsign.js
-
 # Elevate
 ^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body Js_Elevate.js
 # Peak
@@ -19,14 +18,14 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 ^https:\/\/api\.busuu\.com\/users\/me* url script-response-body Js_Busuu.js
 # Blinkist
 ^https:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) url script-response-body Js_Blinkist.js
-# Wnds
+# 网易蜗牛读书
 ^https?://p\.du\.163\.com/readtime/info.json url reject-img
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
 # Sololearn
 ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
-# Xxys
+# 小小影视
 ^https:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
-# Cpdq
+# 菜谱大全
 ^https?:\/\/api\.jiaonizuocai\.com url script-response-body Js_Cpdq.js
-# Jrrb
+# 今日热榜
 ^https?:\/\/api\.tophub\.today/account/sync* url script-response-body Js_Jrrb.js
