@@ -9,7 +9,3 @@ hostname = *.googlevideo.com,s.youtube.com,www.youtube.com,youtubei.googleapis.c
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
 ^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
-
-
-
-
