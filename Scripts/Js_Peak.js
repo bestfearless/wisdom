@@ -1,16 +1,10 @@
 /*
-//peak解锁pro
+peak
 
-by:chamberlen
-
-[rewrite_local]
-
-^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? url script-response-body peak.js
-
-//MITM=billing.peakcloud.org
-
+^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? url script-response-body Js_Peak.js
 
 */
+
 let obj=JSON.parse($response.body);
 obj={
   "response": {

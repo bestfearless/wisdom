@@ -1,3 +1,10 @@
+/*
+Wps
+
+^https://account.wps.*/api/users/ url script-response-body Js_Wps.js
+
+*/
+
 let obj = JSON.parse($response.body);
 
   obj.level = 5,

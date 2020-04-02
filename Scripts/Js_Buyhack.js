@@ -1,3 +1,10 @@
+/*
+部分内购解锁：比如Bear,Monly......
+
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
+
+*/
+
 let body= $response.body;
 var obj = JSON.parse(body);
 if (body.indexOf("expires") !=-1) {

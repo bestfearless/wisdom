@@ -1,9 +1,10 @@
 /*
-dayone日记高级版
-https://dayone.me/api/v2/users/(receipt|account-status)
-hostname：dayone.me
+dayone
+
+^https://dayone.me/api/v2/users/(receipt|account-status) url script-response-body Js_Dayone.js
 
 */
+
 const path1 = "/account-status";
 const path2 = "/receipt";
 

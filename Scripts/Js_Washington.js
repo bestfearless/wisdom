@@ -1,6 +1,8 @@
 /*
-wash post邮票
-https://login.washingtonpost.com/identity/oauth/v1/profile
+Washingtonpost
+
+^https://login.washingtonpost.com/identity/oauth/v1/profile url script-response-body Js_Washington.js
+
 */
 
 let obj = JSON.parse($response.body);
