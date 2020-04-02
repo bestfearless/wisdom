@@ -1,4 +1,4 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.com,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,*.hnhx360.com,api.jiaonizuocai.com,api.tophub.today
+hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,*.hnhx360.com,api.jiaonizuocai.com,api.tophub.today
 # Buyhack
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 # Jdprice And Jdsign
@@ -13,7 +13,7 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 # Dayone
 ^https://dayone.me/api/v2/users/(receipt|account-status) url script-response-body Js_Dayone.js
 # Wps
-^https://account.wps.com/api/users/ url script-response-body Js_Wps.js
+^https://account.wps.*/api/users/ url script-response-body Js_Wps.js
 # Busuu
 ^https:\/\/api\.busuu\.com\/users\/me* url script-response-body Js_Busuu.js
 # Blinkist
