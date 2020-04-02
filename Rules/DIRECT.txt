@@ -2,8 +2,6 @@
 HOST-KEYWORD,paypal,DIRECT
 HOST-KEYWORD,tophub,DIRECT
 # Sites
-HOST,cn-smp-paymentservices.apple.com,DIRECT
-HOST,push.apple.com,DIRECT
 HOST-SUFFIX,alibaba.com,DIRECT
 HOST-SUFFIX,cmbchina.com,DIRECT
 HOST-SUFFIX,cmbimg.com,DIRECT
