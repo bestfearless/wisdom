@@ -1,3 +1,0 @@
-# hostname = 
-# Jdsign
-https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Task_Jdsign.js
