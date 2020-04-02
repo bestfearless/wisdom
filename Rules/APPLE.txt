@@ -1,4 +1,6 @@
 # Apple
+HOST,cn-smp-paymentservices.apple.com,DIRECT
+HOST,push.apple.com,DIRECT
 HOST,p48-buy.itunes.apple.com,PROXY
 HOST-SUFFIX,aaplimg.com,Auto
 HOST-SUFFIX,apple.co,Auto
