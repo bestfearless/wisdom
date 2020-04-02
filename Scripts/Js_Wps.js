@@ -1,7 +1,7 @@
 /*
 Wps
 
-^https://account.wps.*/api/users/ url script-response-body Js_Wps.js
+^https://account.wps.com/api/users/ url script-response-body Js_Wps.js
 
 */
 
