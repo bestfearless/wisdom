@@ -13,7 +13,7 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 # Dayone
 ^https://dayone.me/api/v2/users/(receipt|account-status) url script-response-body Js_Dayone.js
 # Wps
-^https://account.wps.*/api/users/ url script-response-body Js_Wps.js
+^https://account.wps.com/api/users/ url script-response-body Js_Wps.js
 # Busuu
 ^https:\/\/api\.busuu\.com\/users\/me* url script-response-body Js_Busuu.js
 # Blinkist
