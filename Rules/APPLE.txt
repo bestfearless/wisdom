@@ -1,4 +1,6 @@
 # Apple
+HOST,p48-buy.itunes.apple.com,PROXY
+HOST,p14-buy.itunes.apple.com,PROXY
 HOST-SUFFIX,aaplimg.com,Auto
 HOST-SUFFIX,apple.co,Auto
 HOST-SUFFIX,apple.com,Auto

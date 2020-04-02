@@ -11,7 +11,7 @@ HOST-SUFFIX,app-measurement.com,PROXY
 HOST-SUFFIX,gstatic.com,PROXY
 HOST-SUFFIX,ytimg.com,PROXY
 # Xiaoxiao
-USER-AGENT, *bangyuan*, proxy
+USER-AGENT,*bangyuan*,PROXY
 HOST-KEYWORD,xiaoxiao,PROXY
 HOST-SUFFIX,jxykj.com,PROXY
 HOST-SUFFIX,qqxy100.com,PROXY
