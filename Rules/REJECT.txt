@@ -15,5 +15,3 @@ HOST-SUFFIX,doubleclick.net,REJECT
 HOST-SUFFIX,googleadservices.com,REJECT
 HOST-SUFFIX,googleadsserving.cn,REJECT
 HOST-SUFFIX,googlesyndication.com,REJECT
-HOST-SUFFIX,leleapps.com,REJECT
-HOST-SUFFIX,leyiapps.com,REJECT
