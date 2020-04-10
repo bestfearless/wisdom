@@ -19,6 +19,7 @@ let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(path1) != -1){
 	obj.data.uinfo["play_daily_remainders"] = "999";
+obj.data.uinfo["down_daily_remainders"] = "999";
        obj.data.user["gicon"] = "V5";
        obj.data.user["gid"] = "5";
 	obj.data.user["isvip"] = "1";

@@ -1,4 +1,4 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,*.hnhx360.com,api.jiaonizuocai.com,api.tophub.today
+hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,api.jiaonizuocai.com,api.tophub.today,*.xiaoxiaoimg.com
 # Buyhack
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 # Jdprice And Jdsign
@@ -23,9 +23,9 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
 # Sololearn
 ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
-# 小小影视
-^https:\/\/.*.hnhx360.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
 # 菜谱大全
 ^https?:\/\/api\.jiaonizuocai\.com url script-response-body Js_Cpdq.js
 # 今日热榜
 ^https?:\/\/api\.tophub\.today/account/sync* url script-response-body Js_Jrrb.js
+# 小小影视
+^https:\/\/.*.xiaoxiaoimg.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
