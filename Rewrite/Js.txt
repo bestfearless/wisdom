@@ -17,7 +17,7 @@ hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,lo
 # Blinkist
 ^https:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) url script-response-body Js_Blinkist.js
 # 蜗牛读书
-^https?://p\.du\.163\.com/readtime/info.json url reject-img
+^https?://p\.du\.163\.com/readtime/info.json url reject-200
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
 # Sololearn
 ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
