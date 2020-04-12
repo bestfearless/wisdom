@@ -1,9 +1,9 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,api.jiaonizuocai.com,api.tophub.today,*.xiaoxiaoimg.com,*.xiaoxiaoapps.com,*.xiaoxiaoappxs.com
+hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,dayone.me,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,api.jiaonizuocai.com,api.tophub.today,*.xiaoxiao*.com,app.flashdown365.com
 # Buyhack
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 # Jdprice And Jdsign
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Js_Jdprice.js
-https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Task_Jdsign.js
+^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Task_Jdsign.js
 # Elevate
 ^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body Js_Elevate.js
 # Peak
@@ -29,3 +29,5 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 ^https?:\/\/api\.tophub\.today/account/sync* url script-response-body Js_Jrrb.js
 # 小小影视
 ^https:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
+# 闪电下载
+^http://app.flashdown365.com/ios/login url script-response-body Js_Sdxz.js
