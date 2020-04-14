@@ -1,7 +1,7 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,api.jiaonizuocai.com,api.tophub.today,*.xiaoxiao*.com,app.flashdown365.com,biz.caiyunapp.com
+hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,api.jiaonizuocai.com,api.tophub.today,*.xiaoxiao*.com,app.flashdown365.com
 # Jdprice And Jdsign
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Jd_Jdprice.js
-^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Jd_Jdsign.js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Jd_Price.js
+^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Jd_Sign.js
 # Buyhack
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 # Elevate
@@ -29,5 +29,3 @@ hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,lo
 ^https:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
 # 闪电下载
 ^http://app.flashdown365.com/ios/login url script-response-body Js_Sdxz.js
-# ColorWeather
-^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body Js_ColorWeather.js
