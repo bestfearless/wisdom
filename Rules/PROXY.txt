@@ -6,6 +6,7 @@ HOST-KEYWORD,reuters,PROXY
 HOST-KEYWORD,speedtest,PROXY
 HOST-KEYWORD,twitter,PROXY
 # Sites
+HOST-SUFFIX,akamaized.net,PROXY
 HOST-SUFFIX,ampproject.org,PROXY
 HOST-SUFFIX,app-measurement.com,PROXY
 HOST-SUFFIX,gstatic.com,PROXY
