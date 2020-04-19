@@ -1,9 +1,11 @@
-hostname = *.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,apis.map.qq.com
-# Google
+hostname = *.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,apis.map.qq.com,restapi.amap.com
+# Google重定向
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
-# Tiktok
+# Tiktok美区
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
 (?<=(carrier|account|sys)_region=)CN url 307 US
 (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.0.0
 # 王者农药修改定位
 ^https?:\/\/apis\.map\.qq\.com\/ws\/geocoder\/v\d\?\&location\=.*?\&key url 302 https://apis.map.qq.com/ws/geocoder/v1?&location=22.305843,113.919664&key
+# 钉钉打卡修改定位
+^https?:\/\/restapi\.amap\.com\/v\d/geocode/regeo\?location\=.*?\&key=.* url 302 https://restapi.amap.com/v3/geocode/regeo?location=116.46888237239583%2C40.010029766493056&key=be262c006216c542747fce766130cee3
