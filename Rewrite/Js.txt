@@ -1,4 +1,4 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,account.wps.*,api.busuu.com,api.blinkist.com,p.du.163.com,api.sololearn.com,api.jiaonizuocai.com,api.tophub.today,*.xiaoxiao*.com,app.flashdown365.com
+hostname = api.m.jd.com,buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,account.wps.*,api.busuu.com,api.blinkist.com,api.sololearn.com,p.du.163.com,api.jiaonizuocai.com,api.tophub.today,*.xiaoxiao*.com,app.flashdown365.com
 # Jdprice And Jdsign
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Jd_Price.js
 ^https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Jd_Sign.js
@@ -16,11 +16,12 @@ hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,lo
 ^https:\/\/api\.busuu\.com\/users\/me* url script-response-body Js_Busuu.js
 # Blinkist
 ^https:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) url script-response-body Js_Blinkist.js
-# 蜗牛读书
-^https?://p\.du\.163\.com/readtime/info.json url reject-200
-^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
 # Sololearn
 ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
+# 蜗牛读书
+^https?://p\.du\.163\.com/readtime/info.json url reject-200
+^https:\/\/p.du.163.com/ad url reject-200
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
 # 菜谱大全
 ^https?:\/\/api\.jiaonizuocai\.com url script-response-body Js_Cpdq.js
 # 今日热榜
