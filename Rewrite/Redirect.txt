@@ -1,8 +1,7 @@
 hostname = *.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,apis.map.qq.com,restapi.amap.com
-# Google重定向
+# Google
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
-# Tiktok美区
-(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+# Tiktok
 (?<=(carrier|account|sys)_region=)CN url 307 US
 (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.0.0
 # 王者荣耀修改定位
