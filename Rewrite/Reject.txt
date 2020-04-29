@@ -1,4 +1,4 @@
-hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,sta-op.douyucdn.cn,m.360buyimg.com
+hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,sta-op.douyucdn.cn,m.360buyimg.com,m.client.10010.com
 # Youtube
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-200
@@ -12,3 +12,5 @@ hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,sta-op.douyucdn
 ^https?:\/\/sta-op.douyucdn.cn url reject-200
 # JD
 ^https?:\/\/m.360buyimg.com/mobilecms url reject-200
+# 中国联通
+^https?:\/\/m.client.10010.com/mobileService/customer url reject-200
