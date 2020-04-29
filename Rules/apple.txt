@@ -1,4 +1,5 @@
 # apple
+host,ocsp.apple.com,reject
 host,cn-smp-paymentservices.apple.com,direct
 host,api-edge.apps.apple.com,proxy
 host,p48-buy.itunes.apple.com,proxy
