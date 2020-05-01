@@ -27,6 +27,8 @@ hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,lo
 # 今日热榜
 ^https?:\/\/api\.tophub\.today/account/sync* url script-response-body Js_Jrrb.js
 # 小小影视
-^https:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
+^https?:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
 # 闪电下载
-^http://app.flashdown365.com/ios/login url script-response-body Js_Sdxz.js
+^https?://app.flashdown365.com/ios/login url script-response-body Js_Sdxz.js
+# 电话录音
+^https?://micro-tool-api.foundao.com/orderPayCenterService/user/userInfo url script-response-body Js_Dhly.js
