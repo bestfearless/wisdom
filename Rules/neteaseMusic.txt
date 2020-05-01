@@ -1,0 +1,5 @@
+host-suffix, music.126.net, direct
+host-suffix,music.163.com,neteaseMusic
+host-suffix,api.iplay.163.com,neteaseMusic
+host-suffix,mam.netease.com,neteaseMusic
+host-suffix,hz.netease.com,neteaseMusic
