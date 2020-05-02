@@ -1,5 +1,4 @@
 # keyword
-host-keyword,jin10,direct
 host-keyword,paypal,direct
 host-keyword,tophub,direct
 # sites
