@@ -15,5 +15,6 @@ host-suffix,ytimg.com,proxy
 # jin10(alibaba)
 host-keyword,jin10,proxy
 ip-cidr,18.31.0.0/16,proxy,no-resolve
-ip-cidr,116.62.45.0/24,proxy,no-resolve
 ip-cidr,101.37.0.0/16,proxy,no-resolve
+ip-cidr,114.55.0.0/16,proxy,no-resolve
+ip-cidr,116.62.45.0/24,proxy,no-resolve
