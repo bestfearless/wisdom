@@ -1,6 +1,5 @@
 /*
-Sololearn
-
+Sololearn unlock
 ^https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
 
 */

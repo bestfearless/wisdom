@@ -1,6 +1,5 @@
 /*
-今日热榜
-
+今日热榜 unlock
 ^https?:\/\/api\.tophub\.today/account/sync* url script-response-body Js_Jrrb.js
 
 */

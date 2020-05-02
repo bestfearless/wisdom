@@ -1,6 +1,5 @@
 /*
-Busuu
-
+Busuu unlock
 ^https:\/\/api\.busuu\.com\/users\/me* url script-response-body Js_Busuu.js
 
 */

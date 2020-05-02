@@ -1,6 +1,5 @@
 /*
-Elevate
-
+Elevate unlock
 ^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body Js_Elevate.js
 
 */

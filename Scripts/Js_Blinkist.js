@@ -1,6 +1,5 @@
 /*
-Blinkist
-
+Blinkist unlock
 ^https:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) url script-response-body Js_Blinkist.js
 
 */

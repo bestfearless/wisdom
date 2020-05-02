@@ -1,6 +1,5 @@
 /*
-部分内购解锁：比如Bear,Monly......
-
+部分内购 unlock 比如Bear,Monly......
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
 
 */

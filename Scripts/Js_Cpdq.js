@@ -1,6 +1,5 @@
 /*
-菜谱大全
-
+菜谱大全 unlock
 https?:\/\/api\.jiaonizuocai\.com url script-response-body Js_Cpdq.js
 
 */

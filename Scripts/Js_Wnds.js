@@ -1,6 +1,5 @@
 /*
-网易蜗牛读书
-
+网易蜗牛读书 unlock
 ^https?://p\.du\.163\.com/readtime/info.json url reject-img
 ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
 

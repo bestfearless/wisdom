@@ -1,6 +1,5 @@
 /*
-Wps
-
+Wps unlock
 ^https://account.wps.com/api/users/ url script-response-body Js_Wps.js
 
 */
