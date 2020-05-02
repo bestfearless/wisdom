@@ -1,4 +1,4 @@
-hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,sta-op.douyucdn.cn,m.360buyimg.com,m.client.10010.com
+hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,cdn.jin10.com,m.360buyimg.com,sta-op.douyucdn.cn,m.client.10010.com
 # Youtube
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-200
@@ -8,9 +8,11 @@ hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,sta-op.douyucdn
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-200
 ^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-200
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-200
-# 斗鱼
-^https?:\/\/sta-op.douyucdn.cn/nggsys url reject-200
+# 金十数据
+^https?://cdn.jin10.com/board url reject-200
 # JD
 ^https?:\/\/m.360buyimg.com/mobilecms url reject-200
+# 斗鱼
+^https?:\/\/sta-op.douyucdn.cn/nggsys url reject-200
 # 中国联通
 ^https?:\/\/m.client.10010.com/mobileService/customer url reject-200
