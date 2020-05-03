@@ -1,2 +1,4 @@
 # keyword
-host-keyword,adservice,reject
+host-keyword,wlmonitor,reject# sites
+host-suffix,mackeeper.com,reject
+host-suffix,trustedmaccleaner.com,reject
