@@ -1,10 +1,4 @@
 # apple
-host,cn-smp-paymentservices.apple.com,direct
-host,api-edge.apps.apple.com,proxy
-host,p48-buy.itunes.apple.com,proxy
-host-suffix,icloud.com,proxy
-host-suffix,icloud-content.com,proxy
-host-suffix,me.com,proxy
 host-suffix,aaplimg.com,auto
 host-suffix,apple.co,auto
 host-suffix,apple.com,auto
@@ -14,5 +8,5 @@ host-suffix,appstore.com,auto
 host-suffix,cdn-apple.com,auto
 host-suffix,itunes.com,auto
 host-suffix,mzstatic.com,auto
-# Else
+# geoip
 geoip,cn,auto

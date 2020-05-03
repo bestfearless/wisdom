@@ -1,12 +1,14 @@
 # keyword
 host-keyword,paypal,direct
-host-keyword,tophub,direct
 # sites
+host-suffix,api.tophub.today,direct
 host-suffix,cmbchina.com,direct
 host-suffix,cmbimg.com,direct
 host-suffix,ibc.com.cn,direct
 host-suffix,icbc.com.cn,direct
 host-suffix,router.asus.com,direct
+# apple
+host,cn-smp-paymentservices.apple.com,direct
 # taobao
 ip-cidr,119.28.0.0/18,direct,no-resolve
 ip-cidr,198.11.128.0/18,direct,no-resolve

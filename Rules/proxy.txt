@@ -4,7 +4,6 @@ host-keyword,google,proxy
 host-keyword,porn,proxy
 host-keyword,reuters,proxy
 host-keyword,speedtest,proxy
-host-keyword,twitter,proxy
 host-keyword,xiaoxiao,proxy
 # sites
 host-suffix,akamaized.net,proxy
@@ -12,3 +11,9 @@ host-suffix,ampproject.org,proxy
 host-suffix,app-measurement.com,proxy
 host-suffix,gstatic.com,proxy
 host-suffix,ytimg.com,proxy
+# apple
+host,api-edge.apps.apple.com,proxy
+host,p48-buy.itunes.apple.com,proxy
+host-suffix,icloud.com,proxy
+host-suffix,icloud-content.com,proxy
+host-suffix,me.com,proxy
