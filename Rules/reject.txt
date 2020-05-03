@@ -2,3 +2,4 @@
 host-keyword,wlmonitor,reject# sites
 host-suffix,mackeeper.com,reject
 host-suffix,trustedmaccleaner.com,reject
+ip-cidr,48.11.128.0/16,reject
