@@ -1,7 +1,7 @@
 # keyword
-host-keyword,wlmonitor,reject# sites
+host-keyword,wlmonitor,reject
+# sites
 host-suffix,mackeeper.com,reject
-host-suffix,trustedmaccleaner.com,reject
 # China unicom
 ip-cidr,106.75.231.48/32,reject
 ip-cidr,119.4.249.166/32,reject
