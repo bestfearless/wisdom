@@ -1,7 +1,6 @@
 # keyword
 host-keyword,paypal,direct
 # sites
-host,cn-smp-paymentservices.apple.com,direct
 host-suffix,api.tophub.today,direct
 host-suffix,cmbchina.com,direct
 host-suffix,cmbimg.com,direct
