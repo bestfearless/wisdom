@@ -1,24 +1,16 @@
+hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,cdn.jin10.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,m.client.10010.com
 # Youtube
-hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-200
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
 ^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-200
 ^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-200
-^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-200
-^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-200
-^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-200
-^https?:\/\/.+\.youtube\.com\/ptracking url reject-200
+^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
+^https?:\/\/.+\.youtube\.com\/(pagead|ptracking) url reject-200
 # 金十数据
-hostname = cdn.jin10.com
 ^https?://cdn.jin10.com/board url reject-200
 # JD
-hostname = m.360buyimg.com
 ^https?:\/\/m.360buyimg.com/mobilecms url reject-200
 # 斗鱼
-hostname = sta-op.douyucdn.cn,unidesk.alicdn.com
 ^https?:\/\/sta-op.douyucdn.cn/(nggsys|ad*) url reject-200
 ^https://unidesk.alicdn.com url reject-200
-hostname = unidesk.alicdn.com
 # 中国联通
-hostname = m.client.10010.com
 ^https?:\/\/m.client.10010.com/mobileService/customer url reject-200
