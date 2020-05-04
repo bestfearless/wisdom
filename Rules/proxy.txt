@@ -13,6 +13,7 @@ host-suffix,app-measurement.com,proxy
 host-suffix,gstatic.com,proxy
 host-suffix,ytimg.com,proxy
 # apple
+host,api.apps.apple.com,proxy
 host,api-edge.apps.apple.com,proxy
 host,p48-buy.itunes.apple.com,proxy
 host-suffix,icloud.com,proxy
