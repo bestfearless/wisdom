@@ -14,5 +14,7 @@ hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,cdn.jin10.com,m
 ^https?:\/\/m.360buyimg.com/mobilecms url reject-200
 # 斗鱼
 ^https?:\/\/sta-op.douyucdn.cn/(nggsys|ad*) url reject-200
+^https://unidesk.alicdn.com url reject-200
+hostname = unidesk.alicdn.com
 # 中国联通
 ^https?:\/\/m.client.10010.com/mobileService/customer url reject-200
