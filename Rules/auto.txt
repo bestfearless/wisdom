@@ -7,6 +7,5 @@ host-suffix,apple-mapkit.com,auto
 host-suffix,appstore.com,auto
 host-suffix,cdn-apple.com,auto
 host-suffix,itunes.com,auto
-host-suffix,mzstatic.com,auto
 # geoip
 geoip,cn,auto
