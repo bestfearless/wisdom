@@ -3,7 +3,6 @@ host-keyword,google,proxy
 host-keyword,pornhub,proxy
 host-keyword,reuters,proxy
 host-keyword,speedtest,proxy
-host-keyword,xiaoxiao,proxy
 # sites
 host-suffix,akamaized.net,proxy
 host-suffix,ampproject.org,proxy
