@@ -1,12 +1,10 @@
-hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,cdn.jin10.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,m.client.10010.com
+hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,m.client.10010.com
 # Youtube
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
 ^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-200
 ^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-200
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
 ^https?:\/\/.+\.youtube\.com\/(pagead|ptracking) url reject-200
-# 金十数据
-^https?://cdn.jin10.com/board url reject-200
 # JD
 ^https?:\/\/m.360buyimg.com/mobilecms url reject-200
 # 斗鱼&虎牙
