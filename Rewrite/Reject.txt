@@ -9,7 +9,7 @@ hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,cdn.jin10.com,m
 ^https?://cdn.jin10.com/board url reject-200
 # JD
 ^https?:\/\/m.360buyimg.com/mobilecms url reject-200
-# 斗鱼
+# 斗鱼&虎牙
 ^https?:\/\/sta-op.douyucdn.cn/(nggsys|ad*) url reject-200
 ^https://unidesk.alicdn.com url reject-200
 # 中国联通
