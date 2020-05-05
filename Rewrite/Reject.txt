@@ -6,7 +6,7 @@ hostname = s.youtube.com,www.youtube.com,youtubei.googleapis.com,cdn.jin10.com,m
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
 ^https?:\/\/.+\.youtube\.com\/(pagead|ptracking) url reject-200
 # 金十数据
-^https?://cdn.jin10.com/board url reject-200
+^https?://cdn.jin10.com/board/json/app-ads.json url reject-200
 # JD
 ^https?:\/\/m.360buyimg.com/mobilecms url reject-200
 # 斗鱼&虎牙
