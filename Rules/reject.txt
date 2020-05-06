@@ -53,6 +53,7 @@ host-suffix,googlesyndication.com,reject
 host-suffix,hm.baidu.com,reject
 host-suffix,hpd.baidu.com,reject
 host-suffix,insurads.com,reject
+host-suffix,ios.bugly.qq.com,reject
 host-suffix,l.qq.com,reject
 host-suffix,mackeeper.com,reject
 host-suffix,mobads.baidu.com,reject
