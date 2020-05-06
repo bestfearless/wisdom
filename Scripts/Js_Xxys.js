@@ -1,7 +1,9 @@
 /*
 小小影视 unlock
 app 下载地址:http://t.cn/AiWI7o28
-电报交流频道：https://t.me/ThorHCC
+由于小小影视通道很多，启用时会选择通道，有时会导致规则失效，请自行抓包把链接reject
+测试时有.*.leleapps.com自行添加规则reject
+
 https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body xxys.js
 MITM = *.*apps.com, *.xiao*.com
 
