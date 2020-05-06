@@ -9,9 +9,3 @@ host-suffix,ampproject.org,proxy
 host-suffix,app-measurement.com,proxy
 host-suffix,gstatic.com,proxy
 host-suffix,ytimg.com,proxy
-# jin10
-host-keyword,jin10,proxy
-ip-cidr,101.37.0.0/16,proxy
-ip-cidr,114.55.0.0/16,proxy
-ip-cidr,116.62.45.0/24,proxy
-ip-cidr,118.31.0.0/16,proxy
