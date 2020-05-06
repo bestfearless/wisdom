@@ -1,40 +1,56 @@
-# 时光相册
+# 分期乐
 
 > 代码已同时兼容 Surge & QuanX, 使用同一份签到脚本即可
 
+> QuanX 需要: v1.0.6-build195 及以后版本 (TestFlight)
+
+> 感谢 [@GideonSenku](https://github.com/GideonSenku) Commit
+
+> 2020.03.18 添加超级乐星日/天天领乐星
 ## 配置 (Surge)
 
 ```properties
 [MITM]
-api.everphoto.cn
+pm.m.fenqile.com
 
 [Script]
-http-request ^https:\/\/api.everphoto.cn\/users\/self\/checkin\/v2 script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js
+http-request ^https://pm\.m\.fenqile\.com/route0014/star/sign/sign.json script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js, requires-body=true
+
+http-request ^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js, requires-body=true
+
+
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js
 ```
 
 ## 配置 (QuanX)
 
 ```properties
 [MITM]
-api.everphoto.cn
+pm.m.fenqile.com
 
 [rewrite_local]
-^https:\/\/api.everphoto.cn\/users\/self\/checkin\/v2 url script-request-header everphoto.cookie.js
+
+# [商店版] QuanX v1.0.6-build194 及更早版本
+# 支持request-body 脚本可食用,换成本地
+
+# [TestFlight] QuanX v1.0.6-build195 及以后版本
+^https://pm\.m\.fenqile\.com/route0014/star/sign/sign.json url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js
+^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js
 
 [task_local]
-1 0 * * * everphoto.js
+1 0 * * * fenqile.js
 ```
 
 ## 说明
 
-1. 先把`api.everphoto.cn`加到`[MITM]`
+1. 先把`pm.m.fenqile.com`加到`[MITM]`
 2. 再配置重写规则:
    - Surge: 把两条远程脚本放到`[Script]`
-   - QuanX: 把`everphoto.cookie.js`和`everphoto.js`传到`On My iPhone - Quantumult X - Scripts` (传到 iCloud 相同目录也可, 注意要打开 quanx 的 iCloud 开关)
-3. 打开 APP 然后手动签到 1 次, 系统提示: `获取Cookie: 成功`
-4. 最后就可以把第 1 条脚本注释掉了
-5. 运行一次脚本, 如果提示重复签到, 那就算成功了!
+   - QuanX: 把`fenqile.cookie.js`和`fenqile.js`传到`On My iPhone - Quantumult X - Scripts` (传到 iCloud 相同目录也可, 注意要打开 quanx 的 iCloud 开关)
+3. 打开 APP 手动签到一次: 访问下右下角 `我的` > `乐星` > `签到`,`我的` > `账单点击` > `超级乐星日/天天领乐星`
+4. 系统提示: `获取Cookie: 成功`
+5. 把获取 Cookie 的脚本注释掉
+6. 运行一次脚本, 如果提示重复签到, 那就算成功了!
 
 > 第 1 条脚本是用来获取 cookie 的, 用浏览器访问一次获取 cookie 成功后就可以删掉或注释掉了, 但请确保在`登录成功`后再获取 cookie.
 
@@ -89,3 +105,5 @@ api.everphoto.cn
 [@lhie1](https://github.com/lhie1)
 
 [@ConnersHua](https://github.com/ConnersHua)
+
+[@GideonSenku](https://github.com/GideonSenku)
