@@ -1,4 +1,4 @@
-hostname = *.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,apis.map.qq.com
+hostname = *.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,apis.map.qq.com
 # Google
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 # Tiktok
