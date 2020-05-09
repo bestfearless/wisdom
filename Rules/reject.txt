@@ -33,7 +33,6 @@ host-suffix,adsame.com,reject
 host-suffix,adsensor.org,reject
 host-suffix,adsymptotic.com,reject
 host-suffix,adwhirl.com,reject
-host-suffix,adx.hupu.com,reject
 host-suffix,afd.baidu.com,reject
 host-suffix,als.baidu.com,reject
 host-suffix,amazon-adsystem.com,reject
@@ -42,11 +41,7 @@ host-suffix,cnzz.com,reject
 host-suffix,cpro.baidu.com,reject
 host-suffix,crashlytics.com,reject
 host-suffix,doubleclick.net,reject
-host-suffix,e.qq.com,reject
-host-suffix,flash.cn,reject
 host-suffix,gdt.qq.com,reject
-host-suffix,geo2.adobe.com,reject
-host-suffix,goblin.hupu.com,reject
 host-suffix,googleadservices.com,reject
 host-suffix,googleadsserving.cn,reject
 host-suffix,googlesyndication.com,reject
@@ -54,7 +49,6 @@ host-suffix,hm.baidu.com,reject
 host-suffix,hpd.baidu.com,reject
 host-suffix,insurads.com,reject
 host-suffix,ios.bugly.qq.com,reject
-host-suffix,l.qq.com,reject
 host-suffix,mackeeper.com,reject
 host-suffix,mobads.baidu.com,reject
 host-suffix,nsclick.baidu.com,reject

@@ -1,11 +1,7 @@
 # keyword
 host-keyword,google,proxy
-host-keyword,pornhub,proxy
 host-keyword,reuters,proxy
 host-keyword,speedtest,proxy
 # sites
-host-suffix,akamaized.net,proxy
 host-suffix,ampproject.org,proxy
 host-suffix,app-measurement.com,proxy
-host-suffix,gstatic.com,proxy
-host-suffix,ytimg.com,proxy

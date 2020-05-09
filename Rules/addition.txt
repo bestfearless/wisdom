@@ -1,5 +1,6 @@
 # apple
 host,cn-smp-paymentservices.apple.com,direct
+host,iosapps.itunes.apple.com,auto
 host-suffix,aaplimg.com,proxy
 host-suffix,apple.co,proxy
 host-suffix,apple.com,proxy
@@ -12,3 +13,5 @@ host-suffix,icloud-content.com,proxy
 host-suffix,itunes.com,proxy
 host-suffix,me.com,proxy
 host-suffix,mzstatic.com,proxy
+# geoip
+geoip,cn,auto
