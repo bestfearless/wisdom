@@ -1,11 +1,7 @@
-hostname = *.googlevideo.com,s.youtube.com,www.youtube.com,youtubei.googleapis.com,cdn.jin10.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,business.msstatic.com
+hostname = redirector.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,business.msstatic.com
 # Youtube
-^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject-200
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
-^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-200
-^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-200
-^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
-^https?:\/\/.+\.youtube\.com\/(pagead|ptracking) url reject-200
+https://redirector.googlevideo.com/initplayback* url reject-200
+https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
 # 金十数据
 ^https?://cdn.jin10.com/board/json/app-ads.json url reject-200
 # JD
