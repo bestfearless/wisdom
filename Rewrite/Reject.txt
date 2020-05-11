@@ -1,9 +1,7 @@
-hostname = redirector.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,business.msstatic.com,v.icbc.com.cn,api.zhihu.com
+hostname = redirector.googlevideo.com,youtubei.googleapis.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,business.msstatic.com,v.icbc.com.cn,api.zhihu.com
 # Youtube
 https://redirector.googlevideo.com/initplayback* url reject-200
 https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
-# 金十数据
-https?://cdn.jin10.com/board/json/app-ads.json url reject-200
 # JD
 https?:\/\/m.360buyimg.com/mobilecms url reject-200
 # 斗鱼&虎牙
