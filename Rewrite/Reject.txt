@@ -1,4 +1,4 @@
-hostname = redirector.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,business.msstatic.com
+hostname = redirector.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,m.360buyimg.com,sta-op.douyucdn.cn,unidesk.alicdn.com,business.msstatic.com,v.icbc.com.cn,api.zhihu.com
 # Youtube
 https://redirector.googlevideo.com/initplayback* url reject-200
 https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
@@ -10,3 +10,10 @@ https?:\/\/m.360buyimg.com/mobilecms url reject-200
 https?:\/\/sta-op.douyucdn.cn/(nggsys|ad*) url reject-200
 https://unidesk.alicdn.com url reject-200
 https?://business.msstatic.com/advertiser/material url reject-200
+# 工商银行
+https?+:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
+# 知乎
+https?+:\/\/api\.zhihu\.com\/(?>launch|real_time) url reject-200
+https?+:\/\/api\.zhihu\.com\/commercial_api\/(?>launch|real_time) url reject-200
+https?+:\/\/api\.zhihu\.com\/fringe\/ad url reject-200
+https?+:\/\/api\.zhihu\.com\/(?>ab|adx|xen|drama|zst|ad-style-service|market\/popover|search\/(?>top|tab|preset)|.*?(?>guide|recommendations|extended|featured-comment-ad)) url reject-200
