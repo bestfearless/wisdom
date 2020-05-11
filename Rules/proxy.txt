@@ -5,3 +5,8 @@ host-keyword,speedtest,proxy
 # sites
 host-suffix,ampproject.org,proxy
 host-suffix,app-measurement.com,proxy
+# jin10
+host-suffix,jin10.com,proxy
+ip-cidr,118.31.0.0/16,proxy,no-resolve
+ip-cidr,116.62.45.0/24,proxy,no-resolve
+ip-cidr,101.37.0.0/16,proxy,no-resolve
