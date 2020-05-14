@@ -7,8 +7,8 @@ https?:\/\/m.360buyimg.com/mobilecms url reject-200
 # 斗鱼
 https?:\/\/sta-op.douyucdn.cn/adxdsp url reject-200
 # 工商银行
-https?+:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
+https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
 # 知乎
-https?+:\/\/api\.zhihu\.com\/commercial_api\/(?>launch|real_time) url reject-200
+https?:\/\/api\.zhihu\.com\/commercial_api\/(?>launch|real_time) url reject-200
 # ColorfulClouds
 https?://ad.caiyunapp.com url reject-200
