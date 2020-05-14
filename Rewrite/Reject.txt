@@ -4,7 +4,7 @@ https://redirector.googlevideo.com/initplayback* url reject-200
 https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
 # JD
 https?:\/\/m.360buyimg.com/mobilecms url reject-200
-# 斗鱼&虎牙
+# 斗鱼
 https?:\/\/sta-op.douyucdn.cn/(nggsys|ad*) url reject-200
 # 工商银行
 https?+:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
