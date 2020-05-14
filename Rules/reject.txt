@@ -51,6 +51,7 @@ host-suffix,insurads.com,reject
 host-suffix,ios.bugly.qq.com,reject
 host-suffix,mackeeper.com,reject
 host-suffix,mobads.baidu.com,reject
+host-suffix,novelapi.baidu.com,reject
 host-suffix,nsclick.baidu.com,reject
 host-suffix,openx.net,reject
 host-suffix,pos.baidu.com,reject
