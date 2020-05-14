@@ -1,6 +1,6 @@
-hostname = redirector.googlevideo.com,youtubei.googleapis.com,m.360buyimg.com,sta-op.douyucdn.cn,v.icbc.com.cn,api.zhihu.com
+hostname = redirector.googlevideo.com,youtubei.googleapis.com,m.360buyimg.com,sta-op.douyucdn.cn,v.icbc.com.cn,api.zhihu.com,ad.caiyunapp.com
 # Youtube
-https://redirector.googlevideo.com/initplayback* url reject-200
+https?://redirector.googlevideo.com/initplayback* url reject-200
 https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
 # JD
 https?:\/\/m.360buyimg.com/mobilecms url reject-200
@@ -10,3 +10,5 @@ https?:\/\/sta-op.douyucdn.cn/adxdsp url reject-200
 https?+:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
 # 知乎
 https?+:\/\/api\.zhihu\.com\/commercial_api\/(?>launch|real_time) url reject-200
+# ColorfulClouds
+https?://ad.caiyunapp.com url reject-200
