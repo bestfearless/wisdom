@@ -1,11 +1,11 @@
-hostname = redirector.googlevideo.com,youtubei.googleapis.com,m.360buyimg.com,sta-op.douyucdn.cn,v.icbc.com.cn,api.zhihu.com,ad.caiyunapp.com,cdn.jin10.com,p.du.163.com,business.msstatic.com
+hostname = redirector.googlevideo.com,youtubei.googleapis.com,m.360buyimg.com,sta-op.douyucdn.cn,v.icbc.com.cn,api.zhihu.com,ad.caiyunapp.com,cdn.jin10.com,p.du.163.com,huyaimg.msstatic.com
 # Youtube
 https?://redirector.googlevideo.com/initplayback* url reject-200
 https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
 # JD
 https?:\/\/m.360buyimg.com/mobilecms url reject-200
 # 斗鱼
-https?:\/\/sta-op.douyucdn.cn/adxdsp url reject-200
+https?:\/\/sta-op.douyucdn.cn/(nggsys|ad*) url reject-200
 # 工商银行
 https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
 # 知乎
@@ -18,4 +18,4 @@ https?://cdn.jin10.com/board/json/app-ads.json url reject-200
 https?://p\.du\.163\.com/readtime/info.json url reject-200
 https?:\/\/p.du.163.com/ad url reject-200
 # 虎牙
-^https?://business.msstatic.com/advertiser/material url reject-200
+https?://huyaimg.msstatic.com/cdnimage url reject-200
