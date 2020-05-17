@@ -1,10 +1,18 @@
 /*
-小小影视 unlock
-app 下载地址:http://t.cn/AiWI7o28
-由于小小影视通道很多，启用时会选择通道，有时会导致规则失效，请自行抓包把链接reject
-测试时有.*.leleapps.com自行添加规则reject
+小小影视 unlock Vip
 
-https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body xxys.js
+app 下载地址:http://t.cn/AiWI7o28
+
+电报交流频道：https://t.me/ThorHCC
+QQ交流：189519867
+
+QX:
+
+[rewrite_local]👇
+
+https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://github.com/jungege520/JGG/blob/master/xxys.js
+
+
 MITM = *.*apps.com, *.xiao*.com
 
 */
@@ -34,5 +42,6 @@ if ($request.url.indexOf(path2) != -1){
 if ($request.url.indexOf(ad) != -1) {
 delete obj.data.adrows
 delete obj.data.adgroups
+delete obj.data.iOS_adgroups
 }
 $done({body: JSON.stringify(obj)});
