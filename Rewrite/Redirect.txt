@@ -1,9 +1,7 @@
-hostname = *.musical.ly,apis.map.qq.com,www.zhihu.com
+hostname = *.musical.ly
 # google
 https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 # tiktok
 (?<=_region=)CN(?=&) url 307 JP
 (?<=&app_version=)16..(?=.?.?&) url 307 1
 (?<=\?version_code=)16..(?=.?.?&) url 307 1
-# 知乎
-^https?:\/\/www\.zhihu\.com\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36$2
