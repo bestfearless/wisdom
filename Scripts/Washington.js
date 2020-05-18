@@ -1,7 +1,6 @@
 /*
 Washingtonpost unlock
-^https://login.washingtonpost.com/identity/oauth/v1/profile url script-response-body Js_Washington.js
-
+^https://login.washingtonpost.com/identity/oauth/v1/profile
 */
 
 let obj = JSON.parse($response.body);

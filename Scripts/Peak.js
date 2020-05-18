@@ -1,7 +1,6 @@
 /*
 peak unlock
-^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? url script-response-body Js_Peak.js
-
+^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?
 */
 
 let obj=JSON.parse($response.body);

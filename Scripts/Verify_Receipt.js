@@ -1,7 +1,6 @@
 /*
 部分内购 unlock 比如Bear,Monly......
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
-
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
 */
 
 let body= $response.body;

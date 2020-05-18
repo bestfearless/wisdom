@@ -1,6 +1,6 @@
-hostname = redirector.googlevideo.com,youtubei.googleapis.com,m.360buyimg.com,sta-op.douyucdn.cn,v.icbc.com.cn,ad.caiyunapp.com,cdn.jin10.com,p.du.163.com,huyaimg.msstatic.com
+hostname = *.googlevideo.com,youtubei.googleapis.com,m.360buyimg.com,sta-op.douyucdn.cn,v.icbc.com.cn,ad.caiyunapp.com,cdn.jin10.com,p.du.163.com,huyaimg.msstatic.com
 # Youtube
-https?://redirector.googlevideo.com/initplayback* url reject-200
+^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-200
 https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
 # JD
 https?:\/\/m.360buyimg.com/mobilecms url reject-200

@@ -1,20 +1,6 @@
 /*
 小小影视 unlock Vip
-
-app 下载地址:http://t.cn/AiWI7o28
-
-电报交流频道：https://t.me/ThorHCC
-QQ交流：189519867
-
-QX:
-
-[rewrite_local]👇
-
-https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://github.com/jungege520/JGG/blob/master/xxys.js
-
-
-MITM = *.*apps.com, *.xiao*.com
-
+https?:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData)
 */
 
 const path1 = "/ucp/index";

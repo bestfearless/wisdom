@@ -1,7 +1,6 @@
 /*
 今日热榜 unlock
-^https?:\/\/api\.tophub\.today/account/sync* url script-response-body Js_Jrrb.js
-
+^https?:\/\/api\.tophub\.today/account/sync*
 */
 
 let obj=JSON.parse($response.body);

@@ -1,7 +1,6 @@
 /*
 Wps unlock
-^https://account.wps.com/api/users/ url script-response-body Js_Wps.js
-
+^https://account.wps.com/api/users
 */
 
 let obj = JSON.parse($response.body);

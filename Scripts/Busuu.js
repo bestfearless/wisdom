@@ -1,7 +1,6 @@
 /*
 Busuu unlock
-^https:\/\/api\.busuu\.com\/users\/me* url script-response-body Js_Busuu.js
-
+^https:\/\/api\.busuu\.com\/users\/me*
 */
 
 var obj = JSON.parse($response.body);

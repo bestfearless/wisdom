@@ -1,32 +1,33 @@
-hostname = buy.itunes.apple.com,accounts.elevateapp.net,billing.peakcloud.org,login.washingtonpost.com,account.wps.*,api.busuu.com,api.blinkist.com,api.sololearn.com,api.jiaonizuocai.com,api.tophub.today,*.xiaoxiao*.com,app.flashdown365.com,biz.caiyunapp.com
-# Jdprice And Jdsign
-https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body Jd_Price.js
-https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header Jd_Sign.js
-# Buyhack
-https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body Js_Buyhack.js
-# Elevate
-https?:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body Js_Elevate.js
-# Peak
-https?:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? url script-response-body Js_Peak.js
-# Washingtonpost
-https?://login.washingtonpost.com/identity/oauth/v1/profile url script-response-body Js_Washington.js
-# Wps
-https?://account.wps.*/api/users/ url script-response-body Js_Wps.js
-# Busuu
-https?:\/\/api\.busuu\.com\/users\/me* url script-response-body Js_Busuu.js
+hostname = api.m.jd.com,buy.itunes.apple.com,api.blinkist.com,api.busuu.com,biz.caiyunapp.com,accounts.elevateapp.net,billing.peakcloud.org,api.sololearn.com,login.washingtonpost.com,account.wps.*,api.jiaonizuocai.com,api.tophub.today,app.flashdown365.com,*.xiaoxiao*.com
+# JD_DailyBonus
+https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_DailyBonus.js
+# JD_Price
+https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_Price.js
+# Verify_Receipt
+https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Verify_Receipt.js
 # Blinkist
-https?:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) url script-response-body Js_Blinkist.js
-# Sololearn
-https?:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body Js_Sololearn.js
-# 蜗牛读书
-https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body Js_Wnds.js
-# 菜谱大全
-https?:\/\/api\.jiaonizuocai\.com url script-response-body Js_Cpdq.js
-# 今日热榜
-https?:\/\/api\.tophub\.today/account/sync* url script-response-body Js_Jrrb.js
-# 小小影视
-https?:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body Js_Xxys.js
-# 闪电下载
-https?://app.flashdown365.com/ios/login url script-response-body Js_Sdxz.js
+https?:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Blinkist.js
+# Busuu
+https?:\/\/api\.busuu\.com\/users\/me* url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Busuu.js
 # ColorfulClouds
-https?:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body Js_ColorfulClouds.js
+https?:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/ColorfulClouds.js
+# Elevate
+https?:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Elevate.js
+# Peak
+https?:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Peak.js
+# Sololearn
+https?:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Sololearn.js
+# Washingtonpost
+https?://login.washingtonpost.com/identity/oauth/v1/profile url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Washington.js
+# Wps
+https?://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Wps.js
+# 菜谱大全
+https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Cpdq.js
+# 今日热榜
+https?:\/\/api\.tophub\.today/account/sync* url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Jrrb.js
+# 闪电下载
+https?://app.flashdown365.com/ios/login url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Sdxz.js
+# 蜗牛读书
+https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Wnds.js
+# 小小影视
+https?:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
