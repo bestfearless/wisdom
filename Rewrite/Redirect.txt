@@ -1,4 +1,4 @@
-hostname = *.musical.ly
+hostname = api*.musical.ly
 # google
 https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 # tiktok
