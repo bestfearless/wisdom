@@ -3,5 +3,5 @@ hostname = *.musical.ly
 https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 # tiktok
 (?<=_region=)CN(?=&) url 307 US
-(?<=&app_version=)16..(?=.?.?&) url 307 1
-(?<=\?version_code=)16..(?=.?.?&) url 307 1
+(?<=&app_version=)16..(?=.?.?&) url 307 16
+(?<=\?version_code=)16..(?=.?.?&) url 307 16
