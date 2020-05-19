@@ -1,7 +1,7 @@
-hostname = *.musical.ly
+hostname = api*.musical.ly
 # google
 https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 # tiktok
 (?<=_region=)CN(?=&) url 307 US
-(?<=&app_version=)16..(?=.?.?&) url 307 16
-(?<=\?version_code=)16..(?=.?.?&) url 307 16
+(?<=&app_version=)16..(?=.?.?&) url 307 12
+(?<=\?version_code=)16..(?=.?.?&) url 307 12
