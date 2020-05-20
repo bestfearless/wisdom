@@ -31,3 +31,6 @@ https?://app.flashdown365.com/ios/login url script-response-body https://raw.git
 https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Wnds.js
 # 小小影视
 https?:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
+# 北京题库
+https?://wx.xuexiguanjia.org/api/user(info)? url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Bjtk.js
+
