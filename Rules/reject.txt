@@ -62,7 +62,12 @@ host-suffix,supersonic.com,reject
 host-suffix,supersonicads.com,reject
 host-suffix,tracker.baidu.com,reject
 host-suffix,zryydi.com,reject
-# ip-cidr
+# xiaoxiao
+host-suffix,gqbyh.com,reject
+host-suffix,hnhx360.com,reject
+host-suffix,leleapps.com,reject
+host-suffix,leyiapps.com, reject
+host-suffix,simplesite.com,reject# ip-cidr
 ip-cidr,106.75.231.48/32,reject
 ip-cidr,119.4.249.166/32,reject
 ip-cidr,220.196.52.141/32,reject
