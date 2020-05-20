@@ -1,4 +1,4 @@
-hostname = *.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,v.icbc.com.cn,ad.caiyunapp.com,cdn.jin10.com,p.du.163.com,cdnfile1.msstatic.com,business.msstatic.com
+hostname = *.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,v.icbc.com.cn,ad.caiyunapp.com,cdn.jin10.com,p.du.163.com,cdnfile1.msstatic.com
 # Youtube
 ^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-200
 https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_) url reject-200
@@ -15,4 +15,3 @@ https?://p\.du\.163\.com/readtime/info.json url reject-200
 https?:\/\/p.du.163.com/ad url reject-200
 # 虎牙
 https?://cdnfile1.msstatic.com/cdnfile/appad url reject-200
-https?://business.msstatic.com/advertiser url reject-200
