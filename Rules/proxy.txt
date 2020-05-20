@@ -2,7 +2,7 @@
 host-keyword,google,proxy
 host-keyword,reuters,proxy
 host-keyword,speedtest,proxy
-host-keyword,xiapxiao,proxy
+host-keyword,xiaoxiao,proxy
 # sites
 host-suffix,ampproject.org,proxy
 host-suffix,app-measurement.com,proxy
