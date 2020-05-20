@@ -1,4 +1,4 @@
-hostname = api.m.jd.com,buy.itunes.apple.com,api.blinkist.com,api.busuu.com,biz.caiyunapp.com,accounts.elevateapp.net,billing.peakcloud.org,api.sololearn.com,login.washingtonpost.com,account.wps.*,api.jiaonizuocai.com,api.tophub.today,app.flashdown365.com,*.xiaoxiao*.com
+hostname = api.m.jd.com,buy.itunes.apple.com,api.blinkist.com,api.busuu.com,biz.caiyunapp.com,accounts.elevateapp.net,billing.peakcloud.org,api.sololearn.com,login.washingtonpost.com,account.wps.*,api.jiaonizuocai.com,api.tophub.today,app.flashdown365.com,*.xiaoxiao*.com,wx.xuexiguanjia.org
 # JD_DailyBonus
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_DailyBonus.js
 # JD_Price
