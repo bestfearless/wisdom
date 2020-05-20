@@ -1,4 +1,0 @@
-vmess=cdn.500mls.cc:80, method=none, password=92e11742-7ce7-361d-a7d2-783a446455e0, obfs=ws, obfs-uri=/v2ray, obfs-host=hk07.xtcyy.top, fast-open=true, udp-relay=true, tag=hubei-hk
-vmess=cdn.500mls.cc:80, method=none, password=92e11742-7ce7-361d-a7d2-783a446455e0, obfs=ws, obfs-uri=/v2ray, obfs-host=hk08.xtcyy.top, fast-open=true, udp-relay=true, tag=hubei-hk2
-vmess=40b008a5cbbb71aaa63806879d390624.03ss.xyz:80, method=none, password=f490b041-a315-333c-8ce9-d730037df10c, obfs=ws, obfs-host=f7183c37bc8d4833c9382f8d0a4edc5a.wuyiauto.com, fast-open=true, udp-relay=true, obfs-uri=/user, tag=chongqing-hk1
-vmess=40b008a5cbbb71aaa63806879d390624.03ss.xyz:80, method=none, password=f490b041-a315-333c-8ce9-d730037df10c, obfs=ws, obfs-host=1363c7b2a3b61224e7743d1f0c196103.wuyiauto.com, fast-open=true, udp-relay=true, obfs-uri=/user, tag=chongqing-hk2
