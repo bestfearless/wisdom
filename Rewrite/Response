@@ -1,0 +1,16 @@
+hostname = api.busuu.com,accounts.elevateapp.net,account.wps.*,api.tophub.today,app.flashdown365.com,wx.xuexiguanjia.org
+# Busuu
+https?:\/\/api\.busuu\.com\/users\/me* url response-body “tier”:”\w+” response-body “tier”:”plus”
+# Elevate
+https?:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url response-body “subscription_expiration_date_epoch”:\w+ response-body “subscription_expiration_date_epoch”:3760317603
+# Wps
+https?://account.wps.*/api/users url response-body “has_ad”:\w,”memberid”:\w+,”expire_time”:\w+ response-body “has_ad”:0,”memberid”:20,”expire_time”:3760317603
+# 今日热榜
+https?:\/\/api\.tophub\.today/account/sync* url response-body “is_vip”:”\w+”,”vip_expired”:”\w+”,”is_vip_now”:\w+ response-body “is_vip”:”1”,”vip_expired”:”3760272085”,”is_vip_now”:true
+# 闪电下载
+https?://app.flashdown365.com/ios/login url response-body “isvip”:\w+ response-body “isvip”:true
+# 蜗牛读书
+https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url response-body “tradeEndTime”:\w+ response-body “tradeEndTime”:3760317603000
+# 北京题库
+https?://wx.xuexiguanjia.org/api/user url response-body “is_vip”:\w+,”expire_date”:\w+ response-body “is_vip”:1,”expire_date”:3760000000
+https?://wx.xuexiguanjia.org/api/store/setdownload url response-body “status”:\w+ response-body “status”:200
