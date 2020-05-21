@@ -1,21 +1,19 @@
-hostname = api.m.jd.com,buy.itunes.apple.com,api.blinkist.com,biz.caiyunapp.com,billing.peakcloud.org,api.sololearn.com,login.washingtonpost.com,api.jiaonizuocai.com,*.xiaoxiao*.com
+hostname = api.m.jd.com,buy.itunes.apple.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xiaoxiao*.com,sapi.beingfine.cn
 # JD_DailyBonus
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_DailyBonus.js
 # JD_Price
 https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_Price.js
 # Verify_Receipt
 https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Verify_Receipt.js
-# Blinkist
-https?:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Blinkist.js
 # ColorfulClouds
 https?:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/ColorfulClouds.js
 # Peak
 https?:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Peak.js
-# Sololearn
-https?:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$ url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Sololearn.js
 # Washingtonpost
 https?://login.washingtonpost.com/identity/oauth/v1/profile url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Washington.js
-# 菜谱大全
-https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Cpdq.js
 # 小小影视
 https?:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
+# 轻听英语
+https?://sapi.beingfine.cn/v1/UserLaunchAppReport url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Qtyy.js
+# 不背单词
+https?://sapi.beingfine.cn/v3/report/launch/ url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Bbdc.js

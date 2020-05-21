@@ -1,10 +1,6 @@
-hostname = api.busuu.com,accounts.elevateapp.net,duoting.tatatimes.com,account.wps.*,api.tophub.today,app.flashdown365.com,wx.xuexiguanjia.org
-# Busuu
-https?:\/\/api\.busuu\.com\/users\/me* url response-body "tier":"\w+" response-body "tier":"plus"
+hostname = accounts.elevateapp.net,account.wps.*,api.tophub.today,app.flashdown365.com,wx.xuexiguanjia.org
 # Elevate
 https?:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url response-body "subscription_expiration_date_epoch":\w+ response-body "subscription_expiration_date_epoch":3760317603
-# English read
-https?://duoting.tatatimes.com/tataeraapi/api.s\?h=QueryVipUser url response-body "isVip":false,"code":\w+,"expireDays":-1 response-body "isVip":true,"code":200,"expireDays":99999
 # Wps
 https?://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"expire_time":\w+ response-body "has_ad":0,"memberid":20,"expire_time":3760317603
 # 今日热榜
