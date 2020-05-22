@@ -1,4 +1,4 @@
-hostname = api.m.jd.com,buy.itunes.apple.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xiaoxiao*.com,sapi.beingfine.cn
+hostname = api.m.jd.com,buy.itunes.apple.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xiaoxiao*.com,sapi.beingfine.cn,121.43.19.216
 # JD_DailyBonus
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_DailyBonus.js
 # JD_Price
