@@ -1,4 +1,4 @@
-hostname = api.m.jd.com,buy.itunes.apple.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xiaoxiao*.com,sapi.beingfine.cn,121.43.19.216
+hostname = api.m.jd.com,buy.itunes.apple.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xiaoxiao*.com,sapi.beingfine.cn,121.43.19.216,ayk.tmdidi.com
 # JD_DailyBonus
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_DailyBonus.js
 # JD_Price
@@ -17,3 +17,5 @@ https?:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalD
 https?://sapi.beingfine.cn/v1/UserLaunchAppReport url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Qtyy.js
 # 不背单词
 https?://sapi.beingfine.cn/v3/report/launch/ url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Bbdc.js
+#Pear 雪梨
+^https:\/\/ayk\.tmdidi\.com/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Pear.js
