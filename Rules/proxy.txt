@@ -19,8 +19,3 @@ host-suffix,icloud-content.com,proxy
 host-suffix,itunes.com,proxy
 host-suffix,me.com,proxy
 host-suffix,mzstatic.com,proxy
-# jin10
-host-suffix,jin10.com,proxy
-ip-cidr,101.37.0.0/16,proxy,no-resolve
-ip-cidr,114.55.0.0/16,proxy,no-resolve
-ip-cidr,203.107.0.0/17,proxy,no-resolve
