@@ -26,4 +26,3 @@ ip-cidr,114.55.0.0/16,proxy,no-resolve
 ip-cidr,116.62.7.0/24,proxy,no-resolve
 ip-cidr,116.62.45.0/24,proxy,no-resolve
 ip-cidr,118.31.0.0/16,proxy,no-resolve
-ip-cidr,203.107.0.0/17,proxy,no-resolve
