@@ -17,4 +17,4 @@ https?:\/\/p.du.163.com/ad url reject-200
 https?://cdnfile1.msstatic.com/cdnfile/appad url reject-200
 https?://business.msstatic.com/advertiser url reject-200
 # JD
-https?://m.360buyimg.com/mobilecms/.*/\w+.jpg url reject-200 url reject-200
+https?://m.360buyimg.com/mobilecms/.*/\w+.jpg url reject-200
