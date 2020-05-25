@@ -18,3 +18,5 @@ https?://cdnfile1.msstatic.com/cdnfile/appad url reject-200
 https?://business.msstatic.com/advertiser url reject-200
 # JD
 https?://m.360buyimg.com/mobilecms/.*/\w+.jpg url reject-200
+# 多点
+https?://download.dmallcdn.com/.+ad.jpg url reject-200
