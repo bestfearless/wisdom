@@ -1,13 +1,23 @@
-hostname = account.wps.*,app.flashdown365.com,wx.xuexiguanjia.org
+hostname=accounts.elevateapp.net,account.wps.*,app.flashdown365.com,p.du.163.com,wx.xuexiguanjia.org,sapi.beingfine.cn,121.43.19.216
+
 # Elevate
-hostname = accounts.elevateapp.net,
 https?:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url response-body "subscription_expiration_date_epoch":\w+ response-body "subscription_expiration_date_epoch":3760317603
+
 # Wps
 https?://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"expire_time":\w+ response-body "has_ad":0,"memberid":20,"expire_time":3760317603
+
 # 闪电下载
 https?://app.flashdown365.com/ios/login url response-body "isvip":\w+ response-body "isvip":true
+
 # 蜗牛读书
+https?://p\.du\.163\.com/readtime/info.json url reject-200
+https?:\/\/p.du.163.com/ad url reject-200
 https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url response-body "tradeEndTime":\w+ response-body "tradeEndTime":3760317603000
+
 # 北京题库
 https?://wx.xuexiguanjia.org/api/user url response-body "is_vip":\w+,"expire_date":\w+ response-body "is_vip":1,"expire_date":3760000000
 https?://wx.xuexiguanjia.org/api/store/setdownload url response-body "status":\w+ response-body "status":200
+
+# 不背单词&轻听英语
+https?://sapi.beingfine.cn/v3/report/launch/ url response-body \\"expire_date\\":\w+,\\"user_type\\":\w+,\\"granted\\":\w+\},\\"collins\\":\{\\"expire_date\\":\w+,\\"granted\\":\w+ response-body \\"expire_date\\":4690000000000,\\"user_type\\":3,\\"granted\\":1},\\"collins\\":{\\"expire_date\\": 4690000000000,\\"granted\\":1
+https?://sapi.beingfine.cn/v1/UserLaunchAppReport url response-body "expire_date":\w+,"granted":\w+ response-body "expire_date":4077153336000,"granted":1
