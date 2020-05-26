@@ -1,5 +1,6 @@
-hostname = accounts.elevateapp.net,account.wps.*,app.flashdown365.com,wx.xuexiguanjia.org
+hostname = account.wps.*,app.flashdown365.com,wx.xuexiguanjia.org
 # Elevate
+hostname = accounts.elevateapp.net,
 https?:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token* url response-body "subscription_expiration_date_epoch":\w+ response-body "subscription_expiration_date_epoch":3760317603
 # Wps
 https?://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"expire_time":\w+ response-body "has_ad":0,"memberid":20,"expire_time":3760317603
