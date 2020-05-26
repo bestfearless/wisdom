@@ -54,6 +54,7 @@ host-suffix,mobads.baidu.com,reject
 host-suffix,novelapi.baidu.com,reject
 host-suffix,nsclick.baidu.com,reject
 host-suffix,openx.net,reject
+host-suffix,pingma.qq.com,reject
 host-suffix,pos.baidu.com,reject
 host-suffix,push.zhanzhang.baidu.com,reject
 host-suffix,qchannel01.cn,reject
