@@ -1,7 +1,5 @@
 # keyword
 host-keyword,google,proxy
-host-keyword,reuters,proxy
-host-keyword,speedtest,proxy
 host-keyword,xiaoxiao,proxy
 # sites
 host-suffix,ampproject.org,proxy
