@@ -25,4 +25,4 @@ https?://business.msstatic.com/advertiser url reject-200
 https?://download.dmallcdn.com url reject-200
 
 # 美团
-https?://.+plus.meituan.net/v1/mss.+ url reject-200
+https?://.+plus.meituan.net/v1/mss.+.gif url reject-200
