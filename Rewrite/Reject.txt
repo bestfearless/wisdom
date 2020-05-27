@@ -6,7 +6,7 @@ https?://.+.googlevideo.com/(videogoodput|initplayback) url reject-200
 https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+log_|.+player) url reject-200
 
 # 斗鱼
-https?:\/\/sta-op.douyucdn.cn/(nggsys|ad*) url reject-200
+https?:\/\/sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
 
 # 工商银行
 https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
