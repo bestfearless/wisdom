@@ -10,8 +10,7 @@ https?://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"e
 https?://app.flashdown365.com/ios/login url response-body "isvip":\w+ response-body "isvip":true
 
 # 蜗牛读书
-https?://p\.du\.163\.com/readtime/info.json url reject-200
-https?:\/\/p.du.163.com/ad url reject-200
+https?://p\.du\.163\.com/(ad|readtime/info.json) url reject-200
 https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json url response-body "tradeEndTime":\w+ response-body "tradeEndTime":3760317603000
 
 # 北京题库
