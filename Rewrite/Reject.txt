@@ -1,4 +1,4 @@
-hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,v.icbc.com.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,business.msstatic.com,download.dmallcdn.com,*plus.meituan.net
+hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,v.icbc.com.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net
 
 # Youtube
 https?://.+.googlevideo.com/(videogoodput|initplayback) url reject-200
@@ -19,7 +19,6 @@ https?://cdn.jin10.com/board/json/app-ads.json url reject-200
 
 # 虎牙
 https?://cdnfile1.msstatic.com/cdnfile/appad url reject-200
-https?://business.msstatic.com/advertiser url reject-200
 
 # 多点
 https?://download.dmallcdn.com url reject-200
