@@ -2,7 +2,7 @@ hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,v.icbc.com
 
 # Youtube
 https?://.+.googlevideo.com/.*(videogoodput|initplayback|&oad|ctier) url reject-200
-https?:\/\/youtubei\.googleapis\.com\/youtubei\/(.+ad_|.+player) url reject-200
+https?:\/\/youtubei\.googleapis\.com\/.+ad_break url reject-200
 
 # 斗鱼
 https?:\/\/sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
