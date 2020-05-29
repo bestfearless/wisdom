@@ -7,7 +7,6 @@ host-suffix, app-measurement.com, proxy
 host-suffix, chinabigdata.com, proxy
 # apple
 host-suffix, aaplimg.com, proxy
-host-suffix, apple.cn, proxy
 host-suffix, apple.co, proxy
 host-suffix, apple.com, proxy
 host-suffix, apple-cloudkit.com, proxy
