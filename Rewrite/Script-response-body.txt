@@ -1,11 +1,8 @@
-hostname=api.m.jd.com,buy.itunes.apple.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xiaoxiao*.com
+hostname=api.m.jd.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xiaoxiao*.com
 
 # JD_DailyBonus & JD_Price
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_DailyBonus.js
 https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/JD_Price.js
-
-# Verify_Receipt
-https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Verify_Receipt.js
 
 # ColorfulClouds
 https?:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/ColorfulClouds.js
