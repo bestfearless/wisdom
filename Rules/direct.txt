@@ -1,16 +1,10 @@
 # keyword
-host-keyword,paypal,direct
+host-keyword, paypal, direct
 # sites
-host,cn-smp-paymentservices.apple.com,direct
-host-suffix,cmbchina.com,direct
-host-suffix,cmbimg.com,direct
-host-suffix,ibc.com.cn,direct
-host-suffix,icbc.com.cn,direct
-host-suffix,router.asus.com,direct
+host, cn-smp-paymentservices.apple.com, direct
+host-suffix, router.asus.com, direct
 # taobao
-ip-cidr,119.28.0.0/18,direct,no-resolve
-ip-cidr,198.11.128.0/18,direct,no-resolve
-# tencent
-ip-cidr,182.254.116.0/24,direct,no-resolve
+ip-cidr, 119.28.0.0/18, direct
+ip-cidr, 198.11.128.0/18, direct
 # geoip
-geoip,cn,direct
+geoip, cn, direct
