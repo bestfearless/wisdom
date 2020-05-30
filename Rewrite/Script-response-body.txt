@@ -1,4 +1,4 @@
-hostname=api.m.jd.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xiaoxiao*.com
+hostname=api.m.jd.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xjwdapps.com
 
 # JD_DailyBonus
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
@@ -16,4 +16,4 @@ https?:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? url script-response-bo
 https?://login.washingtonpost.com/identity/oauth/v1/profile url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Washington.js
 
 # 小小影视
-https?:\/\/.*.xiaoxiao(img|apps|appxs).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
+https?:\/\/.*.xjwdapps.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
