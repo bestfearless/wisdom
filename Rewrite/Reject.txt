@@ -23,7 +23,7 @@ https?://cdnfile1.msstatic.com/cdnfile/appad url reject-200
 https?://download.dmallcdn.com url reject-200
 
 # 美团
-https?://.+plus.meituan.net/v1/mss.+.gif url reject-200
+https?://.+plus.meituan.net/.+mss.+ url reject-200
 
 # 淘宝
 https?://heic.alicdn.com/.+.jpg url reject-200
