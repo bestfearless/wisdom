@@ -23,10 +23,10 @@ https?://cdnfile1.msstatic.com/cdnfile/appad url reject-200
 https?://download.dmallcdn.com url reject-200
 
 # 美团
-https?://(s3plus|flowplus).meituan.net/.+mss.+(gif|jpg) url reject-200
+https?://(s3plus|flowplus).meituan.net/.+mss.+(gif|jpg)$ url reject-200
 
 # 淘宝
 https?://heic.alicdn.com/.+.jpg url reject-200
 
 # JD
-https?://m.360buyimg.com/mobilecms/.*/\w+.jpg url reject-200
+https?://m.360buyimg.com/mobilecms/.*/\w+.jpg$ url reject-200
