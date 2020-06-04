@@ -45,6 +45,7 @@ host-suffix, doubleclick.net, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, googleadservices.com, reject
 host-suffix, googleadsserving.cn, reject
+host-suffix, google-analytics.com, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, hm.baidu.com, reject
 host-suffix, hpd.baidu.com, reject
