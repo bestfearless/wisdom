@@ -3,6 +3,7 @@ host-keyword, google, proxy
 # sites
 host-suffix, ampproject.org, proxy
 host-suffix, app-measurement.com, proxy
+host-suffix, chinabigdata.com, proxy
 # apple
 host-suffix, aaplimg.com, proxy
 host-suffix, apple.co, proxy
