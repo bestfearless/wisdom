@@ -1,6 +1,7 @@
 # keyword
 host-keyword, google, proxy
-host-keyword, xiaoxiao, proxy
 # sites
 host-suffix, ampproject.org, proxy
 host-suffix, app-measurement.com, proxy
+# apple
+host, p48-buy.itunes.apple.com, proxy
