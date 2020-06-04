@@ -4,4 +4,5 @@ host-keyword, google, proxy
 host-suffix, ampproject.org, proxy
 host-suffix, app-measurement.com, proxy
 # apple
+host, p30-imap.mail.me.com, proxy
 host, p48-buy.itunes.apple.com, proxy
