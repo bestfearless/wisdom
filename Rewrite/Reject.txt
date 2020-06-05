@@ -7,9 +7,6 @@ https?:\/\/youtubei\.googleapis\.com\/.*(.+ad_|.+log_) url reject-200
 # 斗鱼
 https?:\/\/sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
 
-# 工商银行
-https?:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/ url reject-200
-
 # ColorfulClouds
 https?://ad.caiyunapp.com url reject-200
 
