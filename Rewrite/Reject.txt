@@ -1,4 +1,4 @@
-hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net,heic.alicdn.com,m.360buyimg.com
+hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net,heic.alicdn.com,m.360buyimg.com,img.qupeiyin.cn
 
 # Youtube
 https?://.+.googlevideo.com/.*(videogoodput|&oad|ctier) url reject-200
@@ -27,3 +27,6 @@ https?://heic.alicdn.com/.+.(gif|jpg)$ url reject-200
 
 # JD
 https?://m.360buyimg.com/mobilecms/.*/\w+.(jpg|gif)$ url reject-200
+
+# 英语趣配音
+https?://img.qupeiyin.cn/.+.jpg$ url reject-200
