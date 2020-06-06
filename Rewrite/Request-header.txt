@@ -1,4 +1,4 @@
 hostname=api.ylyk.com
 
 # 友邻优课
-https?://api.ylyk.com url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization: ZVc5MWJHbHVlVzkxYTJVekxqQT06SjZWbzlkc1I4WDhOWldsMDdHdHZhQ0JucmZtVFFJRFk6NjU1ODE=$2
+https?://api.ylyk.com url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization: ZVc5MWJHbHVlVzkxYTJVekxqQT06N2Q3ODhmNTRhMjNmOWNkMTEwZjA4MGM4ZThkZmVmYzc6MTQ2NDk3=$2
