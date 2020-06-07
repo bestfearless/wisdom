@@ -1,8 +1,9 @@
 hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net,heic.alicdn.com,m.360buyimg.com,cdn.llscdn.com
 
 # Youtube
-https?://.+.googlevideo.com/.*(videogoodput|&oad|ctier) url reject-200
+https?://.+.googlevideo.com/.*(videogoodput|&oad|ctier|initplayback) url reject-200
 https?:\/\/youtubei\.googleapis\.com\/.*(.+ad_|.+log_) url reject-200
+;https://redirector.googlevideo.com/initplayback url reject-200
 
 # 斗鱼
 https?:\/\/sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
