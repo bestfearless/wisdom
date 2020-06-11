@@ -37,7 +37,6 @@ host-suffix, afd.baidu.com, reject
 host-suffix, als.baidu.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, amobee.com, reject
-host-suffix, business.msstatic.com, reject
 host-suffix, cnzz.com, reject
 host-suffix, cpro.baidu.com, reject
 host-suffix, crashlytics.com, reject
