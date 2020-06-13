@@ -14,8 +14,6 @@ if ($request.url.indexOf(path1) != -1){
 	obj.data.uinfo["curr_group"] = "5";
 	obj.data.user["isvip"] = "1";
 	obj.data.user["goldcoin"] = "5201314";
-   	obj.data.user["avatar_url"] = "https://i.loli.net/2019/10/24/eCJuqz75WrL6ihQ.jpg";
-}
 if ($request.url.indexOf(path2) != -1){
 	obj.retcode = "0";
 	obj.data.lastplayindex = "1";
