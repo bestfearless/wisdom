@@ -18,11 +18,6 @@ host-keyword, pingfore, reject
 host-keyword, umeng, reject
 host-keyword, wlmonitor, reject
 # sites
-host-suffix, adash-c.ut.taobao.com, reject
-host-suffix, adashbc.m.taobao.com, reject
-host-suffix, adashbc.ut.taobao.com, reject
-host-suffix, adashx.m.taobao.com, reject
-host-suffix, adashxgc.ut.taobao.com, reject
 host-suffix, adcolony.com, reject
 host-suffix, adinall.com, reject
 host-suffix, admaster.com.cn, reject
@@ -33,12 +28,9 @@ host-suffix, adsame.com, reject
 host-suffix, adsensor.org, reject
 host-suffix, adsymptotic.com, reject
 host-suffix, adwhirl.com, reject
-host-suffix, afd.baidu.com, reject
-host-suffix, als.baidu.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, amobee.com, reject
 host-suffix, cnzz.com, reject
-host-suffix, cpro.baidu.com, reject
 host-suffix, crashlytics.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, gdt.qq.com, reject
@@ -51,13 +43,8 @@ host-suffix, hpd.baidu.com, reject
 host-suffix, insurads.com, reject
 host-suffix, ios.bugly.qq.com, reject
 host-suffix, mackeeper.com, reject
-host-suffix, mobads.baidu.com, reject
-host-suffix, novelapi.baidu.com, reject
-host-suffix, nsclick.baidu.com, reject
 host-suffix, openx.net, reject
 host-suffix, pingma.qq.com, reject
-host-suffix, pos.baidu.com, reject
-host-suffix, push.zhanzhang.baidu.com, reject
 host-suffix, qchannel01.cn, reject
 host-suffix, scorecardresearch.com, reject
 host-suffix, supersonic.com, reject

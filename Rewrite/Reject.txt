@@ -1,10 +1,13 @@
-hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net,m.360buyimg.com,cdn.llscdn.com
+hostname=*.googlevideo.com,youtubei.googleapis.com,*.youtube.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net,m.360buyimg.com,cdn.llscdn.com
 
 # Youtube
-https?:\/\/youtubei\.googleapis\.com\/youtubei/ad_break url reject-200
+^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) url reject-200
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
+^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
+^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject-200
 
 # 斗鱼
-https?:\/\/sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
+https?://sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
 
 # ColorfulClouds
 https?://ad.caiyunapp.com url reject-200
@@ -14,7 +17,6 @@ https?://cdn.jin10.com/board/json/app-ads.json url reject-200
 
 # 虎牙
 https?://cdnfile1.msstatic.com/cdnfile/appad url reject-200
-http://business.msstatic.com/advertiser url reject-200
 
 # 多点
 https?://download.dmallcdn.com url reject-200
