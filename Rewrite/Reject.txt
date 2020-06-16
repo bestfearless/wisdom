@@ -3,8 +3,8 @@ hostname=*.googlevideo.com,youtubei.googleapis.com,*.youtube.com,sta-op.douyucdn
 # Youtube
 ^https?:\/\/.+\.googlevideo\.com\/.*(&oad|ctier|videogoodput) url reject-200
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-200
-^https?:\/\/\.+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
-^https?:\/\/\.+\.youtube\.com\/(pagead|ptracking) url reject-200
+^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) url reject-200
+^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) url reject-200
 
 # 斗鱼
 https?://sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
