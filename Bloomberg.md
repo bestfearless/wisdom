@@ -1,7 +1,5 @@
 # Bloomberg US
 
-https://raw.githubusercontent.com/wdjakarta/m3u/master/Bloomberg.jpeg
-
 http://tunein.streamguys1.com/BloombergTV.m3u
 
 https://liveproduseast.global.ssl.fastly.net/btv/desktop/us_live.m3u8
