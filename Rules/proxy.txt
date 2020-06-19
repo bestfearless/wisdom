@@ -5,10 +5,8 @@ host-suffix, ampproject.org, proxy
 host-suffix, app-measurement.com, proxy
 # apple
 host-suffix, aaplimg.com, proxy
-host-suffix, apple.co, proxy
 host-suffix, apple.com, proxy
 host-suffix, apple-cloudkit.com, proxy
-host-suffix, appsto.re, proxy
 host-suffix, cdn-apple.com, proxy
 host-suffix, icloud.com, proxy
 host-suffix, icloud-content.com, proxy
