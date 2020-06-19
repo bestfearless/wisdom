@@ -6,4 +6,7 @@ host-suffix, adnxs.com, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, hm.baidu.com, reject
 host-suffix, hpd.baidu.com, reject
+host-suffix, outbrain.com, reject
+host-suffix, outbraining.com, reject
 host-suffix, scorecardresearch.com, reject
+host-suffix, umeng.com, reject
