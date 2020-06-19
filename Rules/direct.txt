@@ -1,7 +1,7 @@
 # keyword
+host-keyword, akamai, direct
 host-keyword, paypal, direct
 # sites
-host, github.com, direct
 host, router.asus.com, direct
 # apple
 host, cn-smp-paymentservices.apple.com, direct
