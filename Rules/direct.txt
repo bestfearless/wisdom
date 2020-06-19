@@ -4,7 +4,6 @@ host-keyword, paypal, direct
 host-suffix, jd.com, direct
 host-suffix, router.asus.com, direct
 # apple
-host, apptrailers.itunes.apple.com, direct
 host, cn-smp-paymentservices.apple.com, direct
 host, iosapps.itunes.apple.com, direct
 host, supportdownload.apple.com, direct
