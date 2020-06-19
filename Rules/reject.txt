@@ -25,4 +25,3 @@ host-suffix, rubiconproject.com, reject
 host-suffix, scorecardresearch.com, reject
 host-suffix, tiqcdn.com, reject
 host-suffix, umeng.com, reject
-host-suffix, umengcloud.com, reject
