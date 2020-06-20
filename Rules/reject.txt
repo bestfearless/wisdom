@@ -3,23 +3,12 @@ host-keyword, adservice, reject
 host-keyword, googleads, reject
 host-keyword, googletag, reject
 # sites
-host-suffix, admantx.com, reject
 host-suffix, adnxs.com, reject
-host-suffix, appsflyer.com, reject
 host-suffix, crashlytics.com, reject
-host-suffix, crwdcntrl.net, reject
-host-suffix, demdex.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, hm.baidu.com, reject
 host-suffix, hpd.baidu.com, reject
-host-suffix, ios.bugly.qq.com, reject
-host-suffix, jpush.cn, reject
-host-suffix, outbrain.com, reject
-host-suffix, pingma.qq.com, reject
 host-suffix, pos.baidu.com, reject
-host-suffix, pubmatic.com, reject
-host-suffix, rubiconproject.com, reject
 host-suffix, scorecardresearch.com, reject
-host-suffix, tiqcdn.com, reject
 host-suffix, umeng.com, reject
