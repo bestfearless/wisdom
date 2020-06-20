@@ -2,11 +2,9 @@
 host-keyword, adservice, reject
 host-keyword, googleads, reject
 host-keyword, googletag, reject
-host-keyword, metrics, reject
 # sites
 host-suffix, admantx.com, reject
 host-suffix, adnxs.com, reject
-host-suffix, als.baidu.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, crashlytics.com, reject
 host-suffix, crwdcntrl.net, reject
