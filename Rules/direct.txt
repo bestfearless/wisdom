@@ -4,15 +4,15 @@ host-keyword, paypal, direct
 # sites
 host, router.asus.com, direct
 # apple
-host-suffix, aaplimg.com, proxy
-host-suffix, apple.com, proxy
-host-suffix, apple-cloudkit.com, proxy
-host-suffix, cdn-apple.com, proxy
-host-suffix, icloud.com, proxy
-host-suffix, icloud-content.com, proxy
-host-suffix, itunes.com, proxy
-host-suffix, me.com, proxy
-host-suffix, mzstatic.com, proxy
+host-suffix, aaplimg.com, direct
+host-suffix, apple.com, direct
+host-suffix, apple-cloudkit.com, direct
+host-suffix, cdn-apple.com, direct
+host-suffix, icloud.com, direct
+host-suffix, icloud-content.com, direct
+host-suffix, itunes.com, direct
+host-suffix, me.com, direct
+host-suffix, mzstatic.com, direct
 # ip-cidr
 ip-cidr, 119.28.0.0/18, direct
 ip-cidr, 198.11.128.0/18, direct
