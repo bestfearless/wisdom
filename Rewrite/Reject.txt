@@ -21,7 +21,7 @@ http://business.msstatic.com/advertiser url reject-200
 https?://download.dmallcdn.com url reject-200
 
 # 美团
-https://img.meituan.net/midas/w+.jpg.webp url reject-200
+https://img.meituan.net/midas/\w+.jpg.webp url reject-200
 
 # JD
 https?://m.360buyimg.com/mobilecms/.*/\w+.(jpg|gif)$ url reject-200
