@@ -1,4 +1,4 @@
-hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net,m.360buyimg.com,cdn.llscdn.com
+hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net,img.meituan.net,m.360buyimg.com,cdn.llscdn.com
 
 # Youtube
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_break url reject-200
@@ -20,6 +20,7 @@ https?://download.dmallcdn.com url reject-200
 
 # 美团
 https?://(s3plus|flowplus).meituan.net/.+mss.+(gif|jpg)$ url reject-200
+https://img.meituan.net/midas/\w+.jpg.webp url reject-200
 
 # JD
 https?://m.360buyimg.com/mobilecms/.*/\w+.(jpg|gif)$ url reject-200
