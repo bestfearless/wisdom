@@ -1,13 +1,10 @@
-hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,download.dmallcdn.com,*plus.meituan.net,img.meituan.net,cdn.llscdn.com
+hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,cdn.jin10.com,download.dmallcdn.com,*plus.meituan.net,img.meituan.net,cdn.llscdn.com
 
 # Youtube
 https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
 
 # 斗鱼
 https://sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
-
-# ColorfulClouds
-https://ad.caiyunapp.com url reject-200
 
 # 金十数据
 https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
