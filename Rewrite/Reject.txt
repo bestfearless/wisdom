@@ -4,16 +4,13 @@ hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,cdn.jin10.com,download.dmall
 https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
 
 # 斗鱼
-https://sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
+https://sta-op.douyucdn.cn/(nggsys|adxdsp).+.jpg$ url reject-200
 
 # 金十数据
 https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
-
-# 虎牙
-http://business.msstatic.com/advertiser url reject-200
         
 # 多点
-https://download.dmallcdn.com/\w+.jpg$ url reject-200
+https://download.dmallcdn.com/\w+.(jpg|png)$ url reject-200
 
 # 美团
 https://(s3plus|flowplus).meituan.net/.+mss.+gif$ url reject-200

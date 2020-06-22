@@ -1,19 +1,10 @@
-hostname=api.m.jd.com,biz.caiyunapp.com,billing.peakcloud.org,login.washingtonpost.com,*.xjwdapps.com
+hostname=api.m.jd.com,*.xjwdapps.com
 
 # JD_DailyBonus
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # Jd_Price
 https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-# ColorfulClouds
-https?:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/ColorfulClouds.js
-
-# Peak
-https?:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Peak.js
-
-# Washingtonpost
-https?://login.washingtonpost.com/identity/oauth/v1/profile url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Washington.js
 
 # 小小影视
 https?:\/\/.*.xjwdapps.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
