@@ -1,7 +1,9 @@
 hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,sapi.beingfine.cn,121.43.19.216
 
-# 蜗牛读书
+# Reject
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
+
+# 蜗牛读书
 https://p.du.163.com/gain/readtime/info.json$ url response-body "tradeEndTime":\w+ response-body "tradeEndTime":3760317603000
 
 # ColorfulClouds
