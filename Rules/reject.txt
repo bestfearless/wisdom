@@ -4,7 +4,6 @@ host-keyword, googleads, reject
 host-keyword, googletag, reject
 # sites
 host-suffix, adnxs.com, reject
-host-suffix, business.msstatic.com, reject
 host-suffix, crashlytics.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googlesyndication.com, reject

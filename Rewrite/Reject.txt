@@ -1,29 +1,29 @@
-hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,cdnfile1.msstatic.com,download.dmallcdn.com,*plus.meituan.net,img.meituan.net,m.360buyimg.com,cdn.llscdn.com
+hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,ad.caiyunapp.com,cdn.jin10.com,download.dmallcdn.com,*plus.meituan.net,img.meituan.net,m.360buyimg.com,cdn.llscdn.com
 
 # Youtube
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_break url reject-200
+https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
 
 # 斗鱼
-https?://sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
+https://sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
 
 # ColorfulClouds
-https?://ad.caiyunapp.com url reject-200
+https://ad.caiyunapp.com url reject-200
 
 # 金十数据
-https?://cdn.jin10.com/board/json/app-ads.json url reject-200
+https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
 
 # 虎牙
-https?://cdnfile1.msstatic.com/cdnfile/appad        url reject-200
+http://business.msstatic.com/advertiser url reject-200
         
 # 多点
-https?://download.dmallcdn.com url reject-200
+https://download.dmallcdn.com/\w+.jpg$ url reject-200
 
 # 美团
-https?://(s3plus|flowplus).meituan.net/.+mss.+(gif|jpg)$ url reject-200
-https://img.meituan.net/midas/\w+.jpg.webp url reject-200
+https://(s3plus|flowplus).meituan.net/.+mss.+gif$ url reject-200
+https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
 
 # JD
-https?://m.360buyimg.com/mobilecms/.*/\w+.(jpg|gif)$ url reject-200
+https://m.360buyimg.com/mobilecms/.*/\w+.(jpg|gif)$ url reject-200
 
 # 英语流利说
-https?://cdn.llscdn.com/diva/.+.jpeg$ url reject-200
+https://cdn.llscdn.com/diva/.+.jpeg$ url reject-200
