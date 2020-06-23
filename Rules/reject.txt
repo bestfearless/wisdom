@@ -12,3 +12,4 @@ host-suffix, hpd.baidu.com, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, scorecardresearch.com, reject
 host-suffix, umeng.com, reject
+host-suffix, umengcloud.com, reject
