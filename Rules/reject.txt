@@ -4,11 +4,13 @@ host-keyword, googleads, reject
 host-keyword, googletag, reject
 # sites
 host-suffix, adnxs.com, reject
+host-suffix, adxadserv.com, reject
 host-suffix, crashlytics.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, hm.baidu.com, reject
 host-suffix, hpd.baidu.com, reject
+host-suffix, jads.co, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, scorecardresearch.com, reject
 host-suffix, umeng.com, reject
