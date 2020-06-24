@@ -1,7 +1,6 @@
 # keyword
 host-keyword, paypal, direct
 # sites
-host-suffix, akamaized.net, direct
 host-suffix, router.asus.com, direct
 # apple
 host-suffix, aaplimg.com, direct
