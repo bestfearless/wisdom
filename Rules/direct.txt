@@ -5,6 +5,7 @@ host-suffix, router.asus.com, direct
 # apple
 host, cn-smp-paymentservices.apple.com, direct
 host, iosapps.itunes.apple.com, direct
+host, osxapps.itunes.apple.com, direct
 host, updates-http.cdn-apple.com, direct
 # ip-cidr
 ip-cidr, 119.28.0.0/18, direct
