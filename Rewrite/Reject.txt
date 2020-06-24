@@ -19,3 +19,6 @@ https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
 
 # 英语流利说
 https://cdn.llscdn.com/diva/.+.jpeg$ url reject-200
+
+# 虎牙
+http://business.msstatic.com/advertiser url reject-200
