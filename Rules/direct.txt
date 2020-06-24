@@ -4,6 +4,7 @@ host-keyword, paypal, direct
 host-suffix, akamaized.net, direct
 host-suffix, cdn.qooqlevideo.com, direct
 host-suffix, router.asus.com, direct
+host-suffix, tiktokcdn.com, direct
 # apple
 host-suffix, aaplimg.com, direct
 host-suffix, apple.com, direct
