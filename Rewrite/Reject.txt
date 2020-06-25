@@ -1,4 +1,4 @@
-hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,cdn.jin10.com,download.dmallcdn.com,*plus.meituan.net,img.meituan.net,cdn.llscdn.com
+hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,cdn.jin10.com,download.dmallcdn.com,*plus.meituan.net,img.meituan.net,cdn.llscdn.com,cdnfile1.msstatic.com
 
 # Youtube
 https://.+.googlevideo.com/.*(&oad|ctier) url reject-200
@@ -21,4 +21,5 @@ https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
 https://cdn.llscdn.com/diva/.+.jpeg$ url reject-200
 
 # 虎牙
+https://cdnfile1.msstatic.com/cdnfile/appad        url reject-200
 http://business.msstatic.com/advertiser url reject-200
