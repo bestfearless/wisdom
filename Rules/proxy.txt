@@ -4,13 +4,4 @@ host-keyword, google, proxy
 host-suffix, ampproject.org, proxy
 host-suffix, app-measurement.com, proxy
 # apple
-host-suffix, aaplimg.com, proxy
-host-suffix, apple.com, proxy
-host-suffix, apple-cloudkit.com, proxy
-host-suffix, apple-dns.net, proxy
-host-suffix, cdn-apple.com, proxy
-host-suffix, icloud.com, proxy
-host-suffix, icloud-content.com, proxy
-host-suffix, itunes.com, proxy
 host-suffix, me.com, proxy
-host-suffix, mzstatic.com, proxy
