@@ -9,10 +9,8 @@ host-suffix, crashlytics.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, hm.baidu.com, reject
-host-suffix, hpd.baidu.com, reject
 host-suffix, jads.co, reject
 host-suffix, juicyads.com, reject
 host-suffix, scorecardresearch.com, reject
-host-suffix, shifen.com, reject
 host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
