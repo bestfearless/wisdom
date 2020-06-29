@@ -6,7 +6,6 @@ host, router.asus.com, direct
 host-suffix, aaplimg.com, direct
 host-suffix, apple.com, direct
 host-suffix, apple-cloudkit.com, direct
-host-suffix, apple-dns.net, direct
 host-suffix, cdn-apple.com, direct
 host-suffix, icloud.com, direct
 host-suffix, icloud-content.com, direct
