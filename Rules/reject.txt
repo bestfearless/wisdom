@@ -1,15 +1,18 @@
 # keyword
 host-keyword, adservice, reject
-# sites
+# host
+host, aod-image.baidu.com, reject
+host, b.bdstatic.com, reject
+host, feed-image.baidu.com, reject
+host, hpd.a.shifen.com, reject
+host, hpd.baidu.com, reject
+host, paimgcdn-feed.baidu.com, reject
+host, pic.rmb.bdstatic.com, reject
+# host-suffix
 host-suffix, adnxs.com, reject
 host-suffix, adxadserv.com, reject
-host-suffix, aod-image.baidu.com, reject
 host-suffix, doubleclick.net, reject
-host-suffix, feed-image.baidu.com, reject
 host-suffix, googlesyndication.com, reject
-host-suffix, hpd.a.shifen.com, reject
-host-suffix, hpd.baidu.com, reject
 host-suffix, jads.co, reject
 host-suffix, juicyads.com, reject
-host-suffix, pic.rmb.bdstatic.com, reject
 host-suffix, umeng.com, reject

@@ -1,6 +1,6 @@
 # keyword
 host-keyword, google, proxy
-# sites
+# host-suffix
 host-suffix, ampproject.org, proxy
 host-suffix, app-measurement.com, proxy
 # apple
