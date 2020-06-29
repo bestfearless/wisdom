@@ -13,6 +13,7 @@ host, pic.rmb.bdstatic.com, reject
 # host-suffix
 host-suffix, adnxs.com, reject
 host-suffix, adxadserv.com, reject
+host-suffix, bdydns.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, jads.co, reject
