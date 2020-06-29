@@ -1,13 +1,13 @@
 # keyword
 host-keyword, adservice, reject
 # host
+host, b.bdstatic.com, reject
 host, hpd.baidu.com, reject
 host, hpd.a.shifen.com, reject
 # host-suffix
 host-suffix, adnxs.com, reject
 host-suffix, adxadserv.com, reject
 host-suffix, aod-image.baidu.com, reject
-host-suffix, b.bdstatic.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, feed-image.baidu.com, reject
 host-suffix, googlesyndication.com, reject
