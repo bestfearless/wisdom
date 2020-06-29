@@ -1,6 +1,5 @@
 # keyword
 host-keyword, adservice, reject
-host-keyword, opencdn, reject
 # host
 host, als.baidu.com, reject
 host, als.e.shifen.com, reject
@@ -17,5 +16,6 @@ host-suffix, adxadserv.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, jads.co, reject
+host-suffix, jomodns.com, reject
 host-suffix, juicyads.com, reject
 host-suffix, umeng.com, reject
