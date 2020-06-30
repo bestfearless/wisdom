@@ -1,4 +1,5 @@
 # keyword
+host-keyword, adash, reject
 host-keyword, adservice, reject
 # host
 host, als.baidu.com, reject
@@ -16,3 +17,4 @@ host-suffix, googlesyndication.com, reject
 host-suffix, jads.co, reject
 host-suffix, juicyads.com, reject
 host-suffix, umeng.com, reject
+host-suffix, umengcloud.com, reject
