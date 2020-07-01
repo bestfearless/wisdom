@@ -6,6 +6,7 @@ host, als.baidu.com, reject
 host, aod-image.baidu.com, reject
 host, b.bdstatic.com, reject
 host, feed-image.baidu.com, reject
+host, hm.baidu.com, reject
 host, hpd.baidu.com, reject
 host, paimgcdn-feed.baidu.com, reject
 host, pic.rmb.bdstatic.com, reject
