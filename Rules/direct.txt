@@ -2,7 +2,7 @@
 host-keyword, paypal, direct
 # host
 host, router.asus.com, direct
-# apple
+# host-suffix
 host-suffix, aaplimg.com, direct
 host-suffix, apple.com, direct
 host-suffix, apple-cloudkit.com, direct

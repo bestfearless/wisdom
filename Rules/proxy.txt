@@ -1,4 +1,6 @@
 # keyword
 host-keyword, google, proxy
-# apple
+# host
+host, xp.apple.com, proxy
+# host-suffix
 host-suffix, me.com, proxy
