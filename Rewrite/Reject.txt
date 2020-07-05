@@ -25,4 +25,4 @@ https://cdnfile1.msstatic.com/cdnfile/appad        url reject-200
 http://business.msstatic.com/advertiser url reject-200
 
 # 今日头条
-https?://sf.*-ttcdn-tos.pstatp.com/obj.+web url reject-200
+https?://sf.*-ttcdn-tos.pstatp.com/obj/(toutiao|web) url reject-200
