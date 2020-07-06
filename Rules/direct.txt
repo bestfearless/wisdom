@@ -1,4 +1,5 @@
 # keyword
+host-keyword, akamai, direct
 host-keyword, paypal, direct
 # host
 host, cn-smp-paymentservices.apple.com, direct
