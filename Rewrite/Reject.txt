@@ -18,7 +18,7 @@ https://(s3plus|flowplus).meituan.net/.+mss.+gif$ url reject-200
 https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
 
 # 英语流利说
-https://cdn.llscdn.com/diva/.+.jpeg$ url reject-200
+https://cdn.llscdn.com/diva/.+.(png|jpeg)$ url reject-200
 
 # 虎牙
 https://cdnfile1.msstatic.com/cdnfile/appad        url reject-200
