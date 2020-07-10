@@ -21,9 +21,9 @@ https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
 https://cdn.llscdn.com/diva/.+.(png|jpeg)$ url reject-200
 
 # 虎牙
-https://cdnfile1.msstatic.com/cdnfile/appad        url reject-200
+https://cdnfile1.msstatic.com/cdnfile/appad url reject-200
 http://business.msstatic.com/advertiser url reject-200
 
 # 今日头条
 https://v\d+-tt.ixigua.com/.*video url reject-200
-https://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(toutiao|web) url reject-200
+https://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(toutiao|web|ad) url reject-200
