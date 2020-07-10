@@ -7,4 +7,4 @@ https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reque
 https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
 # 小小影视
-https?:\/\/.*.xjwdapps.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
+https?:\/\/.*.(xjwdapps|xxjjappss).com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
