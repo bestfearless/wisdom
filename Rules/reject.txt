@@ -5,6 +5,7 @@ host-keyword, adservice, reject
 host, als.baidu.com, reject
 host, aod-image.baidu.com, reject
 host, b.bdstatic.com, reject
+host, btrace.qq.com, reject
 host, feed-image.baidu.com, reject
 host, hm.baidu.com, reject
 host, hpd.baidu.com, reject

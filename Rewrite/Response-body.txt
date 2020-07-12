@@ -5,6 +5,7 @@ https://p.du.163.com/(ad|readtime/info.json) url reject-200
 https://p.du.163.com/gain/readtime/info.json$ url response-body "tradeEndTime":\w+ response-body "tradeEndTime":3760317603000
 
 # 微信读书
+https://i.weread.qq.com/reader/report url reject-200
 https://i.weread.qq.com/pay/memberCardSummary url response-body "expiredTime":\w+,"expired":\w+,(.*)"remainTime":\w+ response-body "expiredTime":3760317603,"expired":0,$1"remainTime":3760317603
 
 # ColorfulClouds
