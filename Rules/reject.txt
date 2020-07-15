@@ -1,5 +1,6 @@
 # keyword
 host-keyword, adservice, reject
+host-keyword, advertise, reject
 # host
 host, als.baidu.com, reject
 host, aod-image.baidu.com, reject
