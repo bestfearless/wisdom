@@ -1,5 +1,4 @@
 # keyword
-host-keyword, adash, reject
 host-keyword, adservice, reject
 # host
 host, als.baidu.com, reject
