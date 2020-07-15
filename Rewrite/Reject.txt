@@ -25,4 +25,4 @@ https://cdnfile1.msstatic.com/cdnfile/appad url reject-200
 
 # 今日头条
 https://v\d+-tt.ixigua.com/.*video url reject-200
-https://sf.*-ttcdn-tos.pstatp.com/(img|obj)/web.business.image url reject-200
+https://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(web.business.image|toutiao-cdn) url reject-200
