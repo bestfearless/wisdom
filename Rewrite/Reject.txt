@@ -22,6 +22,7 @@ https://cdn.llscdn.com/diva/.+.(png|jpeg)$ url reject-200
 
 # 虎牙
 https://cdnfile1.msstatic.com/cdnfile/appad url reject-200
+http://business.msstatic.com/advertiser url reject-200
 
 # 今日头条
 https://v\d+-tt.ixigua.com/.*video url reject-200
