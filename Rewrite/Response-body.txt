@@ -1,4 +1,4 @@
-hostname=p.du.163.com,*.weread.qq.com,120.204.16.240,117.184.242.194,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,sapi.beingfine.cn,121.43.19.216
+hostname=p.du.163.com,*.weread.qq.com,120.204.16.240,117.184.242.194,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,sapi.beingfine.cn,121.43.19.216
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
@@ -7,9 +7,6 @@ https://p.du.163.com/gain/readtime/info.json$ url response-body "tradeEndTime":\
 # 微信读书
 https://i.weread.qq.com/reader/report url reject-200
 https://i.weread.qq.com/pay/memberCardSummary url response-body "expiredTime":\w+,"expired":\w+,(.*)"remainTime":\w+ response-body "expiredTime":3760317603,"expired":0,$1"remainTime":3760317603
-
-# ColorfulClouds
-https://biz.caiyunapp.com/v2/user\?app_name\=weather$ url response-body "is_vip":\w+(.*)"vip_type":"s?"(.*)"enabled":\w+(.*)"svip_expired_at":\d+\.\d+(.*)"svip_expired_at":\d+\.\d+ response-body "is_vip":true$1"vip_type":"s"$2"enabled":true$3"svip_expired_at":3760272085$4"svip_expired_at":3760272085
 
 # Washingtonpost
 https://login.washingtonpost.com/identity/oauth/v1/profile url response-body .+ response-body {"gracePeriod":345600000,"deviceStore":"apple","profile_pic_url":"","title":"Premium Digital","expirationDate":"2089-02-27T00:47:28","source":"DEVICE","currentRateID":504,"loginId":"","displayName":"","loginProvider":"","shortTitle":"Premium Digital","isActive":true,"subscriptionID":"24200653","subAcctMgmt":"28,PREMIUM,504,DEVICE,SUBSCRIBER,f,DEVICE,AETYPE=CD","subdata":"OK","sourceType":"FREE","subSource":"App Store","email":"","secureLoginID":"","iddata":"OK","firstName":"","institutional":false,"subDuration":"0.00/9999 days","product":"PREMIUM","subStatus":"A","subAttributes":{"AETYPE":"CD"},"lastName":""}
