@@ -15,6 +15,7 @@ host-suffix, adnxs.com, reject
 host-suffix, adxadserv.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, googlesyndication.com, reject
+host-suffix, gdt.qq.com, reject
 host-suffix, jads.co, reject
 host-suffix, juicyads.com, reject
 host-suffix, umeng.com, reject
