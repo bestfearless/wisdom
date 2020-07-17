@@ -1,4 +1,4 @@
-hostname=p.du.163.com,*.weread.qq.com,120.204.16.240,117.184.242.194,biz.caiyunapp.com,ad.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,sapi.beingfine.cn,121.43.19.216
+hostname=p.du.163.com,*.weread.qq.com,120.204.16.240,117.184.242.194,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,sapi.beingfine.cn,121.43.19.216
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
@@ -9,7 +9,6 @@ https://i.weread.qq.com/reader/report url reject-200
 https://i.weread.qq.com/pay/memberCardSummary url response-body "expiredTime":\w+,"expired":\w+,(.*)"remainTime":\w+ response-body "expiredTime":3760317603,"expired":0,$1"remainTime":3760317603
 
 # ColorfulClouds
-https://ad.caiyunapp.com url reject-200
 https://biz.caiyunapp.com/v2/user\?app_name\=weather$ url response-body "is_vip":\w+(.*)"vip_type":"\w+"(.*)"enabled":\w+(.*)"svip_expired_at":\w+(.*)"svip_expired_at":\w+ response-body "is_vip":true$1"vip_type":"s"$2"enabled":true$3"svip_expired_at":3760272085$4"svip_expired_at":3760272085
 
 # Washingtonpost
