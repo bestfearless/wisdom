@@ -1,2 +1,6 @@
 # keyword
 host-keyword, google, proxy
+# host
+host, health.apple.com, proxy
+host, testflight.apple.com, proxy
+host, xp.apple.com, proxy
