@@ -5,4 +5,4 @@ https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
 
 # tiktok
 (?<=(carrier|sys)_region=)CN url 307 US
-(?<=version_code=)16.\d\.\d url 307 14.0.0
+(?<=version_code=)17.\d\.\d url 307 14.0.0
