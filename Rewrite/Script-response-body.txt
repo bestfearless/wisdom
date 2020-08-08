@@ -1,7 +1,0 @@
-hostname=api.m.jd.com,*.xjwdapps.com
-
-# Jd_Price
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-# 小小影视
-https?:\/\/.*.xjwdapps.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
