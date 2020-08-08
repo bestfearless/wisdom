@@ -1,7 +1,6 @@
-hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,cdn.jin10.com,download.dmallcdn.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
+hostname=youtubei.googleapis.com,sta-op.douyucdn.cn,cdn.jin10.com,download.dmallcdn.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
 
 # Youtube
-https://.+.googlevideo.com/.*(&oad|ctier) url reject-200
 https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
 
 # 斗鱼
