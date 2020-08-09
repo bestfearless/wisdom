@@ -20,5 +20,10 @@ host-suffix, cnzz.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, googlesyndication.com, reject
+host-suffix, huaji17.com, reject
 host-suffix, jads.co, reject
 host-suffix, juicyads.com, reject
+host-suffix, lalanuz.cn, reject
+host-suffix, nouzhu.cn, reject
+host-suffix, xrzymf.cn, reject
+host-suffix, znsqqw.cn, reject

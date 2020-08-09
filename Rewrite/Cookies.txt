@@ -1,7 +1,4 @@
 hostname=
 
-# Bubei
-https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js
-
 # JD_DailyBonus
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
