@@ -22,7 +22,7 @@ https://v\d+-tt.ixigua.com/.*video url reject-200
 https?://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(web.business.image|ad) url reject-200
 
 # 京东
-https://m.360buyimg.com/mobilecms/s1125x2436 url reject-200
+https://m.360buyimg.com/mobilecms/s(1125x2436|828x1792) url reject-200
 
 # 美团
 https://(s3plus|flowplus).meituan.net/.+mss.+gif$ url reject-200
