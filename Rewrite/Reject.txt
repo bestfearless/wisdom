@@ -1,11 +1,8 @@
-hostname=*.googlevideo.com,youtubei.googleapis.com,sta-op.douyucdn.cn,cdn.jin10.com,download.dmallcdn.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com,*plus.meituan.net,img.meituan.net
+hostname=*.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,download.dmallcdn.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com,*plus.meituan.net,img.meituan.net,mp.weixin.qq.com
 
 # Youtube
 https://.+.googlevideo.com/.*(&oad|ctier) url reject-200
 https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
-
-# 斗鱼
-https://sta-op.douyucdn.cn/(nggsys|adxdsp) url reject-200
 
 # 金十数据
 https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
@@ -31,3 +28,6 @@ https://m.360buyimg.com/mobilecms/s1125x2436 url reject-200
 # 美团
 https://(s3plus|flowplus).meituan.net/.+mss.+gif$ url reject-200
 https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
+
+# 微信公众号
+https://mp.weixin.qq.com/mp/(advertisement|getapp) url reject-200
