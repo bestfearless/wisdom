@@ -14,7 +14,6 @@ host, paimgcdn-feed.baidu.com, reject
 host, pic.rmb.bdstatic.com, reject
 host, pingfore.qq.com, reject
 host, wise-novel-authority-logo.cdn.bcebos.com, reject
-host, wx.qlogo.cn, reject
 host, wxsnsdy.wxs.qq.com, reject
 host, wxsnsdythumb.wxs.qq.com, reject
 # host-suffix
