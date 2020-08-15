@@ -1,4 +1,4 @@
-hostname=youtubei.googleapis.com,cdn.jin10.com,download.dmallcdn.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com,*plus.meituan.net,img.meituan.net
+hostname=youtubei.googleapis.com,cdn.jin10.com,download.dmallcdn.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
 
 # Youtube
 https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
@@ -23,7 +23,3 @@ https?://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(web.business.image|ad) url reject-
 
 # 京东
 https://m.360buyimg.com/mobilecms/s(1125x2436|828x1792) url reject-200
-
-# 美团
-https://(s3plus|flowplus).meituan.net/.+mss.+gif$ url reject-200
-https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
