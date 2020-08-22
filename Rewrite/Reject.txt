@@ -1,13 +1,10 @@
-hostname=youtubei.googleapis.com,cdn.jin10.com,download.dmallcdn.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
+hostname=youtubei.googleapis.com,cdn.jin10.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
 
 # Youtube
 https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
 
 # 金十数据
 https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
-        
-# 多点
-https://download.dmallcdn.com/.*.(jpg|jpeg|png)$ url reject-200
 
 # 英语流利说
 https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
