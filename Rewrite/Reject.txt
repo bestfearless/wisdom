@@ -7,7 +7,7 @@ https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
 https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
         
 # 多点
-https://download.dmallcdn.com/.*.(jpg|jpeg｜png)$ url reject-200
+https://download.dmallcdn.com/.*.(jpg|jpeg|png)$ url reject-200
 
 # 英语流利说
 https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
