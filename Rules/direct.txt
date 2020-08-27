@@ -3,13 +3,6 @@ host-keyword, paypal, direct
 # host
 host, router.asus.com, direct
 # host-suffix
-host-suffix, apple.com, direct
-host-suffix, apple-cloudkit.com, direct
-host-suffix, aaplimg.com, direct
-host-suffix, cdn-apple.com, direct
-host-suffix, itunes.com, direct
-host-suffix, me.com, direct
-host-suffix, mzstatic.com, direct
 # ip-cidr
 ip-cidr, 119.28.0.0/18, direct
 ip-cidr, 182.254.116.0/24, direct
