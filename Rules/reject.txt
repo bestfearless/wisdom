@@ -1,12 +1,10 @@
 # keyword
 host-keyword, adservice, reject
-host-keyword, allbestsecure, reject
 # host
 host, als.baidu.com, reject
 host, aod-image.baidu.com, reject
 host, b.bdstatic.com, reject
 host, btrace.qq.com, reject
-host, cd.byrr699.top, reject
 host, feed-image.baidu.com, reject
 host, hm.baidu.com, reject
 host, hpd.baidu.com, reject
@@ -14,8 +12,6 @@ host, paimgcdn-feed.baidu.com, reject
 host, pic.rmb.bdstatic.com, reject
 host, pingfore.qq.com, reject
 host, wise-novel-authority-logo.cdn.bcebos.com, reject
-host, wxsnsdy.wxs.qq.com, reject
-host, wxsnsdythumb.wxs.qq.com, reject
 # host-suffix
 host-suffix, adnxs.com, reject
 host-suffix, adxadserv.com, reject
@@ -23,16 +19,10 @@ host-suffix, cnzz.com, reject
 host-suffix, doubleclick.net, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, googlesyndication.com, reject
-host-suffix, gqbyh.com, reject
 host-suffix, hnhx360.com, reject
-host-suffix, huaji17.com, reject
 host-suffix, jads.co, reject
 host-suffix, juicyads.com, reject
-host-suffix, lalanuz.cn, reject
 host-suffix, leleapps.com, reject
 host-suffix, leyiapps.com, reject
-host-suffix, nouzhu.cn, reject
 host-suffix, xjxjappss.com, reject
-host-suffix, xrzymf.cn, reject
 host-suffix, xxjjappss.com, reject
-host-suffix, znsqqw.cn, reject
