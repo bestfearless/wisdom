@@ -1,4 +1,4 @@
-hostname=api.m.jd.com,*tieba*.baidu.com,www.zhihu.com
+hostname=api.m.jd.com,*tieba*.baidu.com,www.zhihu.com,link.zhihu.com,oia.zhihu.com
 
 # BoxJs
 https?://boxjs.net url script-analyze-echo-response https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js
