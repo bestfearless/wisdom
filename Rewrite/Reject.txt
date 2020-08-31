@@ -20,4 +20,4 @@ https://v\d+-tt.ixigua.com/.*video url reject-200
 https?://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(web.business.image|ad) url reject-200
 
 # 京东
-https://m.360buyimg.com/mobilecms/s(1125x2436|828x1792) url reject-200
+https://m.360buyimg.com/mobilecms/s\d{3,4}x\d{4} url reject-200
