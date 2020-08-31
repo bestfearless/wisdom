@@ -1,4 +1,4 @@
-hostname=*.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,cdn.llscdn.com,cdnfile1.msstatic.com,unidesk.alicdn.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
+hostname=*.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,cdn.llscdn.com,cdnfile1.msstatic.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
 
 # Youtube
 https://.+.googlevideo.com/.*(&oad|ctier) url reject-200
@@ -13,7 +13,6 @@ https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
 # 虎牙
 https://cdnfile1.msstatic.com/cdnfile/appad url reject-200
 http://business.msstatic.com/advertiser url reject-200
-https://unidesk.alicdn.com url reject-200
 
 # 今日头条
 https://v\d+-tt.ixigua.com/.*video url reject-200

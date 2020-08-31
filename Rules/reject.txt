@@ -11,6 +11,8 @@ host, hpd.baidu.com, reject
 host, paimgcdn-feed.baidu.com, reject
 host, pic.rmb.bdstatic.com, reject
 host, pingfore.qq.com, reject
+host, safebrowsing.urlsec.qq.com, reject
+host, unidesk.alicdn.com, reject
 host, wise-novel-authority-logo.cdn.bcebos.com, reject
 # host-suffix
 host-suffix, adnxs.com, reject
