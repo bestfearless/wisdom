@@ -1,4 +1,4 @@
-hostname=api.m.jd.com,*tieba*.baidu.com,pan.baidu.com,www.zhihu.com,link.zhihu.com,oia.zhihu.com
+hostname=api.m.jd.com,*tieba*.baidu.com
 
 # BoxJs
 https?://boxjs.net url script-analyze-echo-response https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js
@@ -11,13 +11,3 @@ https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|b
 
 # BaiduTieba
 https:\/\/(?:c\.)?+tieba\.baidu\.com\/(?>f|p) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Tieba.js
-
-# BaiduPan
-https:\/\/pan\.baidu\.com url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (Windows Phone 10)$2
-https:\/\/pan\.baidu\.com url script-response-body https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/baiduPan.js
-
-# Zhihu
-https:\/\/www\.zhihu\.com\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (Windows Phone 10)$2
-https:\/\/www\.zhihu\.com\/question url script-response-body https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/zhihux.user.js
-https?://link\.zhihu\.com/\?target=(https?)%3A//(.*) url 307 $1://$2    
-https://oia\.zhihu\.com url 307 https://zhuanlan.zhihu.com
