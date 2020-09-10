@@ -8,6 +8,7 @@ host, aod-image.baidu.com, reject
 host, b.bdstatic.com, reject
 host, btrace.qq.com, reject
 host, business.msstatic.com, reject
+host, cdnfile1.msstatic.com, reject
 host, data.mistat.xiaomi.com, reject
 host, feed-image.baidu.com, reject
 host, heic.alicdn.com, reject
