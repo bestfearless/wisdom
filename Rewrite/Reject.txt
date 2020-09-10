@@ -1,4 +1,4 @@
-hostname=*.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,cdn.llscdn.com,cdnfile1.msstatic.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
+hostname=*.googlevideo.com,youtubei.googleapis.com,cdn.jin10.com,cdn.llscdn.com,cdnfile1.msstatic.com,v*-tt.ixigua.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com,static1.keepcdn.com
 
 # Youtube
 https://.+.googlevideo.com/.*(&oad|ctier) url reject-200
@@ -19,3 +19,6 @@ https?://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(web.business.image|ad) url reject-
 
 # 京东
 https://m.360buyimg.com/mobilecms/s\d{3,4}x\d{4} url reject-200
+
+# Keep
+https://static1.keepcdn.com/\d{4}.*(\d{3}x\d{4}|.mp4) url reject-200

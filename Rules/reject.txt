@@ -10,6 +10,7 @@ host, btrace.qq.com, reject
 host, business.msstatic.com, reject
 host, data.mistat.xiaomi.com, reject
 host, feed-image.baidu.com, reject
+host, heic.alicdn.com, reject
 host, hm.baidu.com, reject
 host, hmma.baidu.com, reject
 host, hpd.baidu.com, reject
