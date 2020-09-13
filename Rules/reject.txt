@@ -23,8 +23,6 @@ host, safebrowsing.googleapis.com, reject
 host, safebrowsing.urlsec.qq.com, reject
 host, unidesk.alicdn.com, reject
 host, wise-novel-authority-logo.cdn.bcebos.com, reject
-host, wxsnsdy.wxs.qq.com, reject
-host, wxsnsdythumb.wxs.qq.com, reject
 # host-suffix
 host-suffix, adnxs.com, reject
 host-suffix, adxadserv.com, reject
