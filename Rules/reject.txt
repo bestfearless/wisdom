@@ -17,6 +17,7 @@ host, hmma.baidu.com, reject
 host, hpd.baidu.com, reject
 host, mtrace.qq.com, reject
 host, paimgcdn-feed.baidu.com, reject
+host, pgdt.gtimg.cn, reject
 host, pic.rmb.bdstatic.com, reject
 host, pingfore.qq.com, reject
 host, safebrowsing.googleapis.com, reject
