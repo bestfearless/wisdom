@@ -10,7 +10,7 @@ https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
 https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
 
 # 今日头条
-https://v\d+-tt.ixigua.com/.*video url reject-200
+https?://v\d+-tt.ixigua.com/.*video url reject-200
 https?://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(web.business.image|toutiao) url reject-200
 
 # 京东
