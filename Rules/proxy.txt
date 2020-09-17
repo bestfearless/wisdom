@@ -3,6 +3,8 @@ host-keyword, google, proxy
 # host
 host, gdmf.apple.com, proxy
 host, gsa.apple.com, proxy
+host, gsas.apple.com, proxy
+host, mobile.apple.com, proxy
 host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix
