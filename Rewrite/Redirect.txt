@@ -3,9 +3,6 @@ hostname=api.m.jd.com,*tieba*.baidu.com
 # BoxJs
 https?://boxjs.net url script-analyze-echo-response https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js
 
-# Google
-https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
-
 # Jd_Price
 https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
