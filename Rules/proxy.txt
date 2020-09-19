@@ -1,4 +1,9 @@
 # keyword
 host-keyword, google, proxy
 # host
+host, gsa.apple.com, proxy
+host, testflight.apple.com, proxy
+host, xp.apple.com, proxy
 # host-suffix
+host-suffix, mobileapp.apple.com, proxy
+
