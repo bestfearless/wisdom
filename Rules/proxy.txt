@@ -2,6 +2,7 @@
 host-keyword, google, proxy
 # host
 host, gsa.apple.com, proxy
+host, p48-buy.itunes.apple.com, proxy
 host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix

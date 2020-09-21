@@ -6,11 +6,13 @@ host, ads.twitter.com, reject
 host, als.baidu.com, reject
 host, aod-image.baidu.com, reject
 host, b.bdstatic.com, reject
+host, bjb.openstorage.cn, reject
 host, btrace.qq.com, reject
 host, business.msstatic.com, reject
 host, cdnfile1.msstatic.com, reject
 host, data.mistat.xiaomi.com, reject
 host, feed-image.baidu.com, reject
+host, fms.ipinyou.com, reject
 host, heic.alicdn.com, reject
 host, hm.baidu.com, reject
 host, hmma.baidu.com, reject
