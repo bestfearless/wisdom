@@ -8,4 +8,5 @@ host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix
 host-suffix, mobileapp.apple.com, proxy
+host-suffix, twimg.com, proxy
 
