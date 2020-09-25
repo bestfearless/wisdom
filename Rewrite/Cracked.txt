@@ -1,4 +1,4 @@
-hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,sapi.beingfine.cn,121.43.19.216,*.xjwdapps.com
+hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,*.xjwdapps.com
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
@@ -18,12 +18,6 @@ https://accounts.elevateapp.net/api/users\?user%5Bauthentication_token* url resp
 
 # Wps
 https://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"expire_time":\w+ response-body "has_ad":0,"memberid":20,"expire_time":3760317603
-
-# 不背单词
-https://sapi.beingfine.cn/v3/report/launch url response-body \\"expire_date\\":\w+,\\"user_type\\":\w+,\\"granted\\":\w+ response-body \\"expire_date\\":4690000000000,\\"user_type\\":3,\\"granted\\":1
-
-# 轻听英语
-https://sapi.beingfine.cn/v1/UserLaunchAppReport url response-body "expire_date":\w+,"granted":\w+ response-body "expire_date":4077153336000,"granted":1
 
 # 学习管家
 http://wx.xuexiguanjia.org/api/user url response-body "is_vip":\w+,"expire_date":\w+ response-body "is_vip":1,"expire_date":3760000000
