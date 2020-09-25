@@ -1,4 +1,4 @@
-hostname=youtubei.googleapis.com,cdn.jin10.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com
+hostname=youtubei.googleapis.com,cdn.jin10.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com,cdn.llscdn.com
 
 # Youtube
 https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
@@ -11,3 +11,6 @@ https?://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(web.business.image|toutiao) url re
 
 # 京东
 https://m.360buyimg.com/mobilecms/s\d{3,4}x\d{4} url reject-200
+
+# 英语流利说
+https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
