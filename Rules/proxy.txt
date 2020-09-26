@@ -7,6 +7,8 @@ host, p48-buy.itunes.apple.com, proxy
 host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix
+host-suffix, bbc.com, proxy
 host-suffix, mobileapp.apple.com, proxy
+host-suffix, nytcn.me, proxy
 host-suffix, twimg.com, proxy
 
