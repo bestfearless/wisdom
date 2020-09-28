@@ -10,6 +10,7 @@ host-suffix, cdn-apple.com, direct
 host-suffix, icloud.com, direct
 host-suffix, icloud-content.com, direct
 host-suffix, itunes.com, direct
+host-suffix, mac-torrents.io, direct
 host-suffix, me.com, direct
 host-suffix, mzstatic.com, direct
 # ip-cidr
