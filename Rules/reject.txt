@@ -35,7 +35,6 @@ host-suffix, doubleclick.net, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, googletagmanager.com, reject
-host-suffix, google-analytics.com, reject
 host-suffix, hnhx360.com, reject
 host-suffix, jads.co, reject
 host-suffix, juicyads.com, reject
