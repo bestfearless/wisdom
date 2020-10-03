@@ -25,6 +25,7 @@ host, pingfore.qq.com, reject
 host, safebrowsing.googleapis.com, reject
 host, safebrowsing.urlsec.qq.com, reject
 host, unidesk.alicdn.com, reject
+host, v.icbc.com.cn, reject
 host, wise-novel-authority-logo.cdn.bcebos.com, reject
 # host-suffix
 host-suffix, adnxs.com, reject
