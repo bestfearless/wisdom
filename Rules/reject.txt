@@ -75,6 +75,7 @@ host, m.xiaoshuodaquan.com, reject
 host, browser.sentry-cdn.com, reject
 host, metrics.washingtonpost.com, reject
 host, videotracker.washingtonpost.com, reject
+host, firebaselogging.googleapis.com, reject
 # host-suffix
 host-suffix, leleapps.com, reject
 host-suffix, leyiapps.com, reject
@@ -145,7 +146,6 @@ host-suffix, caofta.cn, reject
 host-suffix, share.baidu.com, reject
 host-suffix, idiafix.com, reject
 host-suffix, app-measurement.com, reject
-host-suffix, firebaselogging.googleapis.com, reject
 host-suffix, crashlytics.com, reject
 host-suffix, urbanairship.com, reject
 host-suffix, go-mpulse.net, reject
