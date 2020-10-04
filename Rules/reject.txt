@@ -77,6 +77,19 @@ host, metrics.washingtonpost.com, reject
 host, videotracker.washingtonpost.com, reject
 host, firebaselogging.googleapis.com, reject
 host, yaolu.yuedu.163.com, reject
+host, adashbc.ut.taobao.com, reject
+host, adashxgc.ut.taobao.com, reject
+host, otheve.beacon.qq.com, reject
+host, trace.qq.com, reject
+host, yaolu.mh.163.com, reject
+host, nim.qiyukf.com, reject
+host, webservice.360doc.com, reject
+host, xne1ocient87zxz.360doc.cn, reject
+host, eclick.360doc.com, reject
+host, wkctj.baidu.com, reject
+host, cpu.baidu.com, reject
+host, msite.baidu.com, reject
+host, eduad.baidu.com, reject
 # host-suffix
 host-suffix, leleapps.com, reject
 host-suffix, leyiapps.com, reject
@@ -150,3 +163,6 @@ host-suffix, app-measurement.com, reject
 host-suffix, crashlytics.com, reject
 host-suffix, urbanairship.com, reject
 host-suffix, go-mpulse.net, reject
+host-suffix, addtoany.com, reject
+host-suffix, da.netease.com, reject
+host-suffix, xmpush.xiaomi.com, reject
