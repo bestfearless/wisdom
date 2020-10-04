@@ -51,6 +51,7 @@ host, cc.m.jd.com, reject
 host, im-x.jd.com, reject
 host, policy.jd.com, reject
 host, mars.jd.com, reject
+host, knicks.jd.com, reject
 host, adashx.m.taobao.com, reject
 host, h-adashx.ut.taobao.com, reject
 host, eco.taobao.com, reject
@@ -140,3 +141,4 @@ host-suffix, branch.io, reject
 host-suffix, caofta.cn, reject
 host-suffix, share.baidu.com, reject
 host-suffix, idiafix.com, reject
+host-suffix, app-measurement.com, reject
