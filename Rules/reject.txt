@@ -76,6 +76,7 @@ host, browser.sentry-cdn.com, reject
 host, metrics.washingtonpost.com, reject
 host, videotracker.washingtonpost.com, reject
 host, firebaselogging.googleapis.com, reject
+host, yaolu.yuedu.163.com, reject
 # host-suffix
 host-suffix, leleapps.com, reject
 host-suffix, leyiapps.com, reject
