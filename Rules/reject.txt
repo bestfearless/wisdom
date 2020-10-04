@@ -1,5 +1,6 @@
 # keyword
 host-keyword, adservice, reject
+host-keyword, analytics, reject
 host-keyword, doubleclick, reject
 # host
 host, ad.caiyunapp.com, reject
