@@ -90,6 +90,7 @@ host, wkctj.baidu.com, reject
 host, cpu.baidu.com, reject
 host, msite.baidu.com, reject
 host, eduad.baidu.com, reject
+host, iadsdk.apple.com, reject
 # host-suffix
 host-suffix, leleapps.com, reject
 host-suffix, leyiapps.com, reject
