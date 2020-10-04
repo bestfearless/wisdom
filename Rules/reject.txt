@@ -1,5 +1,6 @@
 # keyword
 host-keyword, adservice, reject
+host-keyword, doubleclick, reject
 # host
 host, ad.caiyunapp.com, reject
 host, ads.twitter.com, reject
@@ -33,7 +34,6 @@ host-suffix, adnxs.com, reject
 host-suffix, adxadserv.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, cnzz.com, reject
-host-suffix, doubleclick.net, reject
 host-suffix, gdt.qq.com, reject
 host-suffix, googlesyndication.com, reject
 host-suffix, googletagmanager.com, reject
@@ -44,5 +44,6 @@ host-suffix, leleapps.com, reject
 host-suffix, leyiapps.com, reject       
 host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
+host-suffix, voachinese.com, proxy
 host-suffix, xjxjappss.com, reject
 host-suffix, xxjjappss.com, reject
