@@ -1,5 +1,6 @@
 # keyword
 host-keyword, google, proxy
+host-keyword, youtube, proxy
 # host
 host, bag.itunes.apple.com, proxy
 host, gsa.apple.com, proxy
@@ -8,4 +9,16 @@ host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix
 host-suffix, mobileapp.apple.com, proxy
-
+host-suffix, bbc.com, proxy
+host-suffix, twitter.com, proxy
+host-suffix, t.me, proxy
+host-suffix, ampproject.org, proxy
+# ip-cidr
+ip-cidr, 91.108.4.0/22, proxy
+ip-cidr, 91.108.8.0/21, proxy
+ip-cidr, 91.108.16.0/21, proxy
+ip-cidr, 91.108.56.0/22, proxy
+ip-cidr, 149.154.160.0/20, proxy
+ip6-cidr, 2001:67c:4e8::/48, proxy
+ip6-cidr, 2001:b28:f23d::/48, proxy
+ip6-cidr, 2001:b28:f23f::/48, proxy
