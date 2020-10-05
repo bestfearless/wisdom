@@ -91,6 +91,7 @@ host, cpu.baidu.com, reject
 host, msite.baidu.com, reject
 host, eduad.baidu.com, reject
 host, iadsdk.apple.com, reject
+host, collector.githubapp.com, reject
 # host-suffix
 host-suffix, leleapps.com, reject
 host-suffix, leyiapps.com, reject
@@ -168,6 +169,7 @@ host-suffix, addtoany.com, reject
 host-suffix, da.netease.com, reject
 host-suffix, xmpush.xiaomi.com, reject
 host-suffix, mackeeper.com, reject
+host-suffix, google-analytics.com, reject
 # ip-cidr
 ip-cidr, 221.6.4.148/32, reject
 ip-cidr, 220.196.52.141/32, reject
