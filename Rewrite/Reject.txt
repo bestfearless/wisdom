@@ -1,7 +1,4 @@
-hostname=youtubei.googleapis.com,cdn.jin10.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com,cdn.llscdn.com
-
-# Youtube
-https://youtubei.googleapis.com/youtubei/.+(ad_break|log_) url reject-200
+hostname=cdn.jin10.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com,cdn.llscdn.com
 
 # 金十数据
 https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
