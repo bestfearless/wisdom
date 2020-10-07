@@ -114,7 +114,6 @@ host-suffix, pubmatic.com, reject
 host-suffix, rubiconproject.com, reject
 host-suffix, umeng.com, reject
 host-suffix, umengcloud.com, reject
-host-suffix, voachinese.com, proxy
 host-suffix, tiqcdn.com, reject
 host-suffix, jads.co, reject
 host-suffix, addthis.com, reject

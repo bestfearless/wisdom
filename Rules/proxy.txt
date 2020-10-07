@@ -35,6 +35,7 @@ host-suffix, nytchina.com, proxy
 host-suffix, xvideos.com, proxy
 host-suffix, githubusercontent.com, proxy
 host-suffix, github.com, proxy
+host-suffix, voachinese.com, proxy
 # ip-cidr
 ip-cidr, 91.108.4.0/22, proxy
 ip-cidr, 91.108.8.0/21, proxy
