@@ -7,9 +7,10 @@ host, gsa.apple.com, proxy
 host, p48-buy.itunes.apple.com, proxy
 host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
-host, books.itunes.apple.com, proxy
-host, lookup-api.apple.com, proxy
+host, books-analytics-events.apple.com, proxy
 # host-suffix
+host-suffix, icloud.com, proxy
+host-suffix, icloud-content.com, proxy
 host-suffix, mobileapp.apple.com, proxy
 host-suffix, bbc.com, proxy
 host-suffix, twitter.com, proxy
