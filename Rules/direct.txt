@@ -27,6 +27,7 @@ host-suffix, weibo.com, direct
 host-suffix, qq.com, direct
 host-suffix, tencent.com, direct
 host-suffix, cmbchina.com, direct
+host-suffix, cmbimg.com, direct
 host-suffix, huya.com, direct
 host-suffix, qidian.com, direct
 host-suffix, sspai.com, direct
