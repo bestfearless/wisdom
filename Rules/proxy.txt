@@ -11,6 +11,7 @@ host, books-analytics-events.apple.com, proxy
 # host-suffix
 host-suffix, icloud.com, proxy
 host-suffix, icloud-content.com, proxy
+host-suffix, me.com, proxy
 host-suffix, mobileapp.apple.com, proxy
 host-suffix, bbc.com, proxy
 host-suffix, twitter.com, proxy
