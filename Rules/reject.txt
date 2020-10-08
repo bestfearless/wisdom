@@ -127,7 +127,6 @@ host-suffix, trafficfactory.biz, reject
 host-suffix, iwanttodeliver.com, reject
 host-suffix, baidustatic.com, reject
 host-suffix, ad-survey.com, reject
-host-suffix, huanqiu.com, reject
 host-suffix, criteo.net, reject
 host-suffix, innity.net, reject
 host-suffix, scorecardresearch.com, reject
