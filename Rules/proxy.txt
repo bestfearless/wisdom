@@ -42,6 +42,7 @@ host-suffix, facebook.net, proxy
 host-suffix, ytimg.com, proxy
 host-suffix, voanews.com, proxy
 host-suffix, twimg.com, proxy
+host-suffix, dw.com, proxy    
 # ip-cidr
 ip-cidr, 91.108.4.0/22, proxy
 ip-cidr, 91.108.8.0/21, proxy
