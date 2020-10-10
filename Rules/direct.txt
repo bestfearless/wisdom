@@ -32,7 +32,7 @@ host-suffix, qidian.com, direct
 host-suffix, sspai.com, direct
 host-suffix, zhihu.com, direct
 host-suffix, hupu.com, direct
-host-suffix, cn, direct
+host-suffix, icbc.com.cn, direct
 # ip-cidr
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 17.0.0.0/8, direct
