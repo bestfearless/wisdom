@@ -17,11 +17,7 @@ host-suffix, jd.com, direct
 host-suffix, jin10.com, direct
 host-suffix, taobao.com, direct
 host-suffix, xiami.com, direct
-host-suffix, amap.com, direct
-host-suffix, alipay.com, direct
-host-suffix, tmall.com, direct
 host-suffix, baidu.com, direct
-host-suffix, bdstatic.com, direct
 host-suffix, 360buyimg.com, direct
 host-suffix, weibo.com, direct
 host-suffix, qq.com, direct
