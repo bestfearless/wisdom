@@ -168,6 +168,7 @@ host-suffix, xmpush.xiaomi.com, reject
 host-suffix, mackeeper.com, reject
 host-suffix, google-analytics.com, reject
 host-suffix, iadsdk.apple.com, reject
+host-suffix, batch.com, reject
 # ip-cidr
 ip-cidr, 221.6.4.148/32, reject
 ip-cidr, 220.196.52.141/32, reject

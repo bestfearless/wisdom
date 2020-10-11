@@ -15783,7 +15783,6 @@ DOMAIN-SUFFIX,sayac.hurriyettv.com
 DOMAIN-SUFFIX,iframes.hustler.com
 DOMAIN-SUFFIX,roia.hutchmedia.com
 DOMAIN-SUFFIX,hutrcksp.com
-DOMAIN-SUFFIX,p2p.huya.com
 DOMAIN-SUFFIX,ylog.huya.com
 DOMAIN-SUFFIX,huyqmtpqhemcv.com
 DOMAIN-SUFFIX,huzhanbin.cn
