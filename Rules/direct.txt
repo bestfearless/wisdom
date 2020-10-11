@@ -15,10 +15,8 @@ host-suffix, mac-torrents.io, direct
 host-suffix, mzstatic.com, direct
 host-suffix, jd.com, direct
 host-suffix, jin10.com, direct
-host-suffix, xcmomoda.com, direct
 host-suffix, taobao.com, direct
 host-suffix, xiami.com, direct
-host-suffix, xiami.net, direct
 host-suffix, amap.com, direct
 host-suffix, alipay.com, direct
 host-suffix, tmall.com, direct

@@ -1,4 +1,4 @@
-hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,*.xjwdapps.com
+hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
@@ -26,5 +26,6 @@ http://wx.xuexiguanjia.org/api/store/setdownload url response-body "status":\w+ 
 # 闪电下载
 http://app.flashdown365.com/ios/login url response-body "isvip":\w+ response-body "isvip":true
 
-# 小小影视
-https?:\/\/.*.xjwdapps.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Xxys.js
+# 曲奇影视
+http://api.yangzi688.com/lemon/user/myinfo url response-body "isVip":\w+ response-body "isVip":1
+http://api.yangzi688.com/lemon/credits/coin/detail url response-body "vipEnd":\w+(.*)"isVip":\w+ response-body "vipEnd":4092579678$1"isVip":1
