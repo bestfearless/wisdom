@@ -7,7 +7,10 @@ host-suffix, apple.com, direct
 host-suffix, apple-cloudkit.com, direct
 host-suffix, aaplimg.com, direct
 host-suffix, cdn-apple.com, direct
+host-suffix, icloud.com, direct
+host-suffix, icloud-content.com, direct
 host-suffix, itunes.com, direct
+host-suffix, me.com, direct
 host-suffix, mac-torrents.io, direct
 host-suffix, mzstatic.com, direct
 host-suffix, jd.com, direct
