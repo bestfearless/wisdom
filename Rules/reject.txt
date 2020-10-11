@@ -92,11 +92,6 @@ host, msite.baidu.com, reject
 host, eduad.baidu.com, reject
 host, collector.githubapp.com, reject
 # host-suffix
-host-suffix, leleapps.com, reject
-host-suffix, leyiapps.com, reject
-host-suffix, hnhx360.com, reject
-host-suffix, xjxjappss.com, reject
-host-suffix, xxjjappss.com, reject
 host-suffix, adnxs.com, reject
 host-suffix, adxadserv.com, reject
 host-suffix, amazon-adsystem.com, reject
