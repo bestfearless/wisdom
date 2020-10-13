@@ -5,7 +5,6 @@ host, iosapps.itunes.apple.com, direct
 host, updates-http.cdn-apple.com, direct
 # host-suffix
 host-suffix, paypal.com, direct
-host-suffix, paypal.me, direct
 host-suffix, paypalobjects.com, direct
 host-suffix, mac-torrents.io, direct
 host-suffix, github.com, direct   
