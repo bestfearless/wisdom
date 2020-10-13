@@ -3,6 +3,7 @@ host, router.asus.com, direct
 host, osxapps.itunes.apple.com, direct
 host, iosapps.itunes.apple.com, direct
 host, updates-http.cdn-apple.com, direct
+host,cn-smp-paymentservices.apple.com,direct
 # host-suffix
 host-suffix, paypal.com, direct
 host-suffix, paypalobjects.com, direct
