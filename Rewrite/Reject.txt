@@ -1,10 +1,7 @@
-hostname=cdn.jin10.com,sf*-ttcdn-tos.pstatp.com,m.360buyimg.com,cdn.llscdn.com
+hostname=cdn.jin10.com,m.360buyimg.com,cdn.llscdn.com
 
 # 金十数据
 https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
-
-# 今日头条
-https?://sf.*-ttcdn-tos.pstatp.com/(img|obj)/(web.business.image|toutiao) url reject-200
 
 # 京东
 https://m.360buyimg.com/mobilecms/s\d{3,4}x\d{4} url reject-200
