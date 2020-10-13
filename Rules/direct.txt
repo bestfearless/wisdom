@@ -8,7 +8,8 @@ host-suffix, paypal.com, direct
 host-suffix, paypalobjects.com, direct
 host-suffix, mac-torrents.io, direct
 host-suffix, github.com, direct   
-# local
+# ip-cidr
+ip-cidr, 198.11.128.0/18, direct
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
