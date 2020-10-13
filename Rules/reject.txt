@@ -14,3 +14,4 @@ host, ad.caiyunapp.com, reject
 # host-suffix
 host-suffix, doubleclick.net, reject
 host-suffix, googleadservices.com, reject
+host-suffix, google.cn, reject
