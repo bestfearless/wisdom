@@ -32,7 +32,6 @@ host-suffix, nytimes.com, proxy
 host-suffix, nytchina.com, proxy
 host-suffix, xvideos.com, proxy
 host-suffix, githubusercontent.com, proxy
-host-suffix, github.com, proxy
 host-suffix, voachinese.com, proxy
 host-suffix, facebook.com, proxy
 host-suffix, facebook.net, proxy

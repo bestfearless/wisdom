@@ -2,6 +2,8 @@
 host-keyword, paypal, direct
 # host
 host, router.asus.com, direct
+host, msg.umeng.com, direct
+host, msg.umengcloud.com, direct
 # host-suffix
 host-suffix, apple.com, direct
 host-suffix, apple-cloudkit.com, direct
@@ -30,6 +32,7 @@ host-suffix, sspai.com, direct
 host-suffix, zhihu.com, direct
 host-suffix, hupu.com, direct
 host-suffix, icbc.com.cn, direct
+host-suffix, github.com, direct   
 # ip-cidr
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 17.0.0.0/8, direct
