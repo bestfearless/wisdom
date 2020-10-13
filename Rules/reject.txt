@@ -13,7 +13,3 @@ host, v.icbc.com.cn, reject
 # host-suffix
 host-suffix, doubleclick.net, reject
 host-suffix, googleadservices.com, reject
-host-suffix, googletagmanager.com, reject
-host-suffix, googlesyndication.com, reject
-host-suffix, google-analytics.com, reject
-host-suffix, google.cn, reject
