@@ -14,3 +14,4 @@ host, v.icbc.com.cn, reject
 # host-suffix
 host-suffix, doubleclick.net, reject
 host-suffix, googletagmanager.com, reject
+host-suffix, googletagservices.com, reject
