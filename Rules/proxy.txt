@@ -1,2 +1,8 @@
 # host
 # host-suffix
+host-suffix, twitter.com, proxy
+host-suffix, twimg.com, proxy
+host-suffix, zaobao.com, proxy
+host-suffix, voachinese.com, proxy
+host-suffix, udn.com, proxy
+host-suffix, bbc.com, proxy
