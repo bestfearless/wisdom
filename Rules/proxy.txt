@@ -1,9 +1,2 @@
 # host
-host, bag.itunes.apple.com, proxy
-host, gsa.apple.com, proxy
-host, p48-buy.itunes.apple.com, proxy
-host, testflight.apple.com, proxy
-host, xp.apple.com, proxy
-host, books-analytics-events.apple.com, proxy
 # host-suffix
-host-suffix, mobileapp.apple.com, proxy
