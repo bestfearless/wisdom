@@ -1,5 +1,3 @@
-# keyword
-host-keyword, adservice, reject
 # host
 host, b.bdstatic.com, reject
 host, business.msstatic.com, reject
@@ -14,3 +12,5 @@ host, unidesk.alicdn.com, reject
 host, v.icbc.com.cn, reject
 # host-suffix
 host-suffix, doubleclick.net, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googlesyndication.com, reject
