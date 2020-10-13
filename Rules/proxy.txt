@@ -1,7 +1,9 @@
 # host
+host, youtubei.googleapis.com, proxy
+host, p48-buy.itunes.apple.com, proxy
+host, testflight.apple.com, proxy
 # host-suffix
 host-suffix, googlevideo.com, proxy
-host-suffix, googleapis.com, proxy
 host-suffix, youtube.com, proxy
 host-suffix, washingtonpost.com, proxy
 host-suffix, wpdigital.net, proxy
