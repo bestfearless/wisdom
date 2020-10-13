@@ -1,5 +1,6 @@
 # host
 host, router.asus.com, direct
+host, github.com, direct
 # host-suffix
 host-suffix, apple.com, direct
 host-suffix, cdn-apple.com, direct
@@ -11,7 +12,6 @@ host-suffix, paypal.com, direct
 host-suffix, paypalobjects.com, direct
 host-suffix, mac-torrents.io, direct
 host-suffix, workingcopyapp.com, direct
-host-suffix, github.com, direct
 host-suffix, jd.com, direct
 host-suffix, jin10.com, direct
 host-suffix, taobao.com, direct
