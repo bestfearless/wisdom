@@ -20,6 +20,9 @@ host, pingfore.qq.com, reject
 host, trace.qq.com, reject
 host, ylog.huya.com, reject
 host, collector.githubapp.com, reject
+host, imasdk.googleapis.com, reject
+host, safebrowsing.googleapis.com, reject
+host, safebrowsing.urlsec.qq.com, reject
 # host-suffix
 host-suffix, doubleclick.net, reject
 host-suffix, googleadservices.com, reject
