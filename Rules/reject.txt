@@ -11,6 +11,7 @@ host, fclick.baidu.com, reject
 host, hm.baidu.com, reject
 host, hmma.baidu.com, reject
 host, hpd.baidu.com, reject
+host, eclick.baidu.com, reject
 host, feed-image.baidu.com, reject
 host, pgdt.gtimg.cn, reject
 host, pic.rmb.bdstatic.com, reject
