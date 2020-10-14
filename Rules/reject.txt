@@ -1,5 +1,6 @@
 # host
 host, b.bdstatic.com, reject
+host, fclick.baidu.com, reject
 host, business.msstatic.com, reject
 host, cdnfile1.msstatic.com, reject
 host, feed-image.baidu.com, reject
