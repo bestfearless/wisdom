@@ -21,8 +21,6 @@ host, trace.qq.com, reject
 host, ylog.huya.com, reject
 host, collector.githubapp.com, reject
 host, imasdk.googleapis.com, reject
-host-suffix, app-measurement.com, reject
-host-suffix, crashlytics.com, reject
 # host-suffix
 host-suffix, doubleclick.net, reject
 host-suffix, googleadservices.com, reject
@@ -55,3 +53,5 @@ host-suffix, appsflyer.com, reject
 host-suffix, branch.io, reject
 host-suffix, iadsdk.apple.com, reject
 host-suffix, batch.com, reject
+host-suffix, app-measurement.com, reject
+host-suffix, crashlytics.com, reject
