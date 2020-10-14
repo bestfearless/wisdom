@@ -1,6 +1,7 @@
 # host
 host, b.bdstatic.com, reject
 host, fclick.baidu.com, reject
+host, hm.baidu.com, reject
 host, business.msstatic.com, reject
 host, cdnfile1.msstatic.com, reject
 host, feed-image.baidu.com, reject
@@ -11,3 +12,4 @@ host, v.icbc.com.cn, reject
 host, ad.caiyunapp.com, reject
 # host-suffix
 host-suffix, doubleclick.net, reject
+host-suffix, google-analytics.com, reject
