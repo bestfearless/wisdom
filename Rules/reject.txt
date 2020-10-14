@@ -22,6 +22,7 @@ host, trace.qq.com, reject
 host, ylog.huya.com, reject
 host, collector.githubapp.com, reject
 host, imasdk.googleapis.com, reject
+host, adsmind.gdtimg.com, reject
 # host-suffix
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, doubleclick.net, reject
