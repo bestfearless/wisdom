@@ -4,6 +4,8 @@ host, cdnfile1.msstatic.com, reject
 host, unidesk.alicdn.com, reject
 host, v.icbc.com.cn, reject
 host, ad.caiyunapp.com, reject
+host, ddplus.meituan.net, reject
+host, flowplus.meituan.net, reject
 host, ada.baidu.com, reject
 host, als.baidu.com, reject
 host, b.bdstatic.com, reject
