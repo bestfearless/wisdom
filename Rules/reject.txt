@@ -61,3 +61,6 @@ host-suffix, iadsdk.apple.com, reject
 host-suffix, batch.com, reject
 host-suffix, app-measurement.com, reject
 host-suffix, crashlytics.com, reject
+host-suffix, tsyndicate.com, reject
+host-suffix, adxadserv.com, reject
+host-suffix, juicyads.com, reject
