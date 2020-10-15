@@ -64,3 +64,5 @@ host-suffix, crashlytics.com, reject
 host-suffix, tsyndicate.com, reject
 host-suffix, adxadserv.com, reject
 host-suffix, juicyads.com, reject
+host-suffix, adtng.com, reject
+host-suffix, trafficjunky.net, reject
