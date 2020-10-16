@@ -65,3 +65,6 @@ host-suffix, adxadserv.com, reject
 host-suffix, juicyads.com, reject
 host-suffix, adtng.com, reject
 host-suffix, trafficjunky.net, reject
+host-suffix, javhd.com, reject
+host-suffix, eroadvertising.com, reject
+host-suffix, ackcdn.net, reject
