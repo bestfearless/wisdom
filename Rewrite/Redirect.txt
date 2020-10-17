@@ -1,9 +1,4 @@
-hostname=api.m.jd.com,*tieba*.baidu.com
-
-# BoxJs
-https?://boxjs.net url script-analyze-echo-response https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js
-
-
+hostname=api.m.jd.com
 
 # BoxJs
 https?://boxjs.net url script-analyze-echo-response https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js
@@ -13,6 +8,3 @@ https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|b
 
 # JD_DailyBonus
 https?:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-
-# BaiduTieba
-https:\/\/(?:c\.)?+tieba\.baidu\.com\/(?>f|p) url script-response-body https://raw.githubusercontent.com/bestfearless/QuantumultX/Fearless/Scripts/Tieba.js
