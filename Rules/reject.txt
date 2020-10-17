@@ -68,3 +68,6 @@ host-suffix, trafficjunky.net, reject
 host-suffix, javhd.com, reject
 host-suffix, eroadvertising.com, reject
 host-suffix, ackcdn.net, reject
+host-suffix, pos.baidu.com, reject
+host-suffix, baidustatic.com, reject
+host-suffix, cdn.sohucs.com, reject
