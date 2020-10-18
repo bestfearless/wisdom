@@ -71,3 +71,5 @@ host-suffix, ackcdn.net, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, baidustatic.com, reject
 host-suffix, cdn.sohucs.com, reject
+host, aod-image.baidu.com, reject
+host, paimgcdn-feed.baidu.com, reject
