@@ -25,6 +25,9 @@ host, collector.githubapp.com, reject
 host, imasdk.googleapis.com, reject
 host, adsmind.gdtimg.com, reject
 host, adservice.google.com, reject
+host, aod-image.baidu.com, reject
+host, paimgcdn-feed.baidu.com, reject
+host, ns-strategy.cdn.bcebos.com, reject
 # host-suffix
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, doubleclick.net, reject
@@ -71,5 +74,3 @@ host-suffix, ackcdn.net, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, baidustatic.com, reject
 host-suffix, cdn.sohucs.com, reject
-host, aod-image.baidu.com, reject
-host, paimgcdn-feed.baidu.com, reject
