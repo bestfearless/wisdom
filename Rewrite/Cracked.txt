@@ -5,7 +5,7 @@ https://p.du.163.com/(ad|readtime/info.json) url reject-200
 https://p.du.163.com/gain/readtime/info.json$ url response-body "tradeEndTime":\w+ response-body "tradeEndTime":3760317603000
 
 # ColorfulClouds
-https://biz.caiyunapp.com/v2/user\?app_name\=weather$ url response-body "is_vip":\w+(.*)"vip_type":""(.*)"svip_expired_at":\w+ response-body "is_vip":true$1"vip_type":"s"$2"svip_expired_at":3760272085
+https://biz.caiyunapp.com/v2/user\?app_name\=weather$ url response-body "svip_expired_at":\w+(.*)"vip_type":""(.*)"is_vip":\w+ response-body "svip_expired_at":3760272085$1"vip_type":"s"$2"is_vip":true
 
 # Washingtonpost
 https://login.washingtonpost.com/identity/oauth/v1/profile url response-body .+ response-body {"gracePeriod":345600000,"deviceStore":"apple","profile_pic_url":"","title":"Premium Digital","expirationDate":"2089-02-27T00:47:28","source":"DEVICE","currentRateID":504,"loginId":"","displayName":"","loginProvider":"","shortTitle":"Premium Digital","isActive":true,"subscriptionID":"24200653","subAcctMgmt":"28,PREMIUM,504,DEVICE,SUBSCRIBER,f,DEVICE,AETYPE=CD","subdata":"OK","sourceType":"FREE","subSource":"App Store","email":"","secureLoginID":"","iddata":"OK","firstName":"","institutional":false,"subDuration":"0.00/9999 days","product":"PREMIUM","subStatus":"A","subAttributes":{"AETYPE":"CD"},"lastName":""}
