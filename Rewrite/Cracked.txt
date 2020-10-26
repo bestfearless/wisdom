@@ -1,4 +1,4 @@
-hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*
+hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
@@ -15,9 +15,6 @@ https://billing.peakcloud.org/billing/2/user/me url response-body .+ response-bo
 
 # Elevate
 https://accounts.elevateapp.net/api/users\?user%5Bauthentication_token* url response-body "subscription_expiration_date_epoch":\w+ response-body "subscription_expiration_date_epoch":3760317603
-
-# Wps
-https://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"expire_time":\w+ response-body "has_ad":0,"memberid":20,"expire_time":3760317603
 
 # 学习管家
 http://wx.xuexiguanjia.org/api/user url response-body "is_vip":\w+,"expire_date":\w+ response-body "is_vip":1,"expire_date":3760000000
