@@ -35,6 +35,7 @@ host, heic.alicdn.com, reject
 host, commimg.pddpic.com, reject
 host, lupic.cdn.bcebos.com, reject
 host, i.v2ex.co, reject
+host, fpb.sohu.com, reject
 # host-suffix
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, doubleclick.net, reject
