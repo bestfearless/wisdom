@@ -36,6 +36,9 @@ host, commimg.pddpic.com, reject
 host, lupic.cdn.bcebos.com, reject
 host, i.v2ex.co, reject
 host, fpb.sohu.com, reject
+host, ap.zhongnanqizu.cn, reject
+host, m.sancdn.net, reject
+host, m1.nsimg.net, reject
 # host-suffix
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, doubleclick.net, reject
