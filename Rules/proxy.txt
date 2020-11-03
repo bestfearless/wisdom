@@ -24,6 +24,7 @@ host-suffix, washpost.com, proxy
 host-suffix, bing.com, proxy
 host-suffix, pornhub.com, proxy
 host-suffix, avgle.com, proxy
+host-suffix, jable.tv, proxy
 host-suffix, ggpht.com, proxy
 host-suffix, gmail.com, proxy
 host-suffix, reddit.com, proxy
