@@ -4,7 +4,7 @@ hostname=mp.weixin.qq.com,cdn.jin10.com,m.360buyimg.com,cdn.llscdn.com,download.
 https://mp.weixin.qq.com/mp/(getappmsgad|getappmsgext) url reject-200
 
 # 金十数据
-https://cdn.jin10.com/board/json/app-ads.json$ url reject-200
+https://cdn.jin10.com/board url reject-200
 
 # 京东
 https://m.360buyimg.com/mobilecms/s\d{3,4}x\d{4} url reject-200
