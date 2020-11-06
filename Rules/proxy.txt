@@ -2,7 +2,6 @@
 host, p48-buy.itunes.apple.com, proxy
 host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
-host, gist.github.com, proxy
 # host-suffix
 host-suffix, mobileapp.apple.com, proxy
 host-suffix, google.com, proxy
@@ -40,6 +39,7 @@ host-suffix, thinkmarkets.com.cn, proxy
 host-suffix, forexproscn.com, proxy
 host-suffix, voanews.com, proxy
 host-suffix, dropbox.com, proxy
+host-suffix, github.com, proxy
 # ip-cidr
 ip-cidr, 91.108.4.0/22, proxy
 ip-cidr, 91.108.8.0/21, proxy

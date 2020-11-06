@@ -30,8 +30,6 @@ host-suffix, hupu.com, direct
 host-suffix, dmall.com, direct
 host-suffix, alicdn.com, direct
 host-suffix, alipay.com, direct
-host-suffix, alipayobjects.com, direct
-host-suffix, github.com, direct
 # ip-cidr
 ip-cidr, 198.11.128.0/18, direct
 ip-cidr, 182.254.116.0/24, direct
