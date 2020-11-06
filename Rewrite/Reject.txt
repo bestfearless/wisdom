@@ -1,4 +1,4 @@
-hostname=mp.weixin.qq.com,cdn.jin10.com,m.360buyimg.com,cdn.llscdn.com
+hostname=mp.weixin.qq.com,cdn.jin10.com,m.360buyimg.com,cdn.llscdn.com,img.meituan.net
 
 # 微信公众号
 https://mp.weixin.qq.com/mp/(getappmsgad|getappmsgext) url reject-200
@@ -11,3 +11,6 @@ https://m.360buyimg.com/mobilecms/s\d{3,4}x\d{4} url reject-200
 
 # 英语流利说
 https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
+
+# 美团
+https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
