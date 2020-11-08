@@ -42,6 +42,7 @@ host, m1.nsimg.net, reject
 host, cdnfile2.msstatic.com, reject
 host, livewebbs2.msstatic.com, reject
 host, cdn.adserve.work, reject
+host, aod-video-antusheng.cdn.bcebos.com, reject
 # host-suffix
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, doubleclick.net, reject
