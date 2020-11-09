@@ -16,4 +16,4 @@ https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
 https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
 
 # 斗鱼
-https://sta-op.douyucdn.cn/(nggsys|dylamr).*.jpg url reject-200
+https://sta-op.douyucdn.cn/(adxdsp|nggsys|dylamr).*.jpg url reject-200
