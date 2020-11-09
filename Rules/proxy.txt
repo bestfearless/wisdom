@@ -35,7 +35,6 @@ host-suffix, facebook.net, proxy
 host-suffix, ytimg.com, proxy
 host-suffix, tradeinterceptor.com, proxy
 host-suffix, ampproject.org, proxy   
-host-suffix, thinkmarkets.com.cn, proxy
 host-suffix, forexproscn.com, proxy
 host-suffix, voanews.com, proxy
 host-suffix, dropbox.com, proxy
