@@ -1,4 +1,4 @@
-hostname=mp.weixin.qq.com,cdn.jin10.com,m.360buyimg.com,cdn.llscdn.com,img.meituan.net
+hostname=mp.weixin.qq.com,cdn.jin10.com,m.360buyimg.com,cdn.llscdn.com,img.meituan.net,sta-op.douyucdn.cn
 
 # 微信公众号
 https://mp.weixin.qq.com/mp/(getappmsgad|getappmsgext) url reject-200
@@ -14,3 +14,6 @@ https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
 
 # 美团
 https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
+
+# 斗鱼
+https://sta-op.douyucdn.cn/(nggsys|dylamr).*.jpg url reject-200
