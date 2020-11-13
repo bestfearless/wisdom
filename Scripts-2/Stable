@@ -1,0 +1,5 @@
+1 0 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=JD_Random, img-url=questionmark.folder.system, enabled=true
+5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=JD_DailyBonus, img-url=j.square.fill.system, enabled=true
+6 0,12 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js, tag=JD_SuperMarket, img-url=house.system, enabled=true
+0 0 1,15 * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js, tag=JD_BlueCoin, img-url=dollarsign.circle.system, enabled=true
+59 23 */10 * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js, tag=JD_Unsubscribe, img-url=arrowshape.turn.up.left.2.system, enabled=true
