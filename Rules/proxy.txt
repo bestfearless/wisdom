@@ -9,7 +9,6 @@ host-suffix, googlevideo.com, proxy
 host-suffix, youtube.com, proxy
 host-suffix, googleapis.com, proxy
 host-suffix, washingtonpost.com, proxy
-host-suffix, wpdigital.net, proxy
 host-suffix, twitter.com, proxy
 host-suffix, twimg.com, proxy
 host-suffix, zaobao.com, proxy
@@ -22,10 +21,6 @@ host-suffix, gstatic.com, proxy
 host-suffix, t.me, proxy
 host-suffix, yahoo.com, proxy
 host-suffix, washpost.com, proxy
-host-suffix, bing.com, proxy
-host-suffix, pornhub.com, proxy
-host-suffix, avgle.com, proxy
-host-suffix, jable.tv, proxy
 host-suffix, ggpht.com, proxy
 host-suffix, gmail.com, proxy
 host-suffix, reddit.com, proxy
