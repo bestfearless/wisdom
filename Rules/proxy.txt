@@ -20,6 +20,9 @@ host-suffix, wsj.com, proxy
 host-suffix, gstatic.com, proxy
 host-suffix, t.me, proxy
 host-suffix, yahoo.com, proxy
+host-suffix, pornhub.com, proxy
+host-suffix, avgle.com, proxy
+host-suffix, jable.tv, proxy
 host-suffix, washpost.com, proxy
 host-suffix, ggpht.com, proxy
 host-suffix, gmail.com, proxy
