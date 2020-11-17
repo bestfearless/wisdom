@@ -4,5 +4,7 @@ host, flowplus.meituan.net, reject
 host, commimg.pddpic.com, reject
 host, heic.alicdn.com, reject
 host, ad.caiyunapp.com, reject
+host, business.msstatic.com, reject
+host, cdnfile1.msstatic.com, reject
 # host-suffix
 host-suffix, doubleclick.net, reject
