@@ -3,6 +3,7 @@ host, p48-buy.itunes.apple.com, proxy
 host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix
+host-suffix, me.com, proxy
 host-suffix, mobileapp.apple.com, proxy
 host-suffix, google.com, proxy
 host-suffix, googlevideo.com, proxy
