@@ -1,4 +1,4 @@
-hostname=cdn.llscdn.com,img.meituan.net,m.360buyimg.com
+hostname=cdn.llscdn.com,img.meituan.net,m.360buyimg.com,cdn.jin10.com
 
 # 英语流利说
 https://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
@@ -8,3 +8,6 @@ https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
 
 # 京东
 https://m.360buyimg.com/mobilecms/s\d{3,4}x\d{4} url reject-200
+
+# 金十数据
+https://cdn.jin10.com/board url reject-200
