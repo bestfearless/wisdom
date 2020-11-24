@@ -5,6 +5,7 @@ host-suffix, apple.com, direct
 host-suffix, cdn-apple.com, direct
 host-suffix, icloud.com, direct
 host-suffix, icloud-content.com, direct
+host-suffix, me.com, direct
 host-suffix, mzstatic.com, direct
 host-suffix, paypal.com, direct
 host-suffix, paypalobjects.com, direct
