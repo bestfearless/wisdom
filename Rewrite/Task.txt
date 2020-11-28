@@ -1,0 +1,8 @@
+{
+    "name":"HotKids",
+    "description":"Crontab Task Gallery",
+    "task":[
+        {"config":"0 0 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js, tag=JD_BlueCoin, img-url=dollarsign.circle.system","addons":"https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/GetCookie.conf"},
+        "1 0 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=JD_Random, img-url=questionmark.folder.system",
+    ]
+}
