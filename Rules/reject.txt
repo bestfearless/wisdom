@@ -20,7 +20,6 @@ host, btrace.qq.com, reject
 host, mtrace.qq.com, reject
 host, pingfore.qq.com, reject
 host, trace.qq.com, reject
-host, ylog.huya.com, reject
 host, collector.githubapp.com, reject
 host, imasdk.googleapis.com, reject
 host, adsmind.gdtimg.com, reject
@@ -37,11 +36,9 @@ host, ap.zhongnanqizu.cn, reject
 host, m.sancdn.net, reject
 host, m1.nsimg.net, reject
 host, cdnfile2.msstatic.com, reject
-host, aod-video-antusheng.cdn.bcebos.com, reject
-host, sf3-ttcdn-tos.pstatp.com, reject
-host, sf1-ttcdn-tos.pstatp.com, reject
 host, data.mistat.xiaomi.com, reject
 host, goblin.hupu.com, reject
+host, sta-op.douyucdn.cn, reject
 # host-suffix
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, doubleclick.net, reject
