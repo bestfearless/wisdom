@@ -4,10 +4,7 @@ host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix
 host-suffix, mobileapp.apple.com, proxy
-host-suffix, google.com, proxy
-host-suffix, googlevideo.com, proxy
 host-suffix, youtube.com, proxy
-host-suffix, googleapis.com, proxy
 host-suffix, washingtonpost.com, proxy
 host-suffix, twitter.com, proxy
 host-suffix, twimg.com, proxy
@@ -39,6 +36,8 @@ host-suffix, dropbox.com, proxy
 host-suffix, github.com, proxy
 host-suffix, medium.com, proxy
 host-suffix, tw, proxy
+# host-keyword
+host-keyword, google, proxy
 # ip-cidr
 ip-cidr, 91.108.4.0/22, proxy
 ip-cidr, 91.108.8.0/21, proxy
