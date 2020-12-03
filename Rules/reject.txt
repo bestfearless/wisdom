@@ -1,5 +1,4 @@
 # host
-# host
 host, business.msstatic.com, reject
 host, cdnfile1.msstatic.com, reject
 host, sta-op.douyucdn.cn, reject
