@@ -30,6 +30,9 @@ host-suffix, hupu.com, direct
 host-suffix, dmall.com, direct
 host-suffix, alicdn.com, direct
 host-suffix, alipay.com, direct
+host-suffix, meituan.com, direct
+host-suffix, meituan.net, direct
+host-suffix, dianping.com, direct
 host-suffix, cn, direct
 # ip-cidr
 ip-cidr, 121.51.0.0/16, direct
