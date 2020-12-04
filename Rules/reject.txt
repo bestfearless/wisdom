@@ -58,6 +58,7 @@ host-suffix, scorecardresearch.com, reject
 host-suffix, dable.io, reject
 host-suffix, openx.net, reject
 host-suffix, chartbeat.com, reject
+host-suffix, chartbeat.net, reject
 host-suffix, jpush.cn, reject
 host-suffix, branch.io, reject
 host-suffix, batch.com, reject
