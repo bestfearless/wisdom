@@ -4,6 +4,7 @@ host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix
 host-suffix, mobileapp.apple.com, proxy
+host-suffix, ampproject.net, proxy
 host-suffix, ampproject.org, proxy   
 host-suffix, gstatic.com, proxy
 host-suffix, ggpht.com, proxy
@@ -12,6 +13,7 @@ host-suffix, gmail.com, proxy
 host-suffix, washingtonpost.com, proxy
 host-suffix, twitter.com, proxy
 host-suffix, twimg.com, proxy
+host-suffix, t.co, proxy
 host-suffix, zaobao.com, proxy
 host-suffix, voachinese.com, proxy
 host-suffix, voanews.com, proxy
