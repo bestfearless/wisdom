@@ -73,7 +73,6 @@ host-suffix, d227cncaprzd7y.cloudfront.net, reject
 # host-keyword
 host-keyword, adserv, reject
 host-keyword, advert, reject
-host-keyword, adash, reject
 host-keyword, analytics, reject
 host-keyword, tracking, reject
 host-keyword, traffic, reject
