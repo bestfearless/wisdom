@@ -34,6 +34,7 @@ host, fpb.sohu.com, reject
 host, data.mistat.xiaomi.com, reject
 host, goblin.hupu.com, reject
 # host-suffix
+host-suffix, pglstatp-toutiao.com, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, baidustatic.com, reject
 host-suffix, e.qq.com, reject
