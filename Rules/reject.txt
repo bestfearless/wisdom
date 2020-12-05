@@ -72,6 +72,7 @@ host-suffix, appsflyer.com, reject
 host-suffix, crashlytics.com, reject
 host-suffix, w3counter.com, reject
 host-suffix, d227cncaprzd7y.cloudfront.net, reject
+host-suffix, cdn.sohucs.com, reject
 # host-keyword
 host-keyword, adserv, reject
 host-keyword, advert, reject
