@@ -1,6 +1,7 @@
 # host
 host, business.msstatic.com, reject
 host, cdnfile1.msstatic.com, reject
+host, unidesk.alicdn.com, reject
 host, sta-op.douyucdn.cn, reject
 host, ad.caiyunapp.com, reject
 host, ddplus.meituan.net, reject
