@@ -1,19 +1,20 @@
 # host
 host, router.asus.com, direct
+host, cn-smp-paymentservices.apple.com, direct
+host, iosapps.itunes.apple.com, direct
+host, osxapps.itunes.apple.com, direct
+host, updates-http.cdn-apple.com, direct
 # host-suffix
-host-suffix, apple.com, direct
-host-suffix, cdn-apple.com, direct
-host-suffix, icloud.com, direct
-host-suffix, icloud-content.com, direct
-host-suffix, me.com, direct
-host-suffix, mzstatic.com, direct
 host-suffix, paypal.com, direct
 host-suffix, paypalobjects.com, direct
 host-suffix, workingcopyapp.com, direct
 host-suffix, jd.com, direct
 host-suffix, jin10.com, direct
 host-suffix, taobao.com, direct
+host-suffix, alicdn.com, direct
+host-suffix, alipay.com, direct
 host-suffix, xiami.com, direct
+host-suffix, mi.com, direct
 host-suffix, baidu.com, direct
 host-suffix, 360buyimg.com, direct
 host-suffix, weibo.com, direct
@@ -29,8 +30,6 @@ host-suffix, sspai.com, direct
 host-suffix, zhihu.com, direct
 host-suffix, hupu.com, direct
 host-suffix, dmall.com, direct
-host-suffix, alicdn.com, direct
-host-suffix, alipay.com, direct
 host-suffix, meituan.com, direct
 host-suffix, meituan.net, direct
 host-suffix, dianping.com, direct
