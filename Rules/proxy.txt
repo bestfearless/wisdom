@@ -28,6 +28,7 @@ host-suffix, t.me, proxy
 host-suffix, pornhub.com, proxy
 host-suffix, avgle.com, proxy
 host-suffix, jable.tv, proxy
+host-suffix, twitch.tv, proxy
 host-suffix, dropbox.com, proxy
 host-suffix, medium.com, proxy
 host-suffix, github.com, proxy
