@@ -80,4 +80,3 @@ host-keyword, advert, reject
 host-keyword, analytics, reject
 host-keyword, track, reject
 host-keyword, traffic, reject
-host-keyword, umeng, reject
