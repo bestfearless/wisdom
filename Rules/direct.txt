@@ -5,6 +5,7 @@ host, iosapps.itunes.apple.com, direct
 host, osxapps.itunes.apple.com, direct
 host, updates-http.cdn-apple.com, direct
 # host-suffix
+host-suffix, me.com, direct
 host-suffix, paypal.com, direct
 host-suffix, paypalobjects.com, direct
 host-suffix, workingcopyapp.com, direct
