@@ -37,13 +37,9 @@ host-suffix, meituan.net, direct
 host-suffix, dianping.com, direct
 host-suffix, cn, direct
 # ip-cidr
-ip-cidr, 116.128.0.0/10, direct
 ip-cidr, 119.28.0.0/18, direct
 ip-cidr, 119.29.0.0/16, direct
-ip-cidr, 121.51.0.0/16, direct
 ip-cidr, 182.254.116.0/24, direct
-ip-cidr, 183.192.0.0/11, direct
 ip-cidr, 198.11.128.0/18, direct
-ip-cidr, 203.205.192.0/18, direct
 # geoip
 geoip, cn, direct
