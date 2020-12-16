@@ -1,4 +1,4 @@
-hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,api.fitonapp.com,education.github.com
+hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,education.github.com
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
@@ -18,9 +18,6 @@ https://accounts.elevateapp.net/api/users\?user%5Bauthentication_token* url resp
 
 # Wps
 https://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"expire_time":\w+ response-body "has_ad":0,"memberid":20,"expire_time":3760317603
-
-# Fiton
-https://api.fitonapp.com/api/v2/user/expire url response-body "isAuthorized":false response-body "isAuthorized":true
 
 # Workingcopy
 https:\/\/education\.github\.com\/api\/user url response-body "student":\w+ response-body "student":true
