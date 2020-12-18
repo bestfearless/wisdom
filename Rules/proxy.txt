@@ -38,9 +38,6 @@ host-suffix, githubusercontent.com, proxy
 host-suffix, facebook.com, proxy
 host-suffix, facebook.net, proxy
 host-suffix, reddit.com, proxy
-host-suffix, criteo.com, proxy
-host-suffix, udnfunlife.com, proxy
-host-suffix, popin.cc, proxy
 host-suffix, akamaihd.net, proxy
 host-suffix, tw, proxy
 # host-keyword
