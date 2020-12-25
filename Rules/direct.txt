@@ -10,6 +10,7 @@ host-suffix, mzstatic.com, direct
 host-suffix, paypal.com, direct
 host-suffix, paypalobjects.com, direct
 host-suffix, workingcopyapp.com, direct
+host-suffix, gitee.com, direct
 host-suffix, jd.com, direct
 host-suffix, jin10.com, direct
 host-suffix, taobao.com, direct
