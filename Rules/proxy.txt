@@ -1,5 +1,6 @@
 # host
 host, xp.apple.com, proxy
+host, testflight.apple.com, proxy
 # host-suffix
 host-suffix, ampproject.net, proxy
 host-suffix, ampproject.org, proxy   
