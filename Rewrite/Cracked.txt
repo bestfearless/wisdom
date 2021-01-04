@@ -25,3 +25,6 @@ http://wx.xuexiguanjia.org/api/store/setdownload url response-body "status":\w+ 
 
 # 闪电下载
 http://app.flashdown365.com/ios/login url response-body "isvip":\w+ response-body "isvip":true
+
+# 曲奇影视
+http://(api.yangzi688.com|api1.ktvcggl.com)/lemon/credits/coin/detail url response-body ”vipEnd“:\w+(.*)”isVip“:\w+ response-body ”vipEnd“:4092579678$1”isVip“:1
