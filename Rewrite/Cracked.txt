@@ -20,8 +20,8 @@ https://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"ex
 https:\/\/education\.github\.com\/api\/user url response-body "student":\w+ response-body "student":true
 
 # 学习管家
-http://wx.xuexiguanjia.org/api/user url response-body "is_vip":\w+,"expire_date":\w+ response-body "is_vip":1,"expire_date":3760000000
 http://wx.xuexiguanjia.org/api/store/setdownload url response-body "status":\w+ response-body "status":200
+http://wx.xuexiguanjia.org/api/product/detail url response-body "price":"\w+.\w+" response-body "price":"0.00"
 
 # 闪电下载
 http://app.flashdown365.com/ios/login url response-body "isvip":\w+ response-body "isvip":true
