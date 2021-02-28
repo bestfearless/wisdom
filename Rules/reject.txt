@@ -34,6 +34,7 @@ host, data.mistat.xiaomi.com, reject
 host, goblin.hupu.com, reject
 host, api-access.pangolin-sdk-toutiao.com, reject
 host, files.ktvcggl.com, reject
+host, download.dmallcdn.com, reject
 # host-suffix
 host-suffix, pglstatp-toutiao.com, reject
 host-suffix, pos.baidu.com, reject
