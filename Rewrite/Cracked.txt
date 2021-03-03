@@ -1,8 +1,12 @@
-hostname=p.du.163.com,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,education.github.com
+hostname=p.du.163.com,*.weread.qq.com,120.204.16.240,117.184.242.194,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,education.github.com
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
 https://p.du.163.com/gain/readtime/info.json$ url response-body "tradeEndTime":\w+ response-body "tradeEndTime":3760317603000
+
+# 微信读书
+https://i.weread.qq.com/reader/report url reject-200
+https://i.weread.qq.com/pay/memberCardSummary url response-body "expiredTime":\w+,"expired":\w+,(.*)"remainTime":\w+ response-body "expiredTime":3760317603,"expired":0,$1"remainTime":3760317603
 
 # ColorfulClouds
 https://biz.caiyunapp.com/v2/user\?app_name\=weather$ url response-body "svip_expired_at":\w+(.*)"vip_type":""(.*)"is_vip":\w+ response-body "svip_expired_at":3760272085$1"vip_type":"s"$2"is_vip":true
