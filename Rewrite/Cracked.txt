@@ -1,4 +1,4 @@
-hostname=p.du.163.com,i.weread.qq.com,116.128.164.69,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,education.github.com
+hostname=p.du.163.com,i.weread.qq.com,116.128.164.69,140.207.189.105,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,education.github.com
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
