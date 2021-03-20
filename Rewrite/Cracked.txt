@@ -1,4 +1,4 @@
-hostname=p.du.163.com,i.weread.qq.com,116.128.164.69,140.207.189.105,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,accounts.elevateapp.net,account.wps.*,education.github.com
+hostname=p.du.163.com,i.weread.qq.com,116.128.164.69,140.207.189.105,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,account.wps.*,education.github.com
 
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
@@ -13,9 +13,6 @@ https://biz.caiyunapp.com/v2/user\?app_name\=weather$ url response-body "svip_ex
 
 # Washingtonpost
 https://login.washingtonpost.com/identity/oauth/v1/profile url response-body .+ response-body {"gracePeriod":345600000,"deviceStore":"apple","profile_pic_url":"","title":"Premium Digital","expirationDate":"2089-02-27T00:47:28","source":"DEVICE","currentRateID":504,"loginId":"","displayName":"","loginProvider":"","shortTitle":"Premium Digital","isActive":true,"subscriptionID":"24200653","subAcctMgmt":"28,PREMIUM,504,DEVICE,SUBSCRIBER,f,DEVICE,AETYPE=CD","subdata":"OK","sourceType":"FREE","subSource":"App Store","email":"","secureLoginID":"","iddata":"OK","firstName":"","institutional":false,"subDuration":"0.00/9999 days","product":"PREMIUM","subStatus":"A","subAttributes":{"AETYPE":"CD"},"lastName":""}
-
-# Elevate
-https://accounts.elevateapp.net/api/users\?user%5Bauthentication_token* url response-body "subscription_expiration_date_epoch":\w+ response-body "subscription_expiration_date_epoch":3760317603
 
 # Wps
 https://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"expire_time":\w+ response-body "has_ad":0,"memberid":20,"expire_time":3760317603
