@@ -1,5 +1,5 @@
 hostname=p.du.163.com,i.weread.qq.com,116.128.164.69,140.207.189.105,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,account.wps.*,education.github.com
-
+,billing.peakcloud.org
 # 蜗牛读书
 https://p.du.163.com/(ad|readtime/info.json) url reject-200
 https://p.du.163.com/gain/readtime/info.json$ url response-body "tradeEndTime":\w+ response-body "tradeEndTime":3760317603000
@@ -19,6 +19,9 @@ https://account.wps.*/api/users url response-body "has_ad":\w,"memberid":\w+,"ex
 
 # Workingcopy
 https:\/\/education\.github\.com\/api\/user url response-body "student":\w+ response-body "student":true
+
+# Peak
+https://billing.peakcloud.org/billing/2/user/me url response-body .+ response-body {"response":{"bbuid":"NKoKXsjJnw","usedIntroOfferPeriod":false,"class":"UserModuleBillingResponse","is_in_billing_retry":false,"modules":[{"class":"BillingModuleResponse","name":"com.brainbow.module.peak.PeakModule","subscription":{"status":0,"statusdate":0,"source":{"id":"com.brainbow.peak.arsub_1wtrial_12m3499","cancelable":false,"provider":"itunes","type":"trial"},"bbuid":"NKoKXsjJnw","endTime":3760317603000,"startTime":1491074090000,"pro":true}}]},"metaResponse":{"code":0}}
 
 # 学习管家
 http://wx.xuexiguanjia.org/api/store/setdownload url response-body "status":\w+ response-body "status":200
