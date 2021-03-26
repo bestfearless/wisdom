@@ -3,3 +3,6 @@ host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
 # host-suffix
 host-suffix, githubusercontent.com, proxy
+host-suffix, twitter.com, proxy
+host-suffix, udn.com, proxy
+host-suffix, voachinese.com, proxy
