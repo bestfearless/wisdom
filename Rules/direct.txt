@@ -55,6 +55,8 @@ host-suffix, steamstatic.com, direct
 host-suffix, battle.net, direct
 host-suffix, blizzard.com, direct
 host-suffix, microsoft.com, direct
+host-suffix, xarxrljt.com, direct
+host-suffix, begbgedu.com, direct
 host-suffix, akamaized.net, direct
 host-suffix, cn, direct
 # ip-cidr
