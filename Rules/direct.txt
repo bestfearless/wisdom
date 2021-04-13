@@ -9,6 +9,7 @@ host-suffix, icloud-content.com, direct
 host-suffix, me.com, direct
 host-suffix, mzstatic.com, direct
 host-suffix, paypal.com, direct
+host-suffix, paypal.me, direct
 host-suffix, paypalobjects.com, direct
 host-suffix, workingcopyapp.com, direct
 host-suffix, gitee.com, direct
@@ -25,6 +26,8 @@ host-suffix, weibo.com, direct
 host-suffix, qq.com, direct
 host-suffix, qcloud.com, direct
 host-suffix, tencent.com, direct
+host-suffix, wechat.com, direct
+host-suffix, myqcloud.com, direct
 host-suffix, cmbchina.com, direct
 host-suffix, cmbimg.com, direct
 host-suffix, huya.com, direct
@@ -38,7 +41,21 @@ host-suffix, meituan.com, direct
 host-suffix, meituan.net, direct
 host-suffix, dianping.com, direct
 host-suffix, ithome.com, direct
-host-suffix, myqcloud.com, direct
+host-suffix, amap.com, direct
+host-suffix, autonavi.com, direct
+host-suffix, tmall.com, direct
+host-suffix, sina.com, direct
+host-suffix, ipip.net, direct
+host-suffix, ip.sb, direct
+host-suffix, douban.com, direct
+host-suffix, jianshu.com, direct
+host-suffix, steamcontent.com, direct
+host-suffix, steampowered.com, direct
+host-suffix, steamstatic.com, direct
+host-suffix, battle.net, direct
+host-suffix, blizzard.com, direct
+host-suffix, microsoft.com, direct
+host-suffix, akamaized.net, direct
 host-suffix, cn, direct
 # ip-cidr
 ip-cidr, 119.28.0.0/18, direct
