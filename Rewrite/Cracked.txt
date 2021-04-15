@@ -1,8 +1,4 @@
-hostname=p.du.163.com,i.weread.qq.com,116.128.164.69,140.207.189.105,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,account.wps.*,education.github.com,billing.peakcloud.org
-
-# 蜗牛读书
-https://p.du.163.com/(ad|readtime/info.json) url reject-200
-https://p.du.163.com/gain/readtime/info.json$ url response-body "tradeEndTime":\w+ response-body "tradeEndTime":3760317603000
+hostname=i.weread.qq.com,116.128.164.69,140.207.189.105,biz.caiyunapp.com,login.washingtonpost.com,billing.peakcloud.org,account.wps.*,education.github.com,billing.peakcloud.org
 
 # 微信读书
 https://i.weread.qq.com/reader/report url reject-200
