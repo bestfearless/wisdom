@@ -7,6 +7,9 @@ host, ad.caiyunapp.com, reject
 host, heic.alicdn.com, reject
 host, commimg.pddpic.com, reject
 host, download.dmallcdn.com, reject
+host, ddplus.meituan.net, reject
+host, flowplus.meituan.net, reject
+host, m1.ad.10010.com, reject
 host, ada.baidu.com, reject
 host, als.baidu.com, reject
 host, b.bdstatic.com, reject
