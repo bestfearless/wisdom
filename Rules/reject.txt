@@ -11,6 +11,8 @@ host, ddplus.meituan.net, reject
 host, flowplus.meituan.net, reject
 host, m1.ad.10010.com, reject
 host, ossgw.alicdn.com, reject
+host, a1.alibabausercontent.com, reject
+host, i1.chuimg.com, reject
 host, ada.baidu.com, reject
 host, als.baidu.com, reject
 host, b.bdstatic.com, reject
