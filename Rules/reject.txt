@@ -2,7 +2,6 @@
 host, business.msstatic.com, reject
 host, cdnfile1.msstatic.com, reject
 host, unidesk.alicdn.com, reject
-host, sta-op.douyucdn.cn, reject
 host, ad.caiyunapp.com, reject
 host, heic.alicdn.com, reject
 host, commimg.pddpic.com, reject
