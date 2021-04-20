@@ -41,6 +41,7 @@ host-suffix, je51.com, proxy
 host-suffix, yazhouse8.com, proxy
 host-suffix, reuters.com, proxy
 host-suffix, wikipedia.org, proxy
+host-suffix, v2ex.com, proxy
 # ip-cidr
 ip-cidr, 91.108.4.0/22, proxy
 ip-cidr, 91.108.8.0/21, proxy
