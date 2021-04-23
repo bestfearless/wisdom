@@ -16,7 +16,7 @@ https://img.meituan.net/midas/\w+.jpg.webp$ url reject-200
 https://ad.12306.cn/res/adfiles/.+.jpg url reject-200
 
 # 多点
-https://download.dmallcdn.com/.+.jpg url reject-200
+https://download.dmallcdn.com/.+.(jpeg|jpg) url reject-200
 
 # 斗鱼
 https://sta-op.douyucdn.cn/(adxdsp|nggsys) url reject-200
