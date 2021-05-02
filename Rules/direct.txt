@@ -1,6 +1,8 @@
 
 # host
 host, router.asus.com, direct
+host, incoming.telemetry.mozilla.org, direct
+host, api.leanplum.com, direct
 # host-suffix
 host-suffix, apple.com, direct
 host-suffix, cdn-apple.com, direct
