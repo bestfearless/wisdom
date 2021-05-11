@@ -1,3 +1,0 @@
-# host
-host, tv.applemusic.com, us
-# host-suffix

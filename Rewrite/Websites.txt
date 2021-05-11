@@ -1,4 +1,0 @@
-hostname=huyaimg.msstatic.com
-
-# 虎牙
-https://huyaimg.msstatic.com/cdnimage/roomad url reject-200

@@ -1,5 +1,4 @@
-hostname=cdn.llscdn.com,m.360buyimg.com,cdn-files.jin10.com,ad.12306.cn,img.meituan.net,download.dmallcdn.com,sta-op.douyucdn.cn
-
+hostname=cdn.llscdn.com,m.360buyimg.com,cdn-files.jin10.com,ad.12306.cn,img.meituan.net,download.dmallcdn.com,sta-op.douyucdn.cn,huyaimg.msstatic.com
 # 英语流利说
 https?://cdn.llscdn.com/diva/.*(.jpeg|jpg|-2.png)$ url reject-200
 
@@ -20,3 +19,6 @@ https://download.dmallcdn.com/.+.(jpeg|jpg)$ url reject-200
 
 # 斗鱼
 https://sta-op.douyucdn.cn/(adxdsp|nggsys) url reject-200
+
+# 虎牙（网页）
+https://huyaimg.msstatic.com/cdnimage/roomad url reject-200
