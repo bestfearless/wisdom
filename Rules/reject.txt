@@ -5,7 +5,6 @@ host, unidesk.alicdn.com, reject
 host, ad.caiyunapp.com, reject
 host, heic.alicdn.com, reject
 host, commimg.pddpic.com, reject
-host, ddplus.meituan.net, reject
 host, flowplus.meituan.net, reject
 host, ossgw.alicdn.com, reject
 host, a1.alibabausercontent.com, reject
@@ -52,6 +51,7 @@ host-suffix, google-analytics.com, reject
 host-suffix, google.cn, reject
 host-suffix, iadsdk.apple.com, reject
 host-suffix, amazon-adsystem.com, reject
+host-suffix, qualifiedcuter.com, reject
 host-suffix, outbrain.com, reject
 host-suffix, adnxs.com, reject
 host-suffix, cnzz.com, reject
