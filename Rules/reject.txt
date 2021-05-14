@@ -52,6 +52,8 @@ host-suffix, google.cn, reject
 host-suffix, iadsdk.apple.com, reject
 host-suffix, amazon-adsystem.com, reject
 host-suffix, qualifiedcuter.com, reject
+host-suffix, coedhotof.icu, reject
+host-suffix, beklefkiom.com, reject
 host-suffix, outbrain.com, reject
 host-suffix, adnxs.com, reject
 host-suffix, cnzz.com, reject
