@@ -8,8 +8,6 @@ host, commimg.pddpic.com, reject
 host, flowplus.meituan.net, reject
 host, ossgw.alicdn.com, reject
 host, a1.alibabausercontent.com, reject
-host, i1.chuimg.com, reject
-host, i2.chuimg.com, reject
 host, a1.alicdn.com, reject
 host, ossgw.alicdn.com, reject
 host, ada.baidu.com, reject
@@ -40,7 +38,6 @@ host, data.mistat.xiaomi.com, reject
 host, goblin.hupu.com, reject
 host, api-access.pangolin-sdk-toutiao.com, reject
 # host-suffix
-host-suffix, pglstatp-toutiao.com, reject
 host-suffix, pos.baidu.com, reject
 host-suffix, baidustatic.com, reject
 host-suffix, e.qq.com, reject
