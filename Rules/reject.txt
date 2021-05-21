@@ -79,5 +79,4 @@ host-suffix, trafficjunky.net, reject
 host-suffix, mackeeper.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, crashlytics.com, reject
-host-suffix, cdn.sohucs.com, reject
 host-suffix, umeng.com, reject
