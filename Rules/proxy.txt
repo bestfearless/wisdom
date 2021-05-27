@@ -2,6 +2,8 @@
 host, p48-buy.itunes.apple.com, proxy
 host, testflight.apple.com, proxy
 host, xp.apple.com, proxy
+host, appleid.cdn-apple.com, proxy
+host, sse-ws.apple.com, proxy
 # host-suffix
 host-suffix, tradeinterceptor.com, proxy
 host-suffix, ecal.forexproscn.com, proxy
