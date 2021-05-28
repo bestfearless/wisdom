@@ -81,3 +81,5 @@ host-suffix, mackeeper.com, reject
 host-suffix, appsflyer.com, reject
 host-suffix, crashlytics.com, reject
 host-suffix, umeng.com, reject
+host-suffix, sb-inv1.com, reject
+host-suffix, oweqas.xyz, reject
