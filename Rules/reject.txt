@@ -83,3 +83,5 @@ host-suffix, crashlytics.com, reject
 host-suffix, umeng.com, reject
 host-suffix, sb-inv1.com, reject
 host-suffix, oweqas.xyz, reject
+host-suffix, orwoot.xyz, reject
+host-suffix, tintslingpromote.com, reject
