@@ -85,3 +85,6 @@ host-suffix, sb-inv1.com, reject
 host-suffix, oweqas.xyz, reject
 host-suffix, orwoot.xyz, reject
 host-suffix, tintslingpromote.com, reject
+host-suffix, cigaretteprovenaffected.com, reject
+host-suffix, looqu.pw, reject
+host-suffix, uptightpercyplug.com, reject
