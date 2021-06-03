@@ -71,7 +71,6 @@ host-suffix, dable.io, reject
 host-suffix, openx.net, reject
 host-suffix, chartbeat.com, reject
 host-suffix, chartbeat.net, reject
-host-suffix, jpush.cn, reject
 host-suffix, branch.io, reject
 host-suffix, batch.com, reject
 host-suffix, tsyndicate.com, reject
@@ -80,8 +79,6 @@ host-suffix, adtng.com, reject
 host-suffix, trafficjunky.net, reject
 host-suffix, mackeeper.com, reject
 host-suffix, appsflyer.com, reject
-host-suffix, crashlytics.com, reject
-host-suffix, umeng.com, reject
 host-suffix, sb-inv1.com, reject
 host-suffix, oweqas.xyz, reject
 host-suffix, orwoot.xyz, reject
