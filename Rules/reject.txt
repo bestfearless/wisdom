@@ -86,3 +86,5 @@ host-suffix, tintslingpromote.com, reject
 host-suffix, cigaretteprovenaffected.com, reject
 host-suffix, looqu.pw, reject
 host-suffix, uptightpercyplug.com, reject
+host-suffix, googleadsserving.cn, reject
+host-suffix, pglstatp-toutiao.com, reject
