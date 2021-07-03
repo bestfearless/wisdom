@@ -12,7 +12,6 @@ host-suffix, mzstatic.com, direct
 host-suffix, paypal.com, direct
 host-suffix, paypal.me, direct
 host-suffix, paypalobjects.com, direct
-host-suffix, push.apple.com, direct
 host-suffix, workingcopyapp.com, direct
 host-suffix, gitee.com, direct
 host-suffix, jd.com, direct
