@@ -11,6 +11,7 @@ host, ossgw.alicdn.com, reject
 host, a1.alibabausercontent.com, reject
 host, a1.alicdn.com, reject
 host, ossgw.alicdn.com, reject
+host, download.dmallcdn.com, reject
 host, ada.baidu.com, reject
 host, als.baidu.com, reject
 host, b.bdstatic.com, reject
